@@ -1,7 +1,8 @@
 {
   "_defaultLanguage": "en",
+  "_moduleId": "ODI_InPractice2",
+  "_noLMS": true,
   "_questionWeight": 1,
-  "_moduleId": "InPractice2",
   "_drawer": {
     "_showEasing": "easeOutQuart",
     "_hideEasing": "easeInQuart",
