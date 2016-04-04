@@ -98,11 +98,11 @@
                     "small": "course/en/images/c-25.jpg",
                     "medium": "course/en/images/c-25.jpg",
                     "large": "course/en/images/c-25.jpg",
-                    "alt": "",
-                    "title": "",
+                    "alt": "Napolean's march",
+                    "title": "Napolean's march",
                     "*source": "http://www.edwardtufte.com/tufte/posters",
-                    "*credit": "",
-                    "*licence": ""
+                    "*credit": "Charles Joseph Minard",
+                    "*licence": "unknown"
         }
     },
     {
@@ -124,11 +124,14 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Summary icon clipboard",
+            "title": "Summary icon clipboard",
             "large": "course/en/images/summary-icon.png",
             "medium": "course/en/images/summary-icon.png",
-            "small": "course/en/images/summary-icon.png"
+            "small": "course/en/images/summary-icon.png",
+            "*source":"http://www.shutterstock.com/pic-189810137.html",
+            "*credit":"Kritchanut",
+            "*license":"Shutterstock Standard License"
         }
     },
     {
@@ -158,11 +161,14 @@
         "_classes":"footer-logo",
         "_layout":"left",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Open data institute logo",
+            "title": "Open data institute logo",
             "large": "course/en/images/logo-small.png",
             "medium": "course/en/images/logo-small.png",
-            "small": "course/en/images/logo-small.png"
+            "small": "course/en/images/logo-small.png",
+            "*source":"http://theodi.org",
+            "*credit":"The Open Data Institute",
+            "*license":"All rights reserved"  
         }
     },
     {

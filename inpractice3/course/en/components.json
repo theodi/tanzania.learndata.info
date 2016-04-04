@@ -25,25 +25,25 @@
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
-      "title": "Open Data in Practice - Enriching & Visualising data",
-      "displayTitle": "Open Data in Practice - Enriching & Visualising data",
-      "body": "<p>In this final day, participants will learn how to clean, enrich and visualise data, all core skills of modern data work.</p>",
-      "instruction": "<em>The sessions are briefly described below.</em>",
+      "title": "Open data in practice: Visulisation and communication",
+      "displayTitle": "Open data in practice: Visulisation and communication",
+      "body": "<p>Communicating impact from data is a key skill of any modern data worker. This course takes participants though the essentials of preparing and visulising data.</p>",
+      "instruction": "<em>The structure of the day is briefly described below.</em>",
       "_items": [
          {
-          "alt": "Data cleaning",
-          "title": "Data cleaning",
-          "body": "<p>There is no such thing as a perfectly clean dataset. This session gives you the skills to quickly clean and prepare a dataset for use.</p>"
+          "alt": "Cleaning open data",
+          "title": "Cleaning open data",
+          "body": "<p>There is no such thing as a perfectly clean dataset. So before you can start using data you will need to clean it. This session gives you the skills to quickly clean and prepare a dataset for use.</p>"
         },
         {
-          "alt": "Enriching data",
-          "title": "Enriching data",
-          "body": "<p>A single dataset will rarely contain all the information you need.</p><p>This session gives you the practical skills to quickly enrich a dataset using open and freely available services on the web.</p>"
+          "alt": "Enriching open data",
+          "title": "Enriching open data",
+          "body": "<p>A single dataset will rarely contain all the information you need to tell as story.</p><p>This session gives you the practical skills to quickly enrich a dataset using open and freely available services on the web.</p>"
         },
         {
-          "alt": "Data visualising",
-          "title": "Data visualising",
-          "body": "<p>Visualisation data can help quickly reveal insight.</p><p>This session takes a practical look at producing advanced interactive infographics on the web.</p>"
+          "alt": "Visualising open data",
+          "title": "Visualising open data",
+          "body": "<p>Visualisation data can help quickly reveal insight.</p><p>This session takes a practical look at producing advanced interactive Visulisations on the web.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -77,7 +77,7 @@
         "_classes":"",
         "_layout":"left",
         "title":"Cleaning data",
-        "displayTitle":"Cleaning data",
+        "displayTitle":"Cleaning open data",
         "body":"<p></p>",
         "instruction":"",
         "_pageLevelProgress": {
@@ -184,34 +184,33 @@
       }
     },
     {
-        "_id": "c-55",
+        "_id":"c-55",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Data cleaning",
+            "title": "Data cleaning",
+            "large": "course/en/images/c-40.jpg",
+            "medium": "course/en/images/c-40.jpg",
+            "small": "course/en/images/c-40.jpg",
+            "*source": "http://www.shutterstock.com/pic-23541922",
+            "*credit": "Amy Walters",
+            "*license": "Shutterstock Standard License"
+        }
+    },
+    {
+        "_id": "c-56",
         "_parentId": "b-55",
         "_classes": "",
         "_type":"component",
-        "_layout": "full",
-        "_component": "accordion",
+        "_layout": "left",
+        "_component": "text",
         "title": "Exercise: Cleaning data",
         "displayTitle": "Exercise: Cleaning data",
-        "body": "<p>For this exercise you will need a copy of <a href='http://openrefine.org/download.html' target='_blank'>Open Refine</a> and the <a href='course/en/exercises/Spend_april_10_unclean.csv'>unclean dataset</a>.</p>",
-        "instruction": "<em class='desktop-instruction'>Click the forward for more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-            {
-                "title": "Loading your dataset",
-                "body": "<p>To get started, import your dataset into Refine.</p><p>This can be done either by uploading the file or pasting the URL of the file.</p><p>Once your file has been imported you will need an import options screen. Use this to ensure your file looks correct before naming your project and clicking 'create'.</p>"
-            },
-            {
-                "title": "Common transforms",
-                "body": "<p>Wrong date format? White space where there shouldn't be? Numbers that don't appear to be numbers?</p><p>These are all common errors on a dataset. Refine has just the tools to fix these types of errors.</p><p>Find the columns that might have these types of errors and select <b>Edit cells</b> -&gt; <b>Common transforms</b> from that columns drop down to fix them.</p>"
-            },
-            {
-                "title": "Numbers are not numbers?",
-                "body": "<p>Putting comma's in numbers helps a human, but to a computer is it one number of a comma separated list of many?</p><p>To get rid of the comma's in refine select <b>Edit cells</b> -&gt; <b>Transform...</b> from the column drop down and enter the following in the expression box:</p><p><code>value.replace(',','')</code></p>"
-            },
-            {
-                "title": "All sorts of text problems!",
-                "body": "<p>Spelling errors, misplaced apostrophes, lots of s's?, brackets and no brackets?</p><p>All of these errors are common, to find out if your dataset has them, try putting a text facet on a column of text (Select <b>Facet</b> -&gt; <b>Text Facet</b> from a column drop down.</p><p>Refine can also help you fix all the errors automatically. Try pressing the <b>Cluster</b> button from inside the facet and adjust the options to suit.</p>"
-            }
-        ],
+        "body": "<p>For this exercise you will need a copy of <a href='http://openrefine.org/download.html' target='_blank'>Open Refine</a>. During courses, a number of online instances of Open Refine are available from the course menu.</p><p>Each part of the exercise also requires one of three datasets</p><ul><li><a href='course/en/exercises/dataset1.csv' target='_blank'>Dataset 1: Louisiana Secretary of State Officials</a></li><li><a href='course/en/exercises/dataset2.csv' target='_blank'>Dataset 2: Projects Dataset</a></li><li><a href='course/en/exercises/dataset3.csv' target='_blank'>Dataset 3: UK GP Earnings</a></li></ul><p>To get started, download the data cleaning exercise from the link below.</p><p><a class='course_link' href='course/en/exercises/Cleaning_Exercise.pdf' target='_blank' style='color: white;'>Get started with data cleaning open data</a></p>",
         "_pageLevelProgress": {
         "_isEnabled": true
         }
@@ -242,9 +241,42 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Enriching data",
-        "displayTitle":"Enriching data",
+        "title":"Enriching open data",
+        "displayTitle":"Enriching open data",
         "body":"<p></p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-62",
+        "_parentId":"b-62",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Enriching data",
+            "title": "Enriching data",
+            "large": "course/en/images/shutterstock-113103805.jpg",
+            "medium": "course/en/images/shutterstock-113103805.jpg",
+            "small": "course/en/images/shutterstock-113103805.jpg",
+            "*source": "http://www.shutterstock.com/pic-113103805",
+            "*credit": "mini.fini",
+            "*license": "Shutterstock standard license"
+        }
+    },
+    {
+        "_id":"c-63",
+        "_parentId":"b-62",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Enriching open data",
+        "displayTitle":"Enriching open data",
+        "body":"<p>Enriching data is eqivalent to combining data. To enrich a dataset, you take one dataset and add relevant data to it from another with the intention of discovering something new.</p><p>Examples including taking a list of company numbers and adding information about their last financial return. Or taking a list of postal codes of places and adding data on which region each place is within. When plotting data on a map, enriching place data with a coordinate system is critical to plot the data and a common use of enriching services.</p><p>When enriching data you need to be careful that both datasets are available under licences that permit you to combine them with other data. A no-derivitives licence is not appropriate in this scenario.</p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -256,10 +288,10 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"right",
+        "_layout":"left",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Stock vectors globe",
+            "title": "Stock vectors globe",
             "large": "course/en/images/c-65.jpg",
             "medium": "course/en/images/c-65.jpg",
             "small": "course/en/images/c-65.jpg",
@@ -274,10 +306,10 @@
         "_type":"component",
         "_component":"text",
         "_classes":"",
-        "_layout":"left",
-        "title":"Exercise: Enriching data",
-        "displayTitle":"Exercise: Enriching data",
-        "body":"<p>One dataset will rarely be sufficient to enable you to discover insight.</p><p>Fortunately Refine is able to do a lot more than just data cleaning. Refine is also a powerful tool for combining and enriching datasets using online services and API endpoints.</p><p>Use the following exercise to enrich your cleaned dataset:</p><p><a class='course_link' href='course/en/exercises/EnrichingData.pdf' target='_blank'>Enrich data in Refine.</a></p>",
+        "_layout":"right",
+        "title":"Exercise: Enriching open data",
+        "displayTitle":"Exercise: Enriching open data",
+        "body":"<p>Enriching open data can be challenging, fortunately Refine is able to do a lot more than just data cleaning. Refine is also a powerful toul> for combining and enriching datasets using online services and API endpoints.</p><p>The following dataset has been prepared for clearning</p><p><ul><li><a href='course/en/exercises/UK-FCO-Transactions-April-2010-Pivot.csv'>UK FCO Transactions April 2010 pivot table</a></li><ul></p><p>Download the exercise below to find out how to enrich this dataset on company spending with data from Open Corporates.</p><p><a class='course_link' href='course/en/exercises/EnrichingData.pdf' target='_blank' style='color: #49ac2e;'>Enrich data in refine</a></p>",
         "instruction":"",
         "_pageLevelProgress": {
             "_isEnabled": true
@@ -297,9 +329,9 @@
         "_graphic": {
             "alt": "",
             "title": "",
-            "large": "course/en/images/burst-white.png",
-            "medium": "course/en/images/burst-white.png",
-            "small": "course/en/images/burst-white.png"
+            "large": "course/en/images/burst-blue.png",
+            "medium": "course/en/images/burst-blue.png",
+            "small": "course/en/images/burst-blue.png"
         }
     },
     {
@@ -309,8 +341,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Visually communicating data",
-        "displayTitle":"Visually communicating data",
+        "title":"Visualising open data",
+        "displayTitle":"Visualising open data",
         "body":"<p></p>",
         "instruction":"",
         "_pageLevelProgress": {
@@ -334,11 +366,11 @@
                 "body": "<p>Powerful messages need a simple way to communicate them. Bar charts, pie charts and big clear numbers are a very effective way to communicate.</p><p>Other effective methods use large visuals and introduce figures that may help people relate to the story (e.g. stick figures could be added to represent the number of people with the visual here).</p>",
                 "_graphic": {
                     "src": "course/en/images/c-76-0.jpg",
-                    "alt": "",
-                    "title": "",
+                    "alt": "Terroism deaths versus gun-related deaths in the U.S.",
+                    "title": "Terroism deaths versus gun-related deaths in the U.S.",
                     "*source": "http://www.independent.co.uk/news/world/oregon-college-shooting-obama-is-right-that-guns-kill-more-americans-than-terrorism-but-so-do-lots-a6676366.html",
-                    "*credit": "",
-                    "*licence": ""
+                    "*credit": "The Independent",
+                    "*licence": "Unknown"
                 },
                 "strapline": ""
             },
@@ -347,11 +379,11 @@
                 "body": "<p>Sometimes there can be multiple stories or points of interest. This often leads to a more complex visualisation where a greater level of engagement is required to reach understanding.</p><p>Commonly such visualisations will present multiple dimensions of data. This makes a clear message hard to spot. Additionally, this means that there is a chance that each viewer could come to a different conclusion depending on their own background and connection to the story.</p><p>As a tip, never try and present one clear message with a multi-dimensional and complex visualisation.</p>",
                 "_graphic": {
                     "src": "course/en/images/c-76-1.jpg",
-                    "alt": "",
-                    "title": "",
+                    "alt": "Napolean's march to Moscow",
+                    "title": "Napolean's march to Moscow",
                     "*source": "http://www.edwardtufte.com/tufte/posters",
-                    "*credit": "",
-                    "*licence": ""
+                    "*credit": "Charles Joseph Minard",
+                    "*licence": "Unknown"
                 },
                 "strapline": ""
             }
@@ -377,11 +409,11 @@
                 "body": "<p>The key to good visualisation is to apply some cognitive theory relating to how our brains take in information.</p><p>The light from our eyes is passed to our occipital lobe, here there are two parallel routes that process the information; the dorsal stream and the ventral stream.</p><p>While the ventral stream is very slow, the dorsal stream is very quick to react to where things are and what is happening. If someone throws something at you unexpectedly, it's the dorsal stream that will react to either help defend you; you act without thinking.</p><p>The dorsal stream can also be used to help messages 'pop out' from a visualisation</p>",
                 "_graphic": {
                     "src": "course/en/images/c-80-0.jpg",
-                    "alt": "",
-                    "title": "",
-                    "*source": "",
-                    "*credit": "",
-                    "*licence": ""
+                    "alt": "Visual perception",
+                    "title": "Visual perception",
+                    "*source": "https://en.wikipedia.org/wiki/Visual_perception#/media/File:Ventral-dorsal_streams.svg",
+                    "*credit": "Selket",
+                    "*licence": "CC-BY-SA 3.0"
                 },
                 "strapline": ""
             },
@@ -390,11 +422,11 @@
                 "body": "<p>Pop out helps direct the eye to the correct place. The Dorsal stream reacts quickly to patterns and/or significant differences presented visually.</p><p>Pop out works best when a combination of different visual cues are used in combination, e.g. colour, size and line thickness.</p><p>In the case here a combination or colour and thinkness guide the eye towards the steepest line. This line represents the first high speed train from Paris to Lyon. The steepness of the line is the speed!</p>",
                 "_graphic": {
                     "src": "course/en/images/c-80-1.jpg",
-                    "alt": "",
-                    "title": "",
+                    "alt": "TGV express train",
+                    "title": "TGV express train",
                     "*source": "E.J. Marey 1885",
                     "*credit": "E.J. Marey 1885",
-                    "*licence": ""
+                    "*licence": "Unknown"
                 },
                 "strapline": ""
             },
@@ -403,8 +435,8 @@
                 "body": "<p>Colour is most effectively used in categories and on scales that have clear meaning. Here red, amber and green represent risk from most dangerous to safest, just like in traffic lights.</p><p>Scientists like using continuous colour scales, however most only know about the rainbow and here the colours have no meaning, they are simply in an order. Using continuous colour scales is not advised for representing data.</p><p>When using colour, either use a well known categorical scale, or use one colour and vary the hue, saturation or brightness to represent different levels. If wanting to reveal detail, use a greyscale as our eyes are much more sensitive to black and white then colour.</p>",
                 "_graphic": {
                     "src": "course/en/images/c-80-2.jpg",
-                    "alt": "",
-                    "title": "",
+                    "alt": "How to survive a plane crash",
+                    "title": "How to survive a plane crash",
                     "*source": "http://www.telegraph.co.uk/travel/travelnews/4269453/How-to-survive-a-plane-crash.html",
                     "*credit": "Telegraph UK",
                     "*licence": "Unknown"
@@ -438,14 +470,14 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Strike law: Do the maths",
+            "title": "Strike law: Do the maths",
             "large": "course/en/images/c-86.jpg",
             "medium": "course/en/images/c-86.jpg",
             "small": "course/en/images/c-86.jpg",
             "*source": "http://www.mirror.co.uk/news/ampp3d/conservatives-strike-law-unions-5689015",
-            "*credit": "",
-            "*licence": ""
+            "*credit": "The Mirror (ampp3d)",
+            "*licence": "Unknown"
         }
     },
     {
@@ -470,14 +502,14 @@
         "_classes":"",
         "_layout":"left",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "iPhone vs Microsoft (revenue)",
+            "title": "iPhone vs Microsoft (revenue)",
             "large": "course/en/images/c-91.jpg",
             "medium": "course/en/images/c-91.jpg",
             "small": "course/en/images/c-91.jpg",
             "*source": "http://www.businessinsider.com/iphone-bigger-than-microsoft-2012-2?IR=T",
-            "*credit": "",
-            "*licence": ""
+            "*credit": "Business Insider / David Tarrant",
+            "*licence": "Unknown"
         }
     },
     {
@@ -502,14 +534,14 @@
         "_classes":"",
         "_layout":"right",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Motor City Mapping",
+            "title": "Motor City Mapping",
             "large": "course/en/images/c-96.jpg",
             "medium": "course/en/images/c-96.jpg",
             "small": "course/en/images/c-96.jpg",
             "*source": "https://highland-park.motorcitymapping.org/#t=search&s=highland-park&f=all&p=5339",
-            "*credit": "",
-            "*licence": ""
+            "*credit": "Loveland technologies",
+            "*licence": "Unknown"
         }
     },
     {
@@ -534,15 +566,64 @@
         "_classes":"",
         "_layout":"left",
         "_graphic": {
-            "alt": "",
-            "title": "",
+            "alt": "Interactive startup founders",
+            "title": "Interactive startup founders",
             "large": "course/en/images/c-101.jpg",
             "medium": "course/en/images/c-101.jpg",
             "small": "course/en/images/c-101.jpg",
             "*source": "http://dataviz.pitchbook.com/founders/",
-            "*credit": "",
-            "*licence": ""
+            "*credit": "Pitchbook",
+            "*licence": "Attribution"
         }
+    },
+    {
+        "_id":"c-110",
+        "_parentId":"b-110",
+        "_type":"component",
+        "_component":"graphic",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Interactive startup founders",
+            "title": "Interactive startup founders",
+            "large": "course/en/images/c-101.jpg",
+            "medium": "course/en/images/c-101.jpg",
+            "small": "course/en/images/c-101.jpg",
+            "*source": "http://dataviz.pitchbook.com/founders/",
+            "*credit": "Pitchbook",
+            "*licence": "Attribution"
+        }
+    },
+    {
+      "_id":"c-111",
+      "_parentId":"b-110",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Visualisation hands-on",
+      "displayTitle": "Visualisation hands-on",
+      "body": "<p>The following exercises are designed to help you get started with visulisation data suitable for presentation online through embedding. Each exercise also use a different library or toul>, suited to different objectives as well as technical skill level.</p>",
+      "instruction": "<em>Click to discover more</em>",
+      "_items": [
+         {
+          "alt": "Heatmaps with numbers (plot.ly)",
+          "title": "Heatmaps with numbers (plot.ly)",
+          "body": "<p><a href='http://plot.ly' target='_blank'>Plot.ly</a> provides a simple point and click service to help you produce interactive online visulisations. Think of it a little like excel charts on the web. It is a young service, but certainly one to watch.</p><p>You will need the following dataset for this exercise:</p<ul><li><a href='course/en/exercises/QuickintroductiontoPlotly.csv'>Plot.ly exercise dataset</a></li></ul></p><p><a class='course_link' style='color: #3191d4;' href='course/en/exercises/QuickintroductiontoPlotly.pdf' target='_blank'>Get hands-on with plot.ly</a></p>"
+        },
+        {
+          "alt": "Election maps with CartoDB",
+          "title": "Election maps with CartoDB",
+          "body": "<p><a href='http://cartodb.com' target='_blank'>CartoDB</a> is a very popular online tool for creating geographic visualisations on maps. It has simple wizards to help you get started, but also allows you to expose the code and customise your GIS queries to take complete control. CartoDB can also merge and boundry locate geographic data without you having to write complex GIS queries yourself.</p><p>You will need the following datasets for this exercise:</p><ul><li><a href='course/en/exercises/SingaporeElectoralBoundaries2011.kml'>Singapore electorial districts boundary file (2011)</a></li><li><a href='course/en/exercises/SingaporeElectionWinners2011.csv'>Singapore election winners (2011)</a></li><li><a href='course/en/exercises/BFA2.kml'>Singapore friendly buildings data</a></li></ul></p><p><a class='course_link' style='color: #3191d4;' href='course/en/exercises/MappingwithcartoDB.pdf' target='_blank'>Get hands-on with CartoDB</a></p>"
+        },
+        {
+          "alt": "Treemaps in D3js",
+          "title": "Treemaps in D3js",
+          "body": "<p>This exercise uses <a href='http://d3js.org' target='_blank'>D3js</a>, a powerful javascript visualisation library, to produce an interactive multi-level treemap. D3js requires you to write raw code, so is technically more challenging, however it is worth exploring D3js to unlock the secrets of how the other visulisation libraries work. Most modern web based visulisations all use the D3js library and it is the library of choice for The New Yourk Times and Guardian (UK) data teams.</p><p>In order to complete this exercise you will need a <a href='https://github.com' target='_blank'>GitHub</a> account.</p><p><a class='course_link' style='color: #3191d4;' href='course/en/exercises/Treemap_Visualisations.pdf' target='_blank'>Treemaps in D3js</a></p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
     },
     {
         "_id":"c-150",
@@ -569,9 +650,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open Data in Practice Day 3 - Enriching & Visualising",
-        "displayTitle":"Open Data in Practice Day 3 - Enriching & Visualising",
-        "body":"<p>In this final day, participants have learned how to clean, enrich and visualise data, all core skills of modern data work.</p>",
+        "title":"Open data in practice: Visulisation and communication",
+        "displayTitle":"Open data in practice: Visulisation and communication",
+        "body":"<p>Communicating impact from data is a key skill of any modern data worker. This course has explored how it is not as simple as just taking any dataset and pressing the graph button. Once a dataset is cleaned and enriched, it might be possible to discover insight, then it is necessary to think carefully about how to communicate this insight.</p><p>From trying to visualise too much data, to choice of colour, there are many crucial decisions that need careful thought and time to implement when visulising data. Take a look over this course page and see if you can spot all the little aspects that make the page as appealing as it can be.</p><p>There are two other sessions in this course that focus on publising and innovating with open data.</p><a href='../inpractice1/'><h5>Practical publication</h5></a><a href='../inpractice2/'><h5>Open data innovation</h5></a>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
