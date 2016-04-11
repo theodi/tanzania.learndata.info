@@ -27,6 +27,16 @@ $.getJSON("course/config.json",function(data) {
 });
 var id = "";
 
+function handleOpenURL(url) {
+        setTimeout(function() {
+                lid = url.split("//")[1];
+                if (typeof lid != "undefined") {
+                        id = lid;
+                        fetchRemote();
+                }
+        }, 0);
+}
+
 $(document).ready(function() {
 	$.getJSON("course/config.json",function(data) {
 		moduleId = data._moduleId;
@@ -40,6 +50,7 @@ $(document).ready(function() {
 		}
 	});
 	setTimeout(function() {setRawValue("theme",theme)},1000);
+	setTimeout(function() {setRawValue("platform",platform)},1000);
 });
 
 function miniProgressUpdate() {
@@ -197,6 +208,10 @@ function setSaveClass(toClass) {
     $(ss).html(config["_phrases"][toClass]);
     var ssi = document.getElementById('cloud-status-img');
     $(ssi).attr('src','adapt/css/assets/' + toClass + '.gif');
+    if (theme == "ODI" && toClass == "cloud_success") {	
+	var appT = document.getElementById('appTransferBlock');
+	$(appT).html("<div><a href='odilearninglite://" + id + "' target='_system'><img onclick=\"window.open('odilearninglite://" + id + "','_system')\" src='adapt/css/assets/odilearninglite-app.png' alt='ODI Learning Lite'/></a><br/>ODI Learning Lite</div><div><a href='odilearning://" + id + "' target='_system'><img onclick=\"window.open('odilearning://" + id + "','_system')\" src='adapt/css/assets/odilearning-app.png' alt='ODI Learning'/></a><br/>ODI Learning</div>");
+    }
 }
 
 function updateRemote() {
