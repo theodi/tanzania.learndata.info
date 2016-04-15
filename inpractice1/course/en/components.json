@@ -19,19 +19,36 @@
         }
     },
     {
-        "_id":"c-11",
-        "_parentId":"b-10",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Open Data in Practice Day 1 - Practical Publication",
-        "displayTitle":"Open Data in Practice Day 1 - Practical Publication",
-        "body":"<p>Welcome to the first session of Open Data in Practice. This course is your complete introduction to the practical skills of open data. Day 1 examines practical approaches to the publication of open data. To get started, look at the course overview below.</p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
+      "_id":"c-11",
+      "_parentId":"b-10",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"right",
+      "title": "Open data in practice: Practical publication",
+      "displayTitle": "Open data in practice: Practical publication",
+      "body": "<p>Practical publication is all about getting data out there for everyone. This course looks at how to maximise the usability of open data and how the charecteristics of data affect design choices in publication. By the end of the course, participants will have gained experience with using and publishing different types of data and even published a dataset themselves.</p>",
+      "instruction": "<em>The sessions of the course are briefly described below.</em>",
+      "_items": [
+        { 
+          "alt": "Characteristics of open data",
+          "title": "Characteristics of open data",
+          "body": "<p>The session explores key definitions of open data and useful guidelines to help publish usable data.</p><p>The session also examines types of open data and examines how the open data ecosystem has evolved to accomodate each type.</p>"
+        },
+        {
+          "alt": "Open data discovery patterns",
+          "title": "Open data discovery patterns",
+          "body": "<p>This session looks and how and where people find open data online. Understanding how people discover data is a key component of good publication and allows you to make your data more visible to users.</p><p>The session also explores different types of open data feed and looks at when it is appropriate to use them.</p>"
+        },
+        {
+          "alt": "Open data publication",
+          "title": "Open data publication",
+          "body": "<p>Making your open data available online can be a tricky process. To make it easier, a number of software platforms exist that simplify the process and save you time. This session looks at the evolution of software platforms before getting hands on with data publication.</p>"
         }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
     },
     {
         "_id":"c-20",
@@ -39,54 +56,33 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"left",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
         "_graphic": {
-            "alt": "Course Overview",
-            "title": "Course Overview",
-            "large": "course/en/images/summary-icon.png",
-            "medium": "course/en/images/summary-icon.png",
-            "small": "course/en/images/summary-icon.png",
-            "*source":"http://www.shutterstock.com/pic-278179001.html",
-            "*credit":"Eugene Sergeev",
-            "*license":"Shutterstock Standard License"
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst-white.png",
+            "medium": "course/en/images/burst-white.png",
+            "small": "course/en/images/burst-white.png"
         }
     },
     {
-      "_id":"c-21",
-      "_parentId":"b-20",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"right",
-      "title": "Course overview",
-      "displayTitle": "Course overview",
-      "body": "<p>The first day is split into three key sessions. The first session explores definitions of open data and key characteristics, the second takes a closer look at data publishing platforms and the last will get participants hands-on with publication.</p>",
-      "instruction": "<em>The sessions are briefly described below.</em>",
-      "_items": [
-        {
-          "alt": "Characteristics of Data",
-          "title": "Characteristics of data",
-          "body": "<p>The session explores key definitions of open data.</p><p>The session also examines types of data to determine their uses.</p>"
-        },
-        {
-          "alt": "Data discovery patterns",
-          "title": "Data discovery patterns",
-          "body": "<p>This session looks and how and where people find data online. Understanding how people discover data is a key component of good publication and allows you to make your data more visible to users.</p><p>The session also explores different types of open data feed and looks at when it is appropriate to use them.</p>"
-        },
-        {
-          "alt": "Publishing platforms",
-          "title": "Publishing platforms",
-          "body": "<p>Making your open data available online can be a tricky process. To make it easier, a number of software platforms exist that simplify the process and save you time. This session looks at some of the most popular publishing platforms.</p>"
-        },
-        {
-          "alt": "Hands-on publishing",
-          "title": "Hands-on publishing",
-          "body": "<p>This final session builds on everything you have learned throughout the day by challenging participants to publish their own dataset. The session will give participants hands-on experience of publishing and using popular data platforms.</p>"
+        "_id":"c-21",
+        "_parentId":"b-20",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Charecteristics of open data",
+        "displayTitle":"Charecteristics of open data",
+        "body":"<p></p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
         }
-      ],
-      "_pageLevelProgress": {
-        "_isEnabled": true
-      }
     },
     {
         "_id":"c-25",
@@ -123,40 +119,6 @@
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/burst-white.png",
-            "medium": "course/en/images/burst-white.png",
-            "small": "course/en/images/burst-white.png"
-        }
-    },
-    {
-        "_id":"c-31",
-        "_parentId":"b-30",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Challenges of Open Data and Future Developments",
-        "displayTitle":"Challenges of Open Data and Future Developments",
-        "body":"<p></p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-35",
-        "_parentId":"b-35",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
         "_layout":"left",
         "_graphic": {
             "alt": "Unlocking data from the web",
@@ -170,8 +132,8 @@
         }
     },
     {
-      "_id":"c-36",
-      "_parentId":"b-35",
+      "_id":"c-31",
+      "_parentId":"b-30",
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
@@ -189,17 +151,17 @@
         {
           "alt": "Lack of proper licences",
           "title": "Lack of proper licences",
-          "body": "<p>The majority of datasets described as 'open' still do not have an appropriate licence to protect the ability of everyone to access, use and share them.</p><p>A lack of clarity and understanding on the differences between copyright and licences means that many open data sets are not properly licensed. <a href='https://thomaslevine.com/!/data-about-open-data-talk-december-2-2013/#licensing' target='_blank'>This study</a> by Thomas Levine reveals the extent of this problem.</p><p>In Tanzania, copyright laws are complex. While data might be intended to be open, a licence provides legal clarity for users.</p><p><a href='http://www.wipo.int/wipolex/en/text.jsp?file_id=216501' target='_blank'>The 1999 Copyright and Neighbouring Rights Act</a> provides the legal clarity on the data protections in place.</p>"
+          "body": "<p>The majority of datasets described as 'open' still do not have an appropriate licence to protect the ability of everyone to access, use and share them.</p><p>A lack of clarity and understanding on the differences between copyright and licences means that many open data sets are not properly licensed. <a href='https://thomaslevine.com/!/data-about-open-data-talk-december-2-2013/#licensing' target='_blank'>This study</a> by Thomas Levine reveals the extent of this problem.</p><p>In Tanzania, copyright laws are complex. When data is intended to be open, a licence provides legal clarity for users.</p><p><a href='http://www.wipo.int/wipolex/en/text.jsp?file_id=216501' target='_blank'>The 1999 Copyright and Neighbouring Rights Act</a> provides the legal clarity on the data protections in place.</p>"
         },
         {
           "alt": "Failure to update consistently",
           "title": "Failure to update consistently",
-          "body": "<p>Simply publishing a dataset is not enough to ensure reuse and relaise the benefits of open data. Datasets also need to be updated at regular intervals to ensure they remain relevant and up-to-date. However, the vast majority of datasets are not updated consistently as shown by <a href='https://thomaslevine.com/!/data-about-open-data-talk-december-2-2013/#updating' target='_blank'>the graphics in this study by Thomas Levine</a>.</p>"
+          "body": "<p>Simply publishing a dataset is not enough to ensure reuse and realise the benefits of open data. Datasets also need to be updated at regular intervals to ensure they remain relevant and up-to-date. However, the vast majority of datasets are not updated consistently as shown by <a href='https://thomaslevine.com/!/data-about-open-data-talk-december-2-2013/#updating' target='_blank'>the graphics in this study by Thomas Levine</a>.</p>"
         },
 	{
 	  "alt": "Not everything should be open",
 	  "title": "Not everything should be open",
-	  "body": "<p>Some of us worry about personal health records being “made open”. Some confuse commercial and personal data, or mix up “big data” with “open data”.</p><p>To maximize data’s benefits, we first need to be precise about which type of data we are dealing with and the limitations of it's access.</p><p>Not all data should be openly availble to everyone to use freely, conversly applying a “closed by default” policy will minimize the opportunities that might come from even limited sharing.</p><p>To help explain this complicated landscape, the Open Data Institute has produced the <a href='http://theodi.org/data-spectrum' target='_blank'>data spectrum</a>. The data spectrum is a handy tool to help you map out existing data holdings and help reveal future opportunities.</p>"	
+	  "body": "<p>Some of us worry about personal health records being “made open”. Some confuse commercial and personal data, or mix up “big data” with “open data”.</p><p>To maximize data’s benefits, we first need to be precise about which type of data we are dealing with and the limitations of its access.</p><p>Not all data should be openly availble to everyone to use freely; conversly applying a “closed by default” policy will minimize the opportunities that might come from even limited sharing.</p><p>To help explain this complicated landscape, the Open Data Institute has produced the <a href='http://theodi.org/data-spectrum' target='_blank'>data spectrum</a>. The data spectrum is a handy tool to help you map out existing data holdings and help reveal future opportunities.</p>"	
 	}
       ],
       "_pageLevelProgress": {
@@ -207,8 +169,8 @@
       }
     },
     {
-        "_id":"c-40",
-        "_parentId":"b-40",
+        "_id":"c-35",
+        "_parentId":"b-35",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -225,15 +187,15 @@
         }
     },
     {
-      "_id":"c-41",
-      "_parentId":"b-40",
+      "_id":"c-36",
+      "_parentId":"b-35",
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
       "_layout":"left",
       "title": "Marques of quality",
       "displayTitle": "Marques of quality",
-      "body": "<p>Marques of quality provide users with confidence to use a open dataset freely.</p><p>There are two key marques to look out for on open data:</p>",
+      "body": "<p>Marques of quality provide users with confidence to use an open dataset freely.</p><p>There are two key marques to look out for on open data:</p>",
       "instruction": "<em>Click the headings to explore further.</em>",
       "_items": [
         {
@@ -252,8 +214,8 @@
       }
     },
     {
-        "_id": "c-45",
-        "_parentId": "b-45",
+        "_id": "c-40",
+        "_parentId": "b-40",
         "_classes": "",
         "_type":"component",
         "_layout": "full",
@@ -321,8 +283,8 @@
         }
     },
      {
-      "_id":"c-50",
-      "_parentId":"b-50",
+      "_id":"c-45",
+      "_parentId":"b-45",
       "_type":"component",
       "_component":"narrative",
       "_classes":"",
@@ -342,21 +304,21 @@
                     "title": "Tabular",
                     "*source": "http://www.shutterstock.com/pic.mhtml?id=262874696&src=id",
                     "*credit": "benjaminec",
-                    "*licence": "Shutterstock standard license"
+                    "*license": "Shutterstock standard license"
                 },
            "strapline": "Tabular"
         },
         {
           "alt": "Hierarchical",
           "title": "Hierarchical",
-          "body": "<p>Hierarchical data shows the relationships between data points, such as a family tree or municipalities in each country. If the dataset depends on the relationship between data points and follows a structure in which data points are linked in vertical ‘trees’, a hierarchical data structure in a format such as JSON is ideal. An example of appropriate hierarchical data is this JSON file for Seirra Leone's Forestry Cover<br /><br/><a href='http://africaopendata.org/dataset/sierra-leone-forestry-data' target='_blank'>Take me to the Sierra Leone Forestry Data</a></p>",
+          "body": "<p>Hierarchical data shows the relationships between data points, such as a family tree or municipalities in each country. If the dataset depends on the relationship between data points and follows a structure in which data points are linked in vertical ‘trees’, a hierarchical data structure in a format such as JSON is ideal. An example of appropriate hierarchical data is this JSON file for the global trade-tariff.<br /><br/><a href='https://www.gov.uk/trade-tariff/sections' target='_blank'>Take me to the global trade-tarriff data</a></p>",
           "_graphic": {
                     "src": "course/en/images/odi-005.jpg",
                     "alt": "Hierarchical",
                     "title": "Hierarchical",
                     "*source": "http://www.shutterstock.com/pic.mhtml?id=103051607&src=id",
                     "*credit": "tovovan",
-                    "*licence": "Shutterstock standard license"
+                    "*license": "Shutterstock standard license"
                 },
            "strapline": "Hierarchical"
         },
@@ -370,7 +332,7 @@
                     "title": "Network",
                     "*source": "http://www.shutterstock.com/pic.mhtml?id=136115477&src=id",
                     "*credit": "Ovchinnkov Vladimir",
-                    "*licence": "Shutterstock standard license"
+                    "*license": "Shutterstock standard license"
                 },
            "strapline": "Network"
         }
@@ -380,8 +342,8 @@
       }
     },
     {
-        "_id":"c-55",
-        "_parentId":"b-55",
+        "_id":"c-50",
+        "_parentId":"b-50",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -398,12 +360,12 @@
             "small": "course/en/images/odi-007.jpg",
             "*source": "http://www.shutterstock.com/pic-199692071",
             "*credit": "Ing. Andrej Kaprinay",
-            "*licence": "Shutterstock standard license"
+            "*license": "Shutterstock standard license"
         }
    },
    {
-      "_id":"c-56",
-      "_parentId":"b-55",
+      "_id":"c-51",
+      "_parentId":"b-50",
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
@@ -429,8 +391,162 @@
       }
     },
 {
+        "_id":"c-55",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "",
+            "title": "",
+            "large": "course/en/images/burst-red.png",
+            "medium": "course/en/images/burst-red.png",
+            "small": "course/en/images/burst-red.png"
+        }
+    },
+    {
+        "_id":"c-56",
+        "_parentId":"b-55",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"left",
+        "title":"Data discovery patterns",
+        "displayTitle":"Data discovery patterns",
+        "body":"<p></p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+        {
         "_id":"c-60",
         "_parentId":"b-60",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"right",
+        "_graphic": {
+            "alt": "Unlocking data from the web",
+            "title": "Unlocking data from the web",
+            "large": "course/en/images/odi-50.jpg",
+            "medium": "course/en/images/odi-50.jpg",
+            "small": "course/en/images/odi-50.jpg",
+            "*source": "http://www.shutterstock.com/pic-144137602",
+            "*credit": "David Arts",
+            "*license": "Shutterstock standard license"
+        }
+    },
+    {
+      "_id":"c-61",
+      "_parentId":"b-60",
+      "_type":"component",
+      "_component":"accordion",
+      "_classes":"",
+      "_layout":"left",
+      "title": "Unlocking data on the web",
+      "displayTitle": "Unlocking data on the web",
+      "body": "<p>We briefly mentioned before that a lot of open data can be simply downloaded through clicking buttons. However there are still challenges in finding this data in the first place, or once you do, getting hold of it if there isn't a download button.</p><p>This session unlocks the secrets of obtaining and preparing data that is available on the web.</p>",
+      "instruction": "<em>Click below to explore each of the tools to unlock data that is <b>on the web</b>.</em>",
+      "_items": [
+        {
+          "alt": "Downloadable data",
+          "title": "Downloadable data",
+          "body": "<p>Many suppliers are helpful and give you human readable download links in order to obtain their data.</p><p>Explore the links below to discover more:</p><ul><li><a href='http://data.gov.uk/dataset/monthly-land-registry-property-transaction-data' target='_blank'>data.gov.uk - Land Registry Monthly Property Transaction Data</a></li><li><a href='http://www.necta.go.tz/brn2015/' target='_blank'>School ranking data in Tanzania</a></li><li><a href='https://www.opendata.go.ke/ECD-and-Primary-EDU/Enrollment-of-Primary-School-Children-By-Gender-Cl/t3xp-5ce7' target='_blank'>School enrollment data in Kenya</a></li></ul>"
+        },
+        {
+          "alt": "Power search for data",
+          "title": "Power search for data",
+          "body": "<p>Many search engines, including Google, give you the ability to use advanced searches and prefixes in order to dig out data.</p><p>Try some of the following search prefixes in Google to see what you can find:</p><b>filetype:<b><br/><p>Search for specific file types only, e.g. (xls) (<a href='https://www.google.co.uk/#q=filetype:xls+tanzania' target='_blank'>example</a>)</p><b>site:<b><br/><p>Search with a specific domain or site only (<a href='https://www.google.co.uk/#q=site:opendata.go.tz+education' target='_blank'>example</a>)</p><b>related:<b><br/><p>Search for content related to a known page (<a href='https://www.google.co.uk/#q=related:http:%2F%2Fwww.nationmaster.com%2Fcountry-info%2Fprofiles%2FTanzania%2FEducation' target='_blank'>example</a>)</p><b>link:<b><br/><p>List only pages that link to the one given (<a href='https://www.google.co.uk/#q=link:https:%2F%2Fwww.opendata.go.ke%2F' target='_blank'>example</a>)</p>"
+        },
+        {
+          "alt": "Aggregators and portals",
+          "title": "Aggregators and portals",
+          "body": "<p>Aggregators and portals bring together data from across the web and expose it through their own service. This creates an easy and consistant way to find and download data.</p><p>Explore the links below to find out more:</p><b><a href='http://enigma.io/' target='_blank'>enigma.io</a><b><br/><p>Powerful open data searching for structured data</p><a href='http://transportapi.com/' target='_blank'>Transport API</a><b><br/><p>All UK transport data, in one place, with one API.</p>"
+        },
+        {
+          "alt": "Web scraping",
+          "title": "Web scraping",
+          "body": "<p>If you can't simply download data in a usable format, you may need to scrape it. Helpfully there are now many tools that help us achieve this easily:</p><b><a href='http://pdftables.com' target='_blank'>pdftables.com</a><b><br/><p>Upload a PDF, download data, simple.</p><b><a href='http://magic.import.io' target='_blank'>magic.import.io</a></b><br/><p>Extract data from web pages in a click.</p>"
+        }
+      ],
+      "_pageLevelProgress": {
+        "_isEnabled": true
+      }
+    },
+     {
+        "_id": "c-62",
+        "_parentId": "b-62",
+        "_classes": "",
+        "_type":"component",
+        "_layout": "full",
+        "_component": "narrative",
+        "title": "How to find hidden data",
+        "displayTitle": "How to find hidden data",
+        "body": "<p>From data we gain information, from information we gain knowledge and insight.</p><p>Please note that just because you can extract hidden data, it does not make this data open. You should always check the terms of use and licences of the website before gathering or using data for any purpose.</p><p><p>You can learn more about licensing from the European data portal eLearning <a href='http://www.europeandataportal.eu/elearning/en/module4/' target='_blank'>licensing module</a>.</p>",
+        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
+        "_items": [
+            {
+                "title": "Adding extensions",
+                "body": "<p>Some websites have been built to offer a way to extract data by adding an extension to the URL of the web page you are viewing. For such websites, usually maintained by organisations who also publish downloadable open data, adding the correct extension will trigger a download of that page in a data format, as opposed to a browser format.</p><p>A good example of this is the UK Government website (gov.uk) which provides any page in a data format simply by adding the relevant extension like “.json”, for example www.gov.uk/browse/business.json.</p><p>Try it with the UK Trade data by viewing the following page and then adding “.json” to get the data.<br /><a href='https://www.gov.uk/trade-tariff/sections' target='_blank'>Take me to the UK gov trade tariff</a></p><p>To view the data in a more human readable form copy it into jsonlint.io</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-015.jpg",
+                    "alt": "Extensions",
+                    "title": "Extensions",
+                    "*source": "http://www.shutterstock.com/pic-119236978",
+                    "*credit": "spaxiax",
+                    "*license": "Shutterstock standard license"
+                }
+            },
+            {
+                "title": "Data feeds",
+                "body": "<p>Many websites provide links to data syndication feeds that can be subscribed to.</p><p>These feeds may be RSS feeds, Twitter alert feeds or other less common types. Feeds can be used to get raw data about a broad selection of content.</p><p>For an example of a raw data feed, look at the BBC news feed in XML.<br /><a href='http://feeds.bbci.co.uk/news/rss.xml' target='_blank'>Why not try out the news feeds from the BBC in XML.</a></p><p>Now you can use a free online tool to make that data easier to use<br /><a href='http://codebeautify.org/xmlviewer' target='_blank'>Go to codebeautify and enter the BBC feed URL under 'Load URL'</a></p><p>or get alerts for flooding from your nearest river (UK only).<br /><a href='http://www.gaugemap.co.uk/' target='_blank'>Take me to river level guages</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-007.jpg",
+                    "alt": "Data feeds",
+                    "title": "Data feeds",
+                    "*source": "http://www.shutterstock.com/pic-72158482",
+                    "*credit": "Ing",
+                    "*license": "Shutterstock standard license"
+                }
+            },
+            {
+                "title": "Extracting embedded data",
+                "body": "<p>Many websites dynamically load data, saving web browsers time loading endless pages. This is especially the case with embedded weather widgets and shopping websites where templates are filled with data once they are loaded.</p><p>As a nice side effect, this means your web browser has loaded structured data onto your computer. All we have to do is access it directly so it can be used.</p><p>Why not check out the ODI's experimental 'Hidden Data Extractor' tool to find if your website have data embedded within them?<br><br><a class='course_link' href='http://odinprac.theodi.org/hidden-data-extractor/' target='_blank'>Take me to ODI Hidden Data Extractor</a></p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-008.jpg",
+                    "alt": "Source code",
+                    "title": "Source code",
+                    "*source": "http://www.shutterstock.com/pic-119236978",
+                    "*credit": "spaxiax",
+                    "*license": "Shutterstock standard license"
+                }
+            },
+            {
+                "title": "APIs or machine-readable interfaces",
+                "body": "<p>Some websites or web services will expose a machine-readable interface, or API, for querying and accessing their data.</p><p>Examples of services that have APIs include: <a href='https://api.opencorporates.com/' target='_blank'>Open Corporates</a> (open), <a href='http://wiki.openstreetmap.org/wiki/API' target='_blank'>OpenSteetMap</a> (open), <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter</a> (not completely open), <a href='https://www.flickr.com/services/api/' target='_blank'>Flickr</a> (some content open), <a href='https://developer.linkedin.com/docs/rest-api' target='_blank'>LinkedIn</a> (not open).</p><p>Most of these services use a web based API and allow addition of extensions (try “.json” on OpenCorporates). Although this API looks the same as the earlier example in this section, its formal status as an API provides a guarantee that the service will be available.</p>",
+                "_graphic": {
+                    "src": "course/en/images/odi-009.jpg",
+                    "alt": "APIs",
+                    "title": "APIs",
+                    "*source": "http://www.shutterstock.com/pic-231102415",
+                    "*credit": "Imagentle",
+                    "*license": "Shutterstock standard license"
+                }
+            }
+        ],
+        "_pageLevelProgress": {
+        "_isEnabled": true
+        }
+    },
+    {
+        "_id":"c-65",
+        "_parentId":"b-65",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -448,168 +564,14 @@
         }
     },
     {
-        "_id":"c-61",
-        "_parentId":"b-60",
+        "_id":"c-66",
+        "_parentId":"b-65",
         "_type":"component",
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Data discovery patterns",
-        "displayTitle":"Data discovery patterns",
-        "body":"<p></p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-        {
-        "_id":"c-62",
-        "_parentId":"b-62",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "Unlocking data from the web",
-            "title": "Unlocking data from the web",
-            "large": "course/en/images/odi-50.jpg",
-            "medium": "course/en/images/odi-50.jpg",
-            "small": "course/en/images/odi-50.jpg",
-            "*source": "http://www.shutterstock.com/pic-144137602",
-            "*credit": "David Arts",
-            "*license": "Shutterstock standard license"
-        }
-    },
-    {
-      "_id":"c-63",
-      "_parentId":"b-62",
-      "_type":"component",
-      "_component":"accordion",
-      "_classes":"",
-      "_layout":"left",
-      "title": "Unlocking data on the web",
-      "displayTitle": "Unlocking data on the web",
-      "body": "<p>We briefly mentioned before that a lot of open data can be simply downloaded through clicking buttons. However there are still challenges in finding this data in the first place, or once you do, getting hold of it if there isn't a download button.</p><p>This session unlocks the secrets of obtaining and preparing data that is available on the web.</p>",
-      "instruction": "<em>Click below to explore each of the tools to unlock data that is <b>on the web</b>.</em>",
-      "_items": [
-        {
-          "alt": "Downloadable data",
-          "title": "Downloadable data",
-          "body": "<p>Many suppliers are helpful and give you human readable download links in order to obtain their data.</p><p>Explore the links below to discover more:</p><ul><li><a href='http://data.gov.uk/dataset/monthly-land-registry-property-transaction-data' target='_blank'>data.gov.uk - Land Registry Monthly Property Transaction Data</a></li><li><a href='http://manufacturingmap.nikeinc.com/#' target='_blank'>Nike - Manufacturing Map</a></li><li><a href='https://nycopendata.socrata.com/' target='_blank'>New York City Open Data</a></li></ul>"
-        },
-        {
-          "alt": "Power search for data",
-          "title": "Power search for data",
-          "body": "<p>Many search engines, including google, give you the ability to use advanced searches and prefixs in order to dig out data.</p><p>Try some of the following search prefixes in google to see what you can find:</p><b>filetype:<b><br/><p>Search for specific file types only, e.g. (xls) (<a href='https://www.google.co.uk/#q=filetype:xls+common+names+' target='_blank'>example</a>)</p><b>site:<b><br/><p>Search with a specific domain or site only (<a href='https://www.google.co.uk/#q=site:gov.uk+m25' target='_blank'>example</a>)</p><b>related:<b><br/><p>Search for content related to a known page (<a href='https://www.google.co.uk/#q=related:http:%2F%2Fdrewconway.com%2Fzia%2F2013%2F3%2F26%2Fthe-data-science-venn-diagram' target='_blank'>example</a>)</p><b>link:<b><br/><p>List only pages that link to the one given (<a href='https://www.google.co.uk/#q=link:http:%2F%2Fdrewconway.com%2Fzia%2F2013%2F3%2F26%2Fthe-data-science-venn-diagram' target='_blank'>example</a>)</p>"
-        },
-        {
-          "alt": "Aggregators and portals",
-          "title": "Aggregators and portals",
-          "body": "<p>Aggregates and portals bring together data from accross the web and expose through their own service. This creates and easy and consistant way to find and download data.</p><p>Explore the links below to find out more:</p><b><a href='http://enigma.io/' target='_blank'>enigma.io</a><b><br/><p>Powerful open data searching for structured data</p><a href='http://transportapi.com/' target='_blank'>Transport API</a><b><br/><p>All UK transport data, in one place, with one API.</p>"
-        },
-        {
-          "alt": "Web scraping",
-          "title": "Web scraping",
-          "body": "<p>If you can't simply download data in a usable format, you may need to scrape it. Helpfully there are now many tools that help us achieve this easily:</p><b><a href='http://pdftables.com' target='_blank'>pdftables.com</a><b><br/><p>Upload a PDF, download data, simple.</p><b><a href='http://magic.import.io' target='_blank'>magic.import.io</a></b><br/><p>Extract data from web pages in a click.</p>"
-        }
-      ],
-      "_pageLevelProgress": {
-        "_isEnabled": true
-      }
-    },
-     {
-        "_id": "c-65",
-        "_parentId": "b-65",
-        "_classes": "",
-        "_type":"component",
-        "_layout": "full",
-        "_component": "narrative",
-        "title": "How to find hidden data",
-        "displayTitle": "How to find hidden data",
-        "body": "<p>From data we gain information, from information we gain knowledge and insight.</p><p>Please note that just because you can extract hidden data, it does not make this data open. You should always check the terms of use and licences of the website before gathering or using data for any purpose. For further details on licensing, please refer back to module 4 of this course.</p<",
-        "instruction": "<em class='desktop-instruction'>Click the forward arrow to see more.</em><em class='mobile-instruction'>Select the ‘+’ sign to explore further, then swipe the image to see more.</em>",
-        "_items": [
-            {
-                "title": "Adding extensions",
-                "body": "<p>Some websites have been built to offer a way to extract data by adding an extension to the URL of the web page you are viewing. For such websites, usually maintained by organisations who also publish downloadable open data, adding the correct extension will trigger a download of that page in a data format, as opposed to a browser format.</p><p>A good example of this is the UK Government website (gov.uk) which provides any page in a data format simply by adding the relevant extension like “.json”, for example www.gov.uk/browse/business.json.</p><p>Try it with the UK Trade data by viewing the following page and then adding “.json” to get the data.<br /><a href='https://www.gov.uk/trade-tariff/sections' target='_blank'>Take me to the UK gov trade tariff</a></p><p>To view the data in a more human readable form copy it into jsonlint.io</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-015.jpg",
-                    "alt": "Extensions",
-                    "title": "Extensions",
-                    "*source": "http://www.shutterstock.com/pic-119236978",
-                    "*credit": "spaxiax",
-                    "*licence": "Shutterstock standard license"
-                }
-            },
-            {
-                "title": "Data feeds",
-                "body": "<p>Many websites provide links to data syndication feeds that can be subscribed to.</p><p>These feeds may be RSS feeds, Twitter alert feeds or other less common types. Feeds can be used to get raw data about a broad selection of content.</p><p>For an example of a raw data feed, look at the BBC news feed in XML.<br /><a href='http://feeds.bbci.co.uk/news/rss.xml' target='_blank'>Why not try out the news feeds from the BBC in XML.</a></p><p>Now you can use a free online tool to make that data easier to use<br /><a href='http://codebeautify.org/xmlviewer' target='_blank'>Go to codebeautify and enter the BBC feed URL under 'Load URL'</a></p><p>or get alerts for flooding from your nearest river (UK only).<br /><a href='http://www.gaugemap.co.uk/' target='_blank'>Take me to river level guages</a></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-007.jpg",
-                    "alt": "Data feeds",
-                    "title": "Data feeds",
-                    "*source": "http://www.shutterstock.com/pic-72158482",
-                    "*credit": "Ing",
-                    "*licence": "Shutterstock standard license"
-                }
-            },
-            {
-                "title": "Extracting embedded data",
-                "body": "<p>Many websites dynamically load data, saving web browsers time loading endless pages. This is especially the case with embedded weather widgets and shopping websites where templates are filled with data once they are loaded.</p><p>As a nice aside, this means that your web browser has loaded structured data onto your computer. All we have to do is access it directly so it can be used.</p><p>Why not check out the ODI's experimental 'Hidden Data Extractor' tool to find if your website have data embedded within them?<br><br><a class='course_link' href='http://odinprac.theodi.org/hidden-data-extractor/' target='_blank'>Take me to ODI Hidden Data Extractor</a></p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-008.jpg",
-                    "alt": "Source code",
-                    "title": "Source code",
-                    "*source": "http://www.shutterstock.com/pic-119236978",
-                    "*credit": "spaxiax",
-                    "*licence": "Shutterstock standard license"
-                }
-            },
-            {
-                "title": "APIs or machine-readable interfaces",
-                "body": "<p>Some websites or web services will expose a machine-readable interface, or API, for querying and accessing their data.</p><p>Examples of services that have APIs include: <a href='https://api.opencorporates.com/' target='_blank'>Open Corporates</a> (open), <a href='http://wiki.openstreetmap.org/wiki/API' target='_blank'>OpenSteetMap</a> (open), <a href='https://dev.twitter.com/rest/public' target='_blank'>Twitter</a> (not completely open), <a href='https://www.flickr.com/services/api/' target='_blank'>Flickr</a> (some content open), <a href='https://developer.linkedin.com/docs/rest-api' target='_blank'>LinkedIn</a> (not open).</p><p>Most of these services use a web based API and allow addition of extensions (try “.json” on OpenCorporates). Although this API looks the same as the earlier example in this section, it's formal status as an API provides a guarantee that the service will be available.</p>",
-                "_graphic": {
-                    "src": "course/en/images/odi-009.jpg",
-                    "alt": "APIs",
-                    "title": "APIs",
-                    "*source": "http://www.shutterstock.com/pic-231102415",
-                    "*credit": "Imagentle",
-                    "*licence": "Shutterstock standard license"
-                }
-            }
-        ],
-        "_pageLevelProgress": {
-        "_isEnabled": true
-        }
-    },
-    {
-        "_id":"c-70",
-        "_parentId":"b-70",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/burst-green.png",
-            "medium": "course/en/images/burst-green.png",
-            "small": "course/en/images/burst-green.png"
-        }
-    },
-    {
-        "_id":"c-71",
-        "_parentId":"b-70",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Data Publishing Platforms",
-        "displayTitle":"Data Publishing Platforms",
+        "title":"Open data publication",
+        "displayTitle":"Open data publication",
         "body":"<p></p>",
         "instruction":"",
         "_pageLevelProgress": {
@@ -617,8 +579,8 @@
         }
     },
     {
-        "_id": "c-75",
-        "_parentId": "b-75",
+        "_id": "c-70",
+        "_parentId": "b-70",
         "_classes": "",
         "_type":"component",
         "_layout": "full",
@@ -637,7 +599,7 @@
                     "title": "Discovery",
                     "*source": "https://www.flickr.com/photos/mjtmail/3008566512",
                     "*credit": "mjtmail (tiggy)",
-                    "*licence": "https://creativecommons.org/licenses/by/2.0/"
+                    "*license": "https://creativecommons.org/licenses/by/2.0/"
                 },
                 "strapline": "Data"
             },
@@ -650,7 +612,7 @@
                     "title": "Consistency",
                     "*source": "http://www.shutterstock.com/pic.mhtml?id=200818673&src=lb-36497927",
                     "*credit": "April Cat",
-                    "*licence": "Shutterstock standard license"
+                    "*license": "Shutterstock standard license"
                 },
                 "strapline": "Information"
             },
@@ -663,7 +625,7 @@
                     "title": "Access granted",
                     "*source": "http://www.shutterstock.com/pic.mhtml?id=154822901&src=id",
                     "*credit": "Kirill_m",
-                    "*licence": "http://www.shutterstock.com/license"
+                    "*license": "http://www.shutterstock.com/license"
                 },
                 "strapline": "Knowledge"
             }
@@ -673,8 +635,8 @@
         }
     },
   {
-        "_id":"c-80",
-        "_parentId":"b-80",
+        "_id":"c-75",
+        "_parentId":"b-75",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -687,12 +649,12 @@
             "small": "course/en/images/odi-005.jpg",
             "*source": "http://www.shutterstock.com/pic.mhtml?id=277792007&src=id",
             "*credit": "Nicotombo",
-            "*licence": "http://www.shutterstock.com/license"
+            "*license": "http://www.shutterstock.com/license"
         }
     },
     {
-      "_id":"c-81",
-      "_parentId":"b-80",
+      "_id":"c-76",
+      "_parentId":"b-75",
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
@@ -715,7 +677,7 @@
         {
           "alt": "Comparison",
           "title": "Comparison",
-          "body": "<p>Data catalogs provide:</p></ul><li>Federated search across a wide domain.</li><li>Mechanisms for discovery.</li><li>Key metadata relating to licence and how up to date data is.</li></ul></p><p>Data management platforms provide:</p><ul><li>Authoritative sources for data.</li><li>Increased data quality.</li><li>Ability to search and manipulate data.</li></ul><p>The distinctions between data management platforms and data catalogs can also vary between providers. <a href='http://how-to.usopendata.org/basics/data-repositories.html' target='_blank'>Take me to comparative analysis of data platforms</a></p>"
+          "body": "<p>Data catalogs provide:</p></ul><li>Federated search across a wide domain.</li><li>Mechanisms for discovery.</li><li>Key metadata relating to licences and how up to date data is.</li></ul></p><p>Data management platforms provide:</p><ul><li>Authoritative sources for data.</li><li>Increased data quality.</li><li>Ability to search and manipulate data.</li></ul><p>The distinctions between data management platforms and data catalogs can also vary between providers. <a href='http://how-to.usopendata.org/basics/data-repositories.html' target='_blank'>Take me to comparative analysis of data platforms</a></p>"
         }
       ],
       "_pageLevelProgress": {
@@ -723,8 +685,8 @@
       }
     },
     {
-        "_id":"c-85",
-        "_parentId":"b-85",
+        "_id":"c-80",
+        "_parentId":"b-80",
         "_type":"component",
         "_component":"graphic",
         "_classes":"",
@@ -741,20 +703,20 @@
         }
     },
     {
-      "_id":"c-86",
-      "_parentId":"b-85",
+      "_id":"c-81",
+      "_parentId":"b-80",
       "_type":"component",
       "_component":"accordion",
       "_classes":"",
       "_layout":"right",
       "title": "Hands-on with publishing platforms",
       "displayTitle": "Hands-on with publishing platforms",
-      "body": "<p>This hands-on exercise gives you the opportunity to explore a variety of the available open data platforms.</p><p>Explore each section to discover how to get starded on each platform.</p>",
+      "body": "<p>This hands-on exercise gives you the opportunity to explore a variety of the available open data platforms.</p><p>Explore each section to discover how to get started on each platform.</p>",
       "_items": [
         {
           "alt": "CKAN",
           "title": "CKAN",
-          "body": "<p>CKAN is the catalog for open data. It simplfies the process of publishing open data. A link will be available on the day of the course for you to try. You can also get started quickly with CKAN by launching your own instace in Amazon Web Services (AWS) by following <a href='https://aws.amazon.com/marketplace/pp/B015XZHNDI/ref=srh_res_product_title?ie=UTF8&sr=0-2&qid=1459255604274' target='_blank'>this link</a>.</p>"
+          "body": "<p>CKAN is the catalog for open data. It simplfies the process of publishing open data. A link will be available on the day of the course for you to try. You can also get started quickly with CKAN by launching your own instance in Amazon Web Services (AWS) by following <a href='https://aws.amazon.com/marketplace/pp/B015XZHNDI/ref=srh_res_product_title?ie=UTF8&sr=0-2&qid=1459255604274' target='_blank'>this link</a>.</p>"
         },
         {
           "alt": "OpenDataSoft",
@@ -769,7 +731,7 @@
         {
           "alt": "Github data publisher",
           "title": "Github data publisher",
-          "body": "<p>Github data publisher is an Open Data Institute experiment in using the Github software version control system to manage data.</p><p>Using this service requires a github account which has been enabled for web hosting (<a href='http://training.theodi.org/resources/gh-pagesgettingstarted.pdf' target='_blank'>How-To Guide here</a></p><p><a href='http://git-data-publisher.herokuapp.com/' target='_blank'>Click here</a>to access the Git Data Publisher.</p>"
+          "body": "<p>Github data publisher is an Open Data Institute experiment in using the Github software version control system to manage data.</p><p>Using this service requires a Github account which has been enabled for web hosting (<a href='http://training.theodi.org/resources/gh-pagesgettingstarted.pdf' target='_blank'>How-To Guide here</a></p><p><a href='http://git-data-publisher.herokuapp.com/' target='_blank'>Click here</a> to access the Git Data Publisher.</p>"
         }
       ],
       "_pageLevelProgress": {
@@ -801,9 +763,9 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open Data in Practice Day 1 - Practical Publication",
-        "displayTitle":"Open Data in Practice Day 1 - Practical Publication",
-        "body":"<p>This introductory course aims to get you up to speed with latest developments in open data and its significance. It is designed to enable anyone to get started with discovering and using open data and understand the skills and processes required to make it work for you and your organisation.</p>",
+        "title":"Open Data in practice: Practical publication",
+        "displayTitle":"Open Data in practice: Practical publication",
+        "body":"<p>Practical publication is all about getting data out there for everyone. Looking at the publication and usability requirements allows us to start thinking about the benefits of exploiting the data.</p><p>There are two other sessions in this course that focus on benefitting from open data.</p><a href='../inpractice2/'><h5>Open data innovation</h5></a><a href='../inpractice3/'><h5>Visulisation and communication</h5></a>",
         "_pageLevelProgress": {
           "_isEnabled": true
         }
