@@ -30,7 +30,7 @@
         {
           "_type": "link",
           "_local": "true",
-          "title": "Open data in a day",
+          "title": "Open data essentials",
           "description": "The essentials of open data",
           "_link": "InADay/"
         },
@@ -107,12 +107,6 @@
           "title": "Open data about performance",
           "description": "Source: Shutterstock<br/>Credit: Your Design<br/>Licence: Shutterstock Standard License",
           "_link": "http://www.shutterstock.com/pic-201870622.html"
-        },
-        {
-          "_type": "link",
-          "title": "Napolean's march",
-          "description": "Source: Unclear<br/>Credit: Charles Joseph Minard<br/>Licence: ",
-          "_link": "http://www.edwardtufte.com/tufte/posters"
         },
         {
           "_type": "link",
