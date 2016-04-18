@@ -177,20 +177,38 @@
       "_resourcesItems": [
         {
           "_type": "link",
+          "title": "Deffinitions, spectrum and SWOT",
+          "description": "Tanzania slides for Day 1",
+          "_link": "course/en/slides/Tanzania_Day1.pdf"
+        },
+        {
+          "_type": "link",
+          "title": "Open Data Impact",
+          "description": "ODI impact from Richard",
+          "_link": "course/en/slides/Tanzania_Richard.pdf"
+        },
+        {
+          "_type": "link",
           "title": "Definitions, Examples, Challenges and Opportunities",
-          "description": "Slides for the morning session",
+          "description": "Interactive slides for normal course",
+          "_link": "http://theodi.github.io/presentations/training_OneDay_Intro.html#/cover"
+        },
+        {
+          "_type": "link",
+          "title": "Definitions, Examples, Challenges and Opportunities",
+          "description": "Interactive slides for normal course",
           "_link": "http://theodi.github.io/presentations/training_OneDay_Intro.html#/cover"
         },
         {
           "_type": "link",
           "title": "Law & Licensing",
-          "description": "Slides for the first afternoon session",
+          "description": "Discover all about law and licensing",
           "_link": "http://training.theodi.org/resources/law_and_licensing.pdf"
         },
         {
           "_type": "link",
           "title": "Best Practices",
-          "description": "Slides for the second afternoon session",
+          "description": "Stars and certificates",
           "_link": "http://theodi.github.io/presentations/training-law-best-practice.html#/13"
         }
       ]
@@ -223,6 +241,18 @@
         "link": "Link"
       },
       "_resourcesItems": [
+        {
+          "_type": "link",
+          "title": "Data spectrum photos",
+          "description": "Results of the data spectrum exercise",
+          "_link": "https://drive.google.com/folderview?id=0B9fr2tYJliWOS3FNTHExMG9heUk&usp=sharing"
+        },
+        {
+          "_type": "link",
+          "title": "SWOT analysis document",
+          "description": "Results of the SWOT analysis exercise",
+          "_link": "https://docs.google.com/document/d/1-8iApCxqsDH0SY8S-omXbc_9so36pdJcpXq0mtvKdek/edit?usp=sharing"
+        },
         {
           "_type": "link",
           "title": "Open Refine",
