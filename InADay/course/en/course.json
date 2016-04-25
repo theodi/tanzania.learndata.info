@@ -1,8 +1,8 @@
 {
   "_id": "course",
   "_type": "course",
-  "title": "Open Data in a Day",
-  "displayTitle": "Open Data in a Day",
+  "title": "Open data essentials",
+  "displayTitle": "Open data essentials",
   "fromat": "course",
   "_buttons": {
     "submit": "Submit",
@@ -152,14 +152,7 @@
         {
           "_type": "link",
           "_local": "true",
-          "title": "Open data innovation",
-          "description": "Plan for impact with open data",
-          "_link": "../inpractice2/"
-        },
-        {
-          "_type": "link",
-          "_local": "true",
-          "title": "Visulisation and communication",
+          "title": "Visualisation and communication",
           "description": "Create impact with open data",
           "_link": "../inpractice3/"
         }

@@ -25,8 +25,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open Data Essentials",
-        "displayTitle":"Open Data Essentials",
+        "title":"Open data essentials",
+        "displayTitle":"Open data essentials",
         "body":"<p>This introductory course aims to get you up to speed with latest developments in open data and its significance. It is designed to enable anyone to get started with discovering and using open data and understand the skills and processes required to make it work for you and your organisation.</p>",
         "instruction":"",
         "_pageLevelProgress": {
@@ -736,8 +736,8 @@
         "_component":"text",
         "_classes":"",
         "_layout":"left",
-        "title":"Open Data Essentials",
-        "displayTitle":"Open Data Essentials",
+        "title":"Open data essentials",
+        "displayTitle":"Open data essentials",
         "body":"<p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>.</p><p>Open data is a raw material for the digital age but, unlike coal, timber or diamonds, it can be used by anyone and everyone at the same time.</p><p>Any restrictions imposed on the use of open data will limit its use in creating new value.</p><p>Open data can bring diverse benefits to governments, businesses and individuals. It has the power to improve services, grow economies and save our planet.</p><p>Open data needs to be properly licensed in order to ensure the broadest possible use. The data should also try to follow as cloesly as possible the best practices available to support publication and reuse</p><p>Want to take your open data journey further? The ODI offers a full range of courses to support those working with open data. Find out more on the <a href='http://theodi.org/courses' target='courses page'>courses website</a>.</p>",
         "_pageLevelProgress": {
           "_isEnabled": true
