@@ -8,6 +8,9 @@
       "_isEnabled": false,
       "button": "Continue to next question?"
     },
+    "*source": "http://www.shutterstock.com/pic-168776180.html",
+    "*credit": "asharkyu",
+    "*license": "Shutterstock Standard License",
     "_assessment": {
       "_isEnabled": true,
       "_showFeedback": false,
