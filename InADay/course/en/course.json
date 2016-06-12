@@ -169,6 +169,18 @@
       },
       "_resourcesItems": [
         {
+          "title": "Tanzania specific slides"
+        },
+	{
+          "_type": "link",
+          "title": "Open Data in a Day",
+          "description": "Slides for the single day version of the course",
+          "_link": "course/en/slides/Open_Data_Essentials_Tanzania.pdf"
+        },
+        {
+          "title": "Complete reference slides"
+        },
+        {
           "_type": "link",
           "title": "Definitions, Examples, Challenges and Opportunities",
           "description": "Slides for the morning session",
