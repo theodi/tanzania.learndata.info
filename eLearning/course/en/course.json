@@ -1,140 +1,113 @@
 {
-  "title": "Discovering open data",
-  "displayTitle": "Discovering open data",
-  "_latestTrackingId": 14,
-  "_resources": [
-    {
-      "title": "Modules",
-      "description": "Switch to another module",
-      "_filterButtons": {
-        "all": "All",
-        "document": "PDF",
-        "media": "Media",
-        "link": "Link"
+  "_globals": {
+    "_accessibility": {
+      "_accessibilityToggleTextOn": "Turn accessibility on?",
+      "_accessibilityToggleTextOff": "Turn accessibility off?",
+      "_accessibilityInstructions": {
+        "touch": "Usage instructions. Use swipe left for next. Use swipe right for previous. Use a double tab to select. Use a two finger slide up to go to the top of the page.",
+        "notouch": "Usage instructions. Use tab for next. Use shift tab for previous. Use enter to select. Use escape to go to the top of the page.",
+        "ipad": "Usage instructions for touchscreens. Use swipe left for next. Use swipe right for previous. Use a double tab to select. Use a two finger slide up to go to the top of the page. Usage instructions for keyboard access. Use left for next. Use right for previous. Use up and down together to select."
       },
-      "_resourcesItems": [
-        {
-          "_type": "link",
-          "_local": "true",
-          "title": "<span class='side-single-title'>Main menu</span>",
-          "_link": "index.html"
-        },
-        {
-          "_type": "link",
-          "_local": "true",
-          "title": "<object type='image/svg+xml' class='badge-icon-small' data='adapt/css/assets/badges/pathfinder.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/pathfinder.svg' src='adapt/css/assets/badges/pathfinder.png'></image></svg></object>Pathfinder 1<span class='sidebar-module-progress' id='ODI_1_tick_sidebar'></span>",
-          "description": "What is open data?",
-          "_link": "module1/"
-        },
-        {
-          "_type": "link",
-          "_local": "true",
-          "title": "<object type='image/svg+xml' class='badge-icon-small' data='adapt/css/assets/badges/adventurer.svg'><svg xmlns='http://www.w3.org/2000/svg' version='1.1' class='badge-icon-small'><image class='badge-icon-small' xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='adapt/css/assets/badges/adventurer.svg' src='adapt/css/assets/badges/adventurer.png'></image></svg></object>Adventurer 1<span class='sidebar-module-progress' id='ODI_4_tick_sidebar'></span>",
-          "description": "Why do we need to license?",
-          "_link": "module4/"
-        }
-      ]
+      "_ariaLabels": {
+        "navigation": "Course navigation bar",
+        "menuLoaded": "Menu loaded",
+        "menu": "Menu",
+        "menuItem": "Menu item",
+        "menuViewButton": "Select here to enter",
+        "page": "Page",
+        "pageLoaded": "Page loaded",
+        "previous": "Back",
+        "navigationBack": "Navigate back",
+        "navigationDrawer": "Open course resources and search",
+        "closeResources": "Close resources",
+        "drawerBack": "Back to drawer",
+        "drawer": "Side drawer",
+        "closePopup": "Close popup",
+        "next": "Next",
+        "done": "Done",
+        "complete": "Complete",
+        "incomplete": "Incomplete",
+        "correct": "Correct",
+        "locked": "Locked",
+        "accessibilityToggleButton": "By selecting this button you can set whether accessibility is turned on or off",
+        "feedbackPopUp": "Popup opened",
+        "visited": "Visited",
+        "menuBack": "Back to menu",
+        "menuIndicatorHeading": "Menu item heading "
+      }
     },
-    {
-      "title": "Credits and attribution",
-      "description": "View attribution for licensed content",
-      "_filterButtons": {
-        "all": "All",
-        "document": "PDF",
-        "media": "Media",
-        "link": "Link"
+    "_components": {
+      "_text": {
+        "ariaRegion": ""
       },
-      "_resourcesItems": []
+      "_narrative": {
+        "ariaRegion": "This component displays an image gallery with accompanying text. Use the next and back navigation controls to work through the narrative."
+      },
+      "_media": {
+        "ariaRegion": "This is a media component which plays a video. Select the play / pause button to watch or listen.",
+        "transcriptButton": "Alternatively you can select the link below for the transcript."
+      },
+      "_accordion": {
+        "ariaRegion": "This component is an accordion comprised of collapsible content panels containing display text. Select the item titles to toggle the visibility of these content panels."
+      },
+      "_graphic": {
+        "ariaRegion": ""
+      },
+      "_mcq": {
+        "ariaRegion": "This component is a multiple choice question. Once you have selected an option select the submit button below"
+      }
     },
-    {
-      "title": "Open data",
-      "description": "Download and use module content",
-      "_filterButtons": {
-        "all": "All",
-        "document": "PDF",
-        "media": "Media",
-        "link": "Link"
-      },
-      "_resourcesItems": [
-        {
-          "_type": "link",
-          "title": "<div align='center'><img class='download-image' src='adapt/css/assets/download.png'><p class='downloadp'>Download menu data</p></div>",
-          "description": "",
-          "_link": "course/en/components.json"
-        },
-        {
-          "_type": "link",
-          "title": "<div align='center'><img class='download-image' src='adapt/css/assets/download.png'><p class='downloadp'>Download sidebar data</p></div>",
-          "description": "",
-          "_link": "course/en/course.json"
-        },
-        {
-          "_type": "link",
-          "title": "Open data certificate",
-          "description": "<span class='open-data-certificate'><img alt='Badge' src='adapt/css/assets/badge.png'/><ul class='open-data-certificate-details'> <li> <span>Open: ODI eLearning Data</span> </li> <li> <span>Pilot Open Data Certificate (final)</span> </li> <li> <span>Active - self certified</span> </li> </ul> </span>",
-          "_link": "https://certificates.theodi.org/datasets/25215/certificate"
-        },
-        {
-          "_type": "link",
-          "title": "Open licence",
-          "description": "<div align='center'><img alt='Creative Commons Licence' style='border-width:0' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' /></div><br /><span xmlns:dct='http://purl.org/dc/terms/' property='dct:title'>Learning open data</span> by <span xmlns:cc='http://creativecommons.org/ns# property='cc:attributionName'>Open Data Institute</span> is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.",
-          "_link": "http://creativecommons.org/licenses/by-sa/4.0/"
-        },
-        {
-          "title": "Content usage",
-          "description": "The content, including text and structure is available for you to <em>use</em>, <em>reuse</em> and <em>share</em> (including for commercial purposes) subject to the conditions of the license above."
-        },
-        {
-          "title": "Exclusions",
-          "description": "This license does not cover: <ul><li>Logos and trade marks belonging to the Open Data Institute</li><li>Third party content (such as images)</li></ul>"
-        },
-        {
-          "title": "Non-endorsement",
-          "description": "This licence does not grant you any right to use the Information in a way that suggests any official status or that the Information Provider and/or Licensor endorse you or your use of the Information."
-        },
-        {
-          "title": "No warranty",
-          "description": "The Information is licensed 'as is'. The Open Data Institute is not liable for any errors or omissions in the Information and shall not be liable for any loss, injury or damage of any kind caused by its use. The Information Provider does not guarantee the continued supply of the Information."
-        }
-      ]
-    },
-    {
-      "title": "About",
-      "description": "Discover how this learning was created",
-      "_filterButtons": {
-        "all": "All",
-        "document": "PDF",
-        "media": "Media",
-        "link": "Link"
-      },
-      "_resourcesItems": [
-        {
-          "_type": "link",
-          "title": "ODI Training Team",
-          "description": "<div align='center'><img alt='ODI' style='border-width:0' src='adapt/css/assets/odi-logo.png' /></div><br />Expert knowledge, content development and learning plans provided by the by <span xmlns:cc='http://creativecommons.org/ns# property='cc:attributionName'>Open Data Institute</span> training team.",
-          "_link": "http://theodi.org/training_team"
-        },
-        {
-          "_type": "link",
-          "title": "Sponge UK",
-          "description": "<div align='center'><img alt='Sponge UK' style='border-width:0' src='adapt/css/assets/sponge.png' /></div><br />Learning solutions, content production and eLearning expertise provided by <span xmlns:cc='http://creativecommons.org/ns# property='cc:attributionName'>Sponge UK</span>.",
-          "_link": "http://www.spongeuk.com"
-        },
-        {
-          "_type": "link",
-          "title": "Adapt learning",
-          "description": "<div align='center'><img alt='Adapt learning' style='border-width:0' src='adapt/css/assets/adapt.png' /></div><br />Open source learning platform developed by <span xmlns:cc='http://creativecommons.org/ns# property='cc:attributionName'>Adapt learning</span>.",
-          "_link": "https://community.adaptlearning.org/"
-        }
-      ]
+    "_extensions": {
+      "_pageLevelProgress": {
+        "pageLevelProgress": "Page sections",
+        "pageLevelProgressIndicatorBar": "Progress bar. Select here to view your current progress, and select an item to navigate to it. You have completed ",
+        "pageLevelProgressMenuBar": "You have completed ",
+        "pageLevelProgressEnd": "You have reached the end of the list of page sections.",
+        "optionalContent": "Optional Content"
+      }
     }
-  ],
+  },
   "_id": "course",
+  "_start": {
+    "_isEnabled": false,
+    "_startIds": [],
+    "_force": false,
+    "_isMenuDisabled": false
+  },
   "_type": "course",
+  "_lockType": "",
+  "_classes": "",
   "_buttons": {
-    "submit": "Submit",
-    "reset": "Reset",
-    "showCorrectAnswer": "Model Answer",
-    "hideCorrectAnswer": "My Answer"
+    "_submit": {
+      "buttonText": "Submit",
+      "ariaLabel": "Submit"
+    },
+    "_reset": {
+      "buttonText": "Reset",
+      "ariaLabel": "Reset"
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Show correct answer",
+      "ariaLabel": "Show correct answer"
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "Hide correct answer",
+      "ariaLabel": "Hide correct answer"
+    },
+    "_showFeedback": {
+      "buttonText": "Show feedback",
+      "ariaLabel": "Show feedback"
+    },
+    "remainingAttemptsText": "remaining attempts",
+    "remainingAttemptText": "final attempt",
+    "disabledAriaLabel": "This button is disabled at the moment"
+  },
+  "_latestTrackingId": 47,
+  "body": "<p dir=\"ltr\">Incorrect use of spreadsheets is a key challenge for data quality. Data that is not well managed cannot answer important&nbsp;questions or be used easily.&nbsp;Good management of data makes it easy to ensure data quality, and analyse and visualise results.</p>\n\n<p dir=\"ltr\">This course will enable you to organise spreadsheet data,&nbsp;use&nbsp;tools to filter &amp; analyse data and produce&nbsp;an&nbsp;interactive data visualisation.</p>\n",
+  "displayTitle": "Foundations in data management",
+  "title": "Foundations in data management",
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_showPageCompletion": true
   }
 }

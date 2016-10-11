@@ -1,40 +1,46 @@
 [
   {
-    "_id": "a-01",
-    "_parentId": "co-01",
+    "_id": "57d923304d7b7e82691e3c57",
+    "_parentId": "57d923304d7b7e82691e3c56",
     "_type": "article",
-    "_classes": "header",
-    "_trickle": {
-      "_isEnabled": false,
-      "button": "Continue to next question?"
-    },
-    "_assessment": {
-      "_isEnabled": true,
-      "_showFeedback": false,
-      "_isPercentageBased": true,
-      "_scoreToPass": 60,
-      "_completionMessage": {
-        "title": "You have finished the assessment",
-        "message": "You have scored [SCORE] out of [MAXSCORE].  [FEEDBACK]"
-      },
-      "_bands": [
-        {
-          "_score": 0,
-          "feedback": "You must try harder"
-        },
-        {
-          "_score": 25,
-          "feedback": "I think you can do better than this"
-        },
-        {
-          "_score": 50,
-          "feedback": "Good effort, you are getting there..."
-        },
-        {
-          "_score": 75,
-          "feedback": "Excellent!"
-        }
-      ]
-    }
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "body": "",
+    "displayTitle": " ",
+    "title": " "
+  },
+  {
+    "_id": "57d9233c4d7b7e82691e3c5a",
+    "_parentId": "57d9233c4d7b7e82691e3c59",
+    "_type": "article",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "body": "",
+    "displayTitle": " ",
+    "title": " "
+  },
+  {
+    "_id": "57d923514d7b7e82691e3c5d",
+    "_parentId": "57d923514d7b7e82691e3c5c",
+    "_type": "article",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "body": "",
+    "displayTitle": " ",
+    "title": " "
+  },
+  {
+    "_id": "57d9235b4d7b7e82691e3c60",
+    "_parentId": "57d9235b4d7b7e82691e3c5f",
+    "_type": "article",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "body": "",
+    "displayTitle": " ",
+    "title": " "
   }
 ]

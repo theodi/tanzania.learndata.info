@@ -1,1 +1,64 @@
-{"_moduleId":"ODI_nav","_defaultLanguage":"en","_questionWeight":1,"_drawer":{"_showEasing":"easeOutQuart","_hideEasing":"easeInQuart","_duration":400},"_spoor":{"_tracking":{"_requireCourseCompleted":true,"_requireAssessmentPassed":false,"_shouldSubmitScore":true},"_reporting":{"_comment":"Your options here are 'completed', 'passed', 'failed', and 'incomplete'","_onTrackingCriteriaMet":"completed","_onAssessmentFailure":"failed"}},"_phrases":{"cloud_saving":"<b>Syncing...</b><br/>Your progress is being synced to the cloud to enable you to resume your learning later.","cloud_success":"<b>Sync successful</b><br/>Your progress has been saved to the cloud. You can safely close this window.","cloud_failed":"<b>Sync failed</b></br>Your progress is being saved locally only. You can continue to learn. To sync your progress, simply reconnect to the internet before closing this window.","enter_email":"<h5>Save your progress, earn rewards...</h5><p>Please enter your <b>email</b> address in the box below. You will receive an email linking to your unique profile so you can save your progress, earn rewards and resume your learning on any device.</p><br/><div align='center'><input type='email' id='email' class='email-input' placeholder='Email address' required></input><br/><br/><input type='submit' id='email_submit' value='OK' style='padding: 10px;' class='course_link tutor-done' onClick='getEmail();'></input></div>","nav_help":"<h5>Quick Start</h5><table class='help'><tr><td class='getting-started'><div id='menu'><div class='navigation-drawer-toggle-button icon icon-list'><span id='drawText'>Menu</span></div></td><td>Navigate between modules (including main menu) and locate additional resources connected to each module.</td></tr><tr><td class='getting-started'><img src='course/en/images/progress.png'</td><td>View module progress. Click for in module navigation.</td></tr><tr><td class='getting-started'><img id='cloud-status-img2' src='adapt/css/assets/cloud_failed.gif'></td><td>Cloud syncronisation status for resuming progress on any device.</td></tr></table>"},"screenSize":{"small":519,"medium":759,"large":1024}}
+{
+  "_defaultLanguage": "en",
+  "_defaultDirection": "ltr",
+  "_questionWeight": 1,
+  "_generateSourcemap": false,
+  "_forceRouteLocking": true,
+  "screenSize": {
+    "large": 1024,
+    "medium": 759,
+    "small": 519
+  },
+  "_id": "57d9232d4d7b7e82691e3c55",
+  "_drawer": {
+    "_duration": 400,
+    "_hideEasing": "easeInQuart",
+    "_showEasing": "easeOutQuart"
+  },
+  "_courseId": "57d9232d4d7b7e82691e3c54",
+  "_accessibility": {
+    "_isTextProcessorEnabled": false,
+    "_shouldSupportLegacyBrowsers": true,
+    "_isEnabled": false
+  },
+  "__v": 0,
+  "_aboutPage": {
+    "_items": [
+      {
+        "_graphic": {
+          "src": "http://accelerate.theodi.org/en/module1/adapt/css/assets/odi-logo.png",
+          "alt": "The Open Data Institute"
+        },
+        "description": "<p>Expert knowledge and content development provided by the <span>Open Data Institute</span>.</p>\n",
+        "title": "The Open Data Institute"
+      },
+      {
+        "_graphic": {
+          "src": "http://accelerate.theodi.org/en/module1/adapt/css/assets/adapt.png",
+          "alt": "Adapt eLearning"
+        },
+        "description": "<p>Open source learning platform developed by <span>Adapt elearning</span>.</p>\n",
+        "title": "Adapt eLearning"
+      }
+    ]
+  },
+  "_tutor": {
+    "_isEnabled": false
+  },
+  "build": {
+    "includes": [
+      "adapt-theme-wbtz",
+      "adapt-contrib-boxMenu",
+      "adapt-skillsFramework",
+      "adapt-contrib-tutor",
+      "adapt-contrib-pageLevelProgress",
+      "adapt-contrib-aboutPage",
+      "adapt-contrib-text",
+      "adapt-contrib-graphic",
+      "adapt-contrib-narrative",
+      "adapt-contrib-mcq",
+      "adapt-contrib-accordion",
+      "adapt-contrib-media"
+    ]
+  }
+}

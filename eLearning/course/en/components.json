@@ -1,146 +1,3163 @@
 [
-    {
-        "_id":"c-01",
-        "_parentId":"b-01",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"intro-logo",
-        "_layout":"right",
-        "title":"",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "",
-            "medium": "",
-            "small": ""
-        }
+  {
+    "_id": "57f7c9334d7b7e82691e3f0d",
+    "_layout": "right",
+    "_parentId": "57d923514d7b7e82691e3c5e",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "intro-logo",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
     },
-    {
-        "_id":"c-02",
-        "_parentId":"b-01",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Welcome",
-        "displayTitle":"Welcome",
-        "body":"<p>Welcome to the Tanzania e-learning programme, bought to you by the World Bank and Open Data Institute. This programme has been designed to enable you to discover what open data is and how publish your own under the correct open data licence.</p><p><em>Scroll down to discover each of the available lessons</em></p>",
-        "instruction":"",
-        "_pageLevelProgress": {
-            "_isEnabled": false
-        }
+    "instruction": ""
+  },
+  {
+    "_id": "57ea72bc4d7b7e82691e3d48",
+    "_layout": "left",
+    "_parentId": "57d970924d7b7e82691e3ced",
+    "_type": "component",
+    "body": "<p>A pivot table is a powerful&nbsp;data summary tool found in all spreadsheet tools.&nbsp;Among other functions, a pivot table can automatically sort, count, total or give the average of the data stored in one table or spreadsheet, displaying the results in a second table.</p>\n\n<p>Pivot tables also give you the ability to &quot;Pivot&quot; or rotate the data,&nbsp;changing the column and row labels used from the original dataset.&nbsp;</p>\n\n<p>The example video demonstrates how to create a simple pivot table that gives the total number of health facilities per star rating. Here, the star ratings are used as the row labels and we have one column of data that represents the total count of facilities for each rating.&nbsp;</p>\n\n<p>Try following this through with your own dataset.&nbsp;</p>\n",
+    "displayTitle": "Pivot tables",
+    "title": "Pivot tables",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
     },
-    {
-        "_id":"c-11",
-        "_parentId":"b-10",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/odi-1-text-image_large.jpg",
-            "medium": "course/en/images/odi-1-text-image_large.jpg",
-            "small": "course/en/images/odi-1-text-image_large.jpg"
-        }
+    "instruction": ""
+  },
+  {
+    "_id": "57ea77864d7b7e82691e3d4c",
+    "_layout": "right",
+    "_parentId": "57ea77794d7b7e82691e3d4a",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Component title",
+    "title": "Component title",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
     },
-    {
-        "_id":"c-12",
-        "_parentId":"b-10",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Pathfinder 1  - What is open data?",
-        "displayTitle":"Pathfinder 1 - What is open data?",
-        "body":"<progress style='width: 100%;' id='ODI_1' max='100' value='0'></progress><p>Open data is <strong>data</strong> that <strong>anyone</strong> can <strong>access</strong>, <strong>use</strong> and <strong>share</strong>. Governments, businesses and individuals can use open data to bring about social, economic and environmental benefits.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>What is open data?</li><li>What is data?</li><li>What makes data open?</li><li>Why do we need open data?</li></ul><p><a class='course_link' href='module1/' style='color: #49ac2e;'>Click here to learn more</a></p>"
-    },
-    {
-        "_id":"c-28",
-        "_parentId":"b-28",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"right",
-        "title":"Adventurer 1 - Why do we need to license?",
-        "displayTitle":"Adventurer 1 - Why do we need to license?",
-        "body":"<progress style='width: 100%;' id='ODI_4' max='100' value='0'></progress><p>For data to be open, it should be accessible (this usually means being published online) and licensed for anyone to access, use and share.</p><h5>In this module we’ll explore the following:</h5><ul class='ticks'><li>Why open data needs to be licensed</li><li>How licences unlock the value of open data</li><li>What type of licence suits open data</li><li>How to provide for open data licensing in the tender, procurement and contracting lifecycle</li></ul><p><a class='course_link' href='module4/' style='color: white;'>Click here to learn more</a></p>"
-    },
-    {
-        "_id":"c-29",
-        "_parentId":"b-28",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/odi-4-text-image_large.jpg",
-            "medium": "course/en/images/odi-4-text-image_large.jpg",
-            "small": "course/en/images/odi-4-text-image_large.jpg"
-        }
-    },
-    {
-        "_id":"c-151",
-        "_parentId":"b-150",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"",
-        "_layout":"right",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/summary-icon.png",
-            "medium": "course/en/images/summary-icon.png",
-            "small": "course/en/images/summary-icon.png"
-        }
-    },
-    {
-        "_id":"c-152",
-        "_parentId":"b-150",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"",
-        "_layout":"left",
-        "title":"Learn more",
-        "displayTitle":"Learn more",
-        "body":"<p>We hope you have enjoyed our eLearning course. The World Bank and Open Data Institute also run workshops on open data. If you are interested in attenting one of our workshops and developing your knowledge further, please contant the World Bank in Tanzania.</p>"
-    },
-    {
-       "_id":"c-153",
-       "_parentId":"b-150",
-       "_type":"component",
-       "_component":"text",
-       "_classes":"separator",
-       "_layout":"full"
-    },
-    {
-        "_id":"c-154",
-        "_parentId":"b-150",
-        "_type":"component",
-        "_component":"graphic",
-        "_classes":"footer-logo",
-        "_layout":"left",
-        "_graphic": {
-            "alt": "",
-            "title": "",
-            "large": "course/en/images/logo-small.png",
-            "medium": "course/en/images/logo-small.png",
-            "small": "course/en/images/logo-small.png"
-        }
-    },
-    {
-        "_id":"c-155",
-        "_parentId":"b-150",
-        "_type":"component",
-        "_component":"text",
-        "_classes":"social-buttons",
-        "_layout":"right",
-        "body":"<a class='social' target='_blank' href='https://twitter.com/ODIHQ'><img src='course/en/images/social/twitter.png'></a><a class='social' target='_blank' href='https://soundcloud.com/theodi'><img src='course/en/images/social/sound.png'></a><a class='social' target='_blank' href='https://www.scribd.com/OpenDataInstitute'><img src='course/en/images/social/scribd.png'></a><a class='social' target='_blank' href='https://github.com/theodi'><img src='course/en/images/social/github.png'></a><a class='social' target='_blank' href='https://vimeo.com/theodiuk'><img src='course/en/images/social/vimeo.png'></a><a class='social' target='_blank' href='https://www.youtube.com/user/OpenDataInstituteUK'><img src='course/en/images/social/youtube.png'></a><a class='social' target='_blank' href='https://www.flickr.com/photos/ukodi/'><img src='course/en/images/social/flickr.png'></a>"
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "small": "course/en/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "attribution": ""
     }
+  },
+  {
+    "_id": "57ea77844d7b7e82691e3d4b",
+    "_layout": "left",
+    "_parentId": "57ea77794d7b7e82691e3d4a",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Are you ready to analyse data?",
+    "title": "Are you ready to analyse data?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57ea79a04d7b7e82691e3d54",
+    "_layout": "right",
+    "_parentId": "57ea79924d7b7e82691e3d52",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/cbc3111c790ef8c93289feee2b4883483ffb5eef.png",
+      "small": "course/en/assets/cbc3111c790ef8c93289feee2b4883483ffb5eef.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ea79eb4d7b7e82691e3d5c",
+    "_layout": "left",
+    "_parentId": "57ea79d74d7b7e82691e3d5b",
+    "_type": "component",
+    "body": "<p>In this module we have seen how simple it can be to process data once it is organised in the correct structure.&nbsp;</p>\n\n<p>If you haven&#39;t already, try applying what you have learnt to the <a href=\"https://drive.google.com/open?id=0B1VBoooQ3X5jT0RSOVk3SnJuWlU\" target=\"_blank\">course spreadsheet</a>. You can then submit this to your course leader who can check your work and help if you get stuck.&nbsp;</p>\n\n<p>In the last module, we shall introduce a technique for creating a fully interactive web based dashboard, giving you the ability&nbsp;to filter and slice the data&nbsp;any way you like.</p>\n",
+    "displayTitle": "Filtering and analysing data",
+    "title": "Filtering and analysing data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57f7c8af4d7b7e82691e3f0c",
+    "_layout": "right",
+    "_parentId": "57d923304d7b7e82691e3c58",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "intro-logo",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57d924ec4d7b7e82691e3c63",
+    "_layout": "left",
+    "_parentId": "57d923304d7b7e82691e3c58",
+    "_type": "component",
+    "body": "<p>A common challenge&nbsp;in&nbsp;ensuring data quality is difficulties in the use of spreadsheets. When data is properly managed, it is much easier to answer&nbsp;fundamental questions and conduct analysis. Correctly managed data also ensures you aren&#39;t making decisions based on faulty evidence.</p>\n\n<p>In this module&nbsp;we look at how to effectively structure a spreadsheet for raw data collection. We will cover:</p>\n\n<ul>\n\t<li>Spreadsheet layouts</li>\n\t<li>Column titles&nbsp;</li>\n\t<li>Header&nbsp;rows and the freeze function</li>\n\t<li>Data types</li>\n</ul>\n\n<p>At the end of this module you can try out what you&#39;ve learnt on a spreadsheet.&nbsp;&nbsp;&nbsp;</p>\n",
+    "displayTitle": "Organising data",
+    "title": "Organising data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57d9283f4d7b7e82691e3c69",
+    "_layout": "right",
+    "_parentId": "57d928244d7b7e82691e3c67",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/f567f50e011e71485c9eb21a1e9d6119f544fdf9.jpg",
+      "small": "course/en/assets/f567f50e011e71485c9eb21a1e9d6119f544fdf9.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57d928504d7b7e82691e3c6b",
+    "_layout": "left",
+    "_parentId": "57d928414d7b7e82691e3c6a",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/150aa6be91b027df586d916404c59e090abe2955.jpg",
+      "small": "course/en/assets/150aa6be91b027df586d916404c59e090abe2955.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57d929cf4d7b7e82691e3c71",
+    "_layout": "right",
+    "_parentId": "57d928564d7b7e82691e3c6d",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/fba5b742f2ac63be0832177cc5f57aaa3c6e907f.jpg",
+      "small": "course/en/assets/fba5b742f2ac63be0832177cc5f57aaa3c6e907f.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57d928224d7b7e82691e3c66",
+    "_layout": "full",
+    "_parentId": "57d928124d7b7e82691e3c65",
+    "_type": "component",
+    "body": "<p dir=\"ltr\">Effective organisation and careful management of data makes it easier&nbsp;to ensure data quality, and analyse or visualise results. This starts with understanding the basics of a spreadsheet and creating a good template in which to collect data.&nbsp;</p>\n\n<p dir=\"ltr\">Discover the fundamentals of spreadsheet layouts below.</p>\n",
+    "displayTitle": "Spreadsheet layouts",
+    "title": "Spreadsheet layouts",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "narrative",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Click the forward arrow to see more.",
+    "mobileInstruction": "Click the ‘+’ sign to explore further, then swipe the image to see more.",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Rows, Columns and values",
+        "body": "<p>Ensure you understand these important aspects and use them correctly.</p>\n\n<p><strong>Rows:&nbsp;</strong>A row represents a <strong>single</strong> record&nbsp;in your collection. For example in a dataset of companies, each row must represent a single company and in a dataset of health facilities each row must only represent a single facility.&nbsp;</p>\n\n<p><strong>Columns:&nbsp;</strong>A column defines a feature (or field) for every record. For example in a dataset of people a good field to collect would be &quot;first name&quot;.</p>\n\n<p><strong>Values:&nbsp;</strong>Values are what is recorded in each row/column. For example &quot;Emily&quot; would be the value for the &quot;first name&quot; of a single person in a dataset of people.&nbsp;</p>\n",
+        "_graphic": {
+          "src": "course/en/assets/3ac1ca1d49aabed619376b10f9ab5785b75ac774.jpg",
+          "alt": ""
+        },
+        "strapline": "Rows, columns and values"
+      },
+      {
+        "title": "Sheets and multiple sheets",
+        "body": "<p>Each sheet in a spreadsheet should&nbsp;<strong>only contain one table</strong>.</p>\n\n<p>Start your table at row 1, column 1 (top left corner).</p>\n\n<p>Avoid adding multiple tables starting in different parts of the sheet&nbsp;(e.g. column L row 16).</p>\n\n<p>You should also avoid using multiple sheets unless it is&nbsp;necessary to collect multiple different datasets in one spreadsheet.&nbsp;</p>\n\n<p>For Example: If you are collecting a dataset of companies, add them all to a single sheet and avoid&nbsp;dividing&nbsp;them by type or location of company. You may end up with a sheet containing many thousands of rows, however it is easier to filter a single sheet than multiple sheets (covered in a later module).</p>\n",
+        "_graphic": {
+          "src": "course/en/assets/573957752a5406198646932aca0d3797f675cd7f.jpg",
+          "alt": ""
+        },
+        "strapline": "Sheets and multiple sheets"
+      }
+    ]
+  },
+  {
+    "_id": "57d9283d4d7b7e82691e3c68",
+    "_layout": "left",
+    "_parentId": "57d928244d7b7e82691e3c67",
+    "_type": "component",
+    "body": "<p>Column titles are essential to ensuring that data can be collected and used correctly.</p>\n\n<p>Keep your column titles clear,&nbsp;concise and relevant to the dataset. Avoid using acronyms or other abbreviations, as they could be confusing.</p>\n\n<p>If you are collecting numbers in your data, don&#39;t forget to define the units and be&nbsp;as clear as possible in the description. For example:&nbsp;&quot;Cost ($millions)&quot; would be&nbsp;a clearer&nbsp;title than &quot;Cost&quot; or&nbsp;&quot;Cost ($m)&quot;.</p>\n\n<p>Ensure your column titles are only contained in a single row &ndash;&nbsp;preferably the first row in the spreadsheet, starting at A,1.</p>\n\n<p>&nbsp;</p>\n",
+    "displayTitle": "Perfect column titles",
+    "title": "Perfect column titles",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57d928544d7b7e82691e3c6c",
+    "_layout": "right",
+    "_parentId": "57d928414d7b7e82691e3c6a",
+    "_type": "component",
+    "body": "<p>The freeze function is useful when viewing&nbsp;and managing&nbsp;large datasets.&nbsp;It &#39;freezes&#39; the column titles at the top of the page, so you can always&nbsp;check your value against the associated&nbsp;row and column, without scrolling back up to the top.&nbsp;</p>\n\n<p>This function can be&nbsp;accessed from the &#39;View&#39; menu of most spreadsheet applications.&nbsp;</p>\n",
+    "displayTitle": "Header rows and the freeze function",
+    "title": "Header rows and the freeze function",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57d943514d7b7e82691e3c87",
+    "_layout": "right",
+    "_parentId": "57d943314d7b7e82691e3c85",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "small": "course/en/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57d943ee4d7b7e82691e3c93",
+    "_layout": "right",
+    "_parentId": "57d943dd4d7b7e82691e3c91",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/573957752a5406198646932aca0d3797f675cd7f.jpg",
+      "small": "course/en/assets/573957752a5406198646932aca0d3797f675cd7f.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57d943ed4d7b7e82691e3c92",
+    "_layout": "left",
+    "_parentId": "57d943dd4d7b7e82691e3c91",
+    "_type": "component",
+    "body": "<p>What is the maximum number of tables that you should have on each sheet of a spreadsheet?</p>\n\n<p>Hint: The number of tables per sheet should equal&nbsp;the number of records per row.</p>\n",
+    "displayTitle": "How many tables per sheet?",
+    "title": "How many tables per sheet?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select one option and then click submit",
+    "_items": [
+      {
+        "text": "One",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Two",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "As many as you like",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p>That&#39;s right!</p>\n\n<p>You should only have one table per sheet and one record per row. This will make processing and filtering the data easier. Don&#39;t use your spreadsheet to make data&nbsp;look pretty at time of collection, use it to collect accurate data.&nbsp;</p>\n",
+      "_incorrect": {
+        "final": "<p>Are you sure about that?</p>\n\n<p>You should only have one table per sheet and one record per row. This will make processing and filtering the data easier. Don&#39;t use your spreadsheet to make data&nbsp;look pretty at time of collection, use it to collect accurate data.&nbsp;</p>\n",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "57d945314d7b7e82691e3c9e",
+    "_layout": "right",
+    "_parentId": "57d944fc4d7b7e82691e3c9d",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/150aa6be91b027df586d916404c59e090abe2955.jpg",
+      "small": "course/en/assets/150aa6be91b027df586d916404c59e090abe2955.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57d945344d7b7e82691e3c9f",
+    "_layout": "left",
+    "_parentId": "57d944fc4d7b7e82691e3c9d",
+    "_type": "component",
+    "body": "<p>Which feature of a spreadsheet application allows you to keep the column titles visible at all times?</p>\n",
+    "displayTitle": "Keeping column titles in view",
+    "title": "Keeping column titles in view",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select one option and click submit",
+    "_items": [
+      {
+        "text": "Freeze rows",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Replicate header row",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Use multiple sheets",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p>That&#39;s right!</p>\n\n<p>The Freeze function allows you to keep certain rows visible even when you scroll through 10,000 rows.&nbsp;</p>\n",
+      "_incorrect": {
+        "final": "<p>Are you sure about that?</p>\n\n<p>The Freeze function allows you to keep certain rows visible even when you scroll through 10,000 rows.&nbsp;&nbsp;</p>\n",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "57d9461a4d7b7e82691e3caa",
+    "_layout": "left",
+    "_parentId": "57d9453b4d7b7e82691e3ca0",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/f567f50e011e71485c9eb21a1e9d6119f544fdf9.jpg",
+      "small": "course/en/assets/f567f50e011e71485c9eb21a1e9d6119f544fdf9.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57d946224d7b7e82691e3cab",
+    "_layout": "right",
+    "_parentId": "57d9453b4d7b7e82691e3ca0",
+    "_type": "component",
+    "body": "<p>Which of the column titles below would be the&nbsp;most appropriate for the name of a healthcare facility?&nbsp;</p>\n",
+    "displayTitle": "Which is the best column title?",
+    "title": "Which is the best column title?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select one answer and click submit",
+    "_items": [
+      {
+        "text": "HFN",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Name",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Facility name",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p>That&#39;s right!</p>\n\n<p>Be as descriptive&nbsp;as you can with your column titles. <em>Facility name</em> is better than <em>N</em><em>ame</em>&nbsp;as it is specific and clear. You could also expand the title further to <em>Heath care facility name</em>, but if&nbsp;this is&nbsp;clear from the title of the dataset, it may not be necessary.</p>\n",
+      "_incorrect": {
+        "final": "<p>Are you sure about that?</p>\n\n<p>Be as descriptive&nbsp;as you can with your column titles. <em>Facility name</em> is better than <em>N</em><em>ame</em>&nbsp;as it is specific and clear. You could also expand the title further to <em>Heath care facility name</em>, but if&nbsp;this is&nbsp;clear from the title of the dataset, it may not be necessary.</p>\n",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "57d9474f4d7b7e82691e3cbf",
+    "_layout": "left",
+    "_parentId": "57d947404d7b7e82691e3cbe",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/fba5b742f2ac63be0832177cc5f57aaa3c6e907f.jpg",
+      "small": "course/en/assets/fba5b742f2ac63be0832177cc5f57aaa3c6e907f.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57d947534d7b7e82691e3cc0",
+    "_layout": "right",
+    "_parentId": "57d947404d7b7e82691e3cbe",
+    "_type": "component",
+    "body": "<p>Which data type is best to represent the rating of a facility on a scale of 0-5 stars?</p>\n",
+    "displayTitle": "Which data type?",
+    "title": "Which data type?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Pick one answer and click submit",
+    "_items": [
+      {
+        "text": "Numbers (e.g. 1)",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "String/Text (e.g. \"1 star\")",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Stars (e.g. ★)",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p>That&#39;s right!</p>\n\n<p>When recording data that is on a scale, it is best to use numbers which can be easily sorted. Using text such as <em>1 star</em>&nbsp;limits how the data can be used. Avoid custom datatypes that cannot be&nbsp;not easily sorted (e.g.&nbsp;★★★).&nbsp;</p>\n",
+      "_incorrect": {
+        "final": "<p>Are you sure about that?</p>\n\n<p>When recording data that is on a scale, it is best to use numbers which can be easily sorted. Using text such as <em>1 star</em>&nbsp;limits how the data can be used. Avoid custom datatypes that cannot be&nbsp;not easily sorted&nbsp;(e.g.&nbsp;★★★).&nbsp;</p>\n",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "57d94bb44d7b7e82691e3ccc",
+    "_layout": "right",
+    "_parentId": "57d94b6a4d7b7e82691e3cca",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/e9bfc830784387f82fd0b7576fdd19a235432d2e.png",
+      "small": "course/en/assets/e9bfc830784387f82fd0b7576fdd19a235432d2e.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57d94baf4d7b7e82691e3ccb",
+    "_layout": "left",
+    "_parentId": "57d94b6a4d7b7e82691e3cca",
+    "_type": "component",
+    "body": "<p>You can test what you have learned in this module&nbsp;by correcting a&nbsp;messy spreadsheet.&nbsp;</p>\n\n<p><a href=\"https://drive.google.com/open?id=0B1VBoooQ3X5jeEQycHo4OG4tclE\" target=\"_blank\">Download and open this spreadsheet</a> in your favourite spreadsheet application. Then&nbsp;see if you can fix the errors &nbsp;&ndash;&nbsp;relating to structure, content and&nbsp;layout &ndash; that you learnt about in this module.&nbsp;The spreadsheet contains two sheets of data from the same health facility star-ratings dataset,&nbsp;from different regions in Tanzania.</p>\n\n<p>In order to track your changes on the spreadsheet, you may want to open a new tab or make a new spreadsheet. Create&nbsp;new columns,&nbsp;then add the records from the existing datasets into your new spreadsheet.&nbsp;</p>\n\n<p>Once you are finished, submit the finished spreadsheet over email to your course coordinator, who will give you feedback.&nbsp;You can receive additional credit&nbsp;for the use of advanced functions, like data verification.&nbsp;</p>\n",
+    "displayTitle": "Test your spreadsheet skills",
+    "title": "Test your spreadsheet skills",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57d942a74d7b7e82691e3c7e",
+    "_layout": "left",
+    "_parentId": "57d9233c4d7b7e82691e3c5b",
+    "_type": "component",
+    "body": "<p>Once your data is nicely organised, we can now begin to filter and analyse the data.</p>\n\n<p>In this module we will learn how to:</p>\n\n<ul>\n\t<li>Sort and filter&nbsp;data in a spreadsheet</li>\n\t<li>Apply&nbsp;formula to generate simple statistics</li>\n\t<li>Create a number of pivot tables</li>\n\t<li>Create a number of summary graphs</li>\n</ul>\n\n<p>To prepare you for this exercise you will need <a href=\"https://drive.google.com/open?id=0B1VBoooQ3X5jT0RSOVk3SnJuWlU\" target=\"_blank\">this spreadsheet</a>. Note that it has two sheets;&nbsp;the first tab holds the data,&nbsp;and the second tab called &#39;Statistics&#39; will&nbsp;be used when we look at formula.&nbsp;</p>\n",
+    "displayTitle": "Filtering and analysing data",
+    "title": "Filtering and analysing data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57d9664c4d7b7e82691e3ce4",
+    "_layout": "left",
+    "_parentId": "57d962364d7b7e82691e3cdd",
+    "_type": "component",
+    "body": "<p>Sorting and filtering data helps you see trends in the data.&nbsp;</p>\n\n<p>Before applying any sort or filter operations, ensure that you have frozen your header rows.</p>\n\n<p>Use the video on the right to help guide you.</p>\n",
+    "displayTitle": "Sorting and filtering data",
+    "title": "Sorting and filtering data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "title": "Sorting data",
+        "body": "<p>To sort a column, simply select the column header you want to sort the data by and then select&nbsp;the sort option,&nbsp;normally available from the Data menu or panel in most spreadsheet applications.</p>\n\n<p>You can then choose how you want to sort the data.</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Filtering data",
+        "body": "<p>Filters allow you to limit the data that you see.</p>\n\n<p>To apply a filter,&nbsp;select any cell in your header row and click the filter icon. This is normally available from the same place that the sort function is found.</p>\n\n<p>Once selected, you will notice that your header row gains a dropdown option. Selecting or unselecting the data shown in this dropdown&nbsp;will allow you to both sort and filter the values in a row. This will hide the data, but not get rid of it.&nbsp;</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "57d968034d7b7e82691e3ce5",
+    "_layout": "right",
+    "_parentId": "57d962364d7b7e82691e3cdd",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "media",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_media": {
+      "mp4": "course/en/assets/e8665f7df3eb3bb19b9c8bcba1bacf34892e333f.mp4",
+      "ogv": "",
+      "mp3": "",
+      "source": "",
+      "type": "",
+      "poster": "course/en/assets/b5e801fcbbbe13561e78712f23d58e5b3554dfb7.png",
+      "cc": []
+    },
+    "_setCompletionOn": "inview",
+    "_useClosedCaptions": false,
+    "_startLanguage": "en",
+    "_allowFullScreen": true,
+    "_transcript": {
+      "_setCompletionOnView": true,
+      "_inlineTranscript": false,
+      "_externalTranscript": false,
+      "inlineTranscriptButton": "",
+      "inlineTranscriptCloseButton": "",
+      "inlineTranscriptBody": "",
+      "transcriptLinkButton": "",
+      "transcriptLink": ""
+    },
+    "_playerOptions": ""
+  },
+  {
+    "_id": "57d969234d7b7e82691e3cea",
+    "_layout": "right",
+    "_parentId": "57d969184d7b7e82691e3ce8",
+    "_type": "component",
+    "body": "<p>Spreadsheet applications have powerful formula functions to help you analyse the data. Here we are going to look at few of the simple formulas.&nbsp;</p>\n\n<p>This is where we will use the separate sheet in our spreadsheet for statistics. This means we will avoid&nbsp;including unnecessary tables in with our dataset or limiting the ability to add additional rows. All the formula used means that you can still add data to the original sheet and the statistics will automatically update in the second sheet.&nbsp;</p>\n\n<p>Again, you can use the video to help guide you.</p>\n",
+    "displayTitle": "Formula and statistics",
+    "title": "Formula and statistics",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "title": "Averages",
+        "body": "<p>Calculating averages is a common operation with any numeric data. But remember, there is more than one type of average!</p>\n\n<p>In the statistics sheet of the spreadsheet, we want to find out the&nbsp;mean and mode star ratings. These can be added by using the <strong>AVERAGE()</strong> and <strong>MODE()</strong> formula on the star rating column.&nbsp;</p>\n\n<p>To calculate the <strong>AVERAGE()</strong>&nbsp;star rating, type the following formula&nbsp;into the correct cell in the statistics sheet and then follow&nbsp;the instruction in italics.&nbsp;</p>\n\n<p><strong>=AVERAGE(&nbsp;</strong><em>click Star Rating column in data sheet&nbsp;</em><strong>)</strong></p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Lowest and highest values",
+        "body": "<p>To find out what the lowest and highest star ratings are, you can use the <strong>MIN()</strong> and <strong>MAX()</strong> formula.&nbsp;</p>\n\n<p>e.g.&nbsp;</p>\n\n<p><strong>=MAX(&nbsp;</strong><em>click Star Rating column in data sheet&nbsp;</em><strong>)</strong></p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Count the number of items",
+        "body": "<p>The <strong>COUNT() </strong>and <strong>COUNTA() </strong>functions help to count how many items exist&nbsp;in a large sheet.&nbsp;</p>\n\n<p><strong>COUNT()</strong> and <strong>COUNTA()</strong>&nbsp;are two very similar functions. The difference between them is that&nbsp;<strong>COUNT()</strong>&nbsp;only&nbsp;counts&nbsp;cells containing numbers but&nbsp;<strong>COUNTA()</strong>&nbsp;counts&nbsp;all cells that aren&#39;t empty, meaning it will also count cells with text or other characters.</p>\n\n<p>You can obtain the count of star rated facilities using the following formula.&nbsp;</p>\n\n<p><strong>=COUNT(&nbsp;</strong><em>click Star Rating column in data sheet&nbsp;</em><strong>)</strong></p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "57d969204d7b7e82691e3ce9",
+    "_layout": "left",
+    "_parentId": "57d969184d7b7e82691e3ce8",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "media",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_media": {
+      "mp4": "course/en/assets/da7174fb6b713a99418e20ed9293bd6779ee1c60.mp4",
+      "ogv": "",
+      "mp3": "",
+      "source": "",
+      "type": "",
+      "poster": "course/en/assets/b5e801fcbbbe13561e78712f23d58e5b3554dfb7.png",
+      "cc": []
+    },
+    "_setCompletionOn": "inview",
+    "_useClosedCaptions": false,
+    "_startLanguage": "en",
+    "_allowFullScreen": true,
+    "_transcript": {
+      "_setCompletionOnView": true,
+      "_inlineTranscript": false,
+      "_externalTranscript": false,
+      "inlineTranscriptButton": "",
+      "inlineTranscriptCloseButton": "",
+      "inlineTranscriptBody": "",
+      "transcriptLinkButton": "",
+      "transcriptLink": ""
+    },
+    "_playerOptions": ""
+  },
+  {
+    "_id": "57d970a14d7b7e82691e3cee",
+    "_layout": "right",
+    "_parentId": "57d970924d7b7e82691e3ced",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "media",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_media": {
+      "mp4": "course/en/assets/12f8f77a8589db3875d48bfe8db3e59be30e2982.mp4",
+      "ogv": "",
+      "mp3": "",
+      "source": "",
+      "type": "",
+      "poster": "course/en/assets/b5e801fcbbbe13561e78712f23d58e5b3554dfb7.png",
+      "cc": []
+    },
+    "_setCompletionOn": "inview",
+    "_useClosedCaptions": false,
+    "_startLanguage": "en",
+    "_allowFullScreen": true,
+    "_transcript": {
+      "_setCompletionOnView": true,
+      "_inlineTranscript": false,
+      "_externalTranscript": false,
+      "inlineTranscriptButton": "",
+      "inlineTranscriptCloseButton": "",
+      "inlineTranscriptBody": "",
+      "transcriptLinkButton": "",
+      "transcriptLink": ""
+    },
+    "_playerOptions": ""
+  },
+  {
+    "_id": "57d970ae4d7b7e82691e3cf0",
+    "_layout": "left",
+    "_parentId": "57d970a44d7b7e82691e3cef",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "media",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_media": {
+      "mp4": "course/en/assets/3f625479e5274063900e516b0d2618d0c4d45239.mp4",
+      "ogv": "",
+      "mp3": "",
+      "source": "",
+      "type": "",
+      "poster": "course/en/assets/b5e801fcbbbe13561e78712f23d58e5b3554dfb7.png",
+      "cc": []
+    },
+    "_setCompletionOn": "inview",
+    "_useClosedCaptions": false,
+    "_startLanguage": "en",
+    "_allowFullScreen": true,
+    "_transcript": {
+      "_setCompletionOnView": true,
+      "_inlineTranscript": false,
+      "_externalTranscript": false,
+      "inlineTranscriptButton": "",
+      "inlineTranscriptCloseButton": "",
+      "inlineTranscriptBody": "",
+      "transcriptLinkButton": "",
+      "transcriptLink": ""
+    },
+    "_playerOptions": ""
+  },
+  {
+    "_id": "57ea73ee4d7b7e82691e3d49",
+    "_layout": "right",
+    "_parentId": "57d970a44d7b7e82691e3cef",
+    "_type": "component",
+    "body": "<p>Combining all aspects of this module enables you to create a simple data analysis tool for our spreadsheet of data.</p>\n\n<p>Follow the steps below to create your own data analysis interface for heath care facilities:</p>\n",
+    "displayTitle": "Data analysis",
+    "title": "Data analysis",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "title": "Advanced pivot table",
+        "body": "<p>The first stage is to create a new pivot data from our complete dataset. In this case we are going to look at the star rating of heath care facilities per region.</p>\n\n<p>This time the&nbsp;region&nbsp;will be the&nbsp;row&nbsp;labels. The&nbsp;column&nbsp;headings will represent the&nbsp;star ratings&nbsp;and the values will be the total count of facilities that achieve that&nbsp;star rating.</p>\n\n<p>In order to make filtering and analysing easier, it is recommended that only a&nbsp;total row for column totals be added.&nbsp;</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Create a plot or graph",
+        "body": "<p>The next stage is&nbsp;creating&nbsp;a graph of the data in our pivot table.&nbsp;</p>\n\n<p>Simply highlight the data, including row and column titles, and click the charting tool.&nbsp;We want to add a clustered column chart.&nbsp;</p>\n\n<p>Feel free to name and style your chart to look nice. Try to not have the chart on top of&nbsp;the data.</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Slicing your data",
+        "body": "<p>The last stage involves adding a&nbsp;slicer&nbsp;(or&nbsp;filter) to the pivot table. This tool can be found in the pivot table options (or toolbar).&nbsp;</p>\n\n<p>Add a slicer to your dataset based upon healthcare facility type. This will now allow you to filter the pivot table by type. As the pivot table updates, so will the graph that you made at the previous stage.&nbsp;&nbsp;</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "57ea79ee4d7b7e82691e3d5d",
+    "_layout": "right",
+    "_parentId": "57ea79d74d7b7e82691e3d5b",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/e9bfc830784387f82fd0b7576fdd19a235432d2e.png",
+      "small": "course/en/assets/e9bfc830784387f82fd0b7576fdd19a235432d2e.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ea799e4d7b7e82691e3d53",
+    "_layout": "left",
+    "_parentId": "57ea79924d7b7e82691e3d52",
+    "_type": "component",
+    "body": "<p>You have a dataset containing the grades of students attending every school in the country in a single sheet. Your dataset is over 100,000 rows in length.&nbsp;</p>\n\n<p>If you want to look at only the results from a single school, what should you do?</p>\n",
+    "displayTitle": "Exploring large datasets",
+    "title": "Exploring large datasets",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select one option and click 'submit'",
+    "_items": [
+      {
+        "text": "Manually create a new sheet with this data in",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Sort the dataset and scroll to find the school",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Use a filter to show only data for that school",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Change the way the data is collected such that the data about each school is in a separate sheet",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p>That&#39;s right!</p>\n\n<p>With all the data in one sheet, you can use filters to quickly look at any custom selection of the data. While it might seem&nbsp;logical to split data of this size into several sheets, the instant ability to analyse all the data is lost.&nbsp;</p>\n",
+      "_incorrect": {
+        "final": "<p>Are you sure about that?</p>\n\n<p>With all the data in one sheet, you can use filters to quickly look at any custom selection of the data. While it might seem&nbsp;logical to split data of this size into several sheets, the instant ability to analyse all the data is lost.&nbsp;</p>\n",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "57ea79b64d7b7e82691e3d56",
+    "_layout": "left",
+    "_parentId": "57ea79aa4d7b7e82691e3d55",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/8955909579b53c7ebec6ce4d5df18706652bef7a.jpg",
+      "small": "course/en/assets/8955909579b53c7ebec6ce4d5df18706652bef7a.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ea79ba4d7b7e82691e3d57",
+    "_layout": "right",
+    "_parentId": "57ea79aa4d7b7e82691e3d55",
+    "_type": "component",
+    "body": "<p>In your spreadsheet of school marks you want to find the highest mark achieved by any student.&nbsp;</p>\n\n<p>Which formula do you require?</p>\n",
+    "displayTitle": "Fast formula",
+    "title": "Fast formula",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select one answer and then click 'submit'",
+    "_items": [
+      {
+        "text": "=MAX()",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "=AVERAGE()",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "=HIGHEST()",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p>That&#39;s right! To quickly find the highest mark you need the =MAX() formula.</p>\n",
+      "_incorrect": {
+        "final": "<p>Are you sure about that?&nbsp;To quickly find the highest mark you need the =MAX() formula.</p>\n",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "57ea79d34d7b7e82691e3d5a",
+    "_layout": "right",
+    "_parentId": "57ea79c04d7b7e82691e3d58",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/fba5b742f2ac63be0832177cc5f57aaa3c6e907f.jpg",
+      "small": "course/en/assets/fba5b742f2ac63be0832177cc5f57aaa3c6e907f.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ea79d14d7b7e82691e3d59",
+    "_layout": "left",
+    "_parentId": "57ea79c04d7b7e82691e3d58",
+    "_type": "component",
+    "body": "<p>Which spreadsheet tool is essential for generating powerful summary statistics of a raw dataset?&nbsp;</p>\n\n<p>The same tool can also rotate the data to reveal new patterns in the data.&nbsp;</p>\n",
+    "displayTitle": "Data analysis",
+    "title": "Data analysis",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select one option and click 'submit'",
+    "_items": [
+      {
+        "text": "Pivot tables",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Charts and graphs",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Formulas",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p>That&#39;s right!</p>\n\n<p>Pivot tables are&nbsp;a powerful&nbsp;data summary.&nbsp;Among other functions, a pivot table can automatically sort, count, total or give the average of the data stored in one table or spreadsheet. The results are&nbsp;displayed&nbsp;in a second table.&nbsp;</p>\n",
+      "_incorrect": {
+        "final": "<p>Are you sure about that?&nbsp;</p>\n\n<p>Pivot tables are&nbsp;a powerful&nbsp;data summary.&nbsp;Among other functions, a pivot table can automatically sort, count, total or give the average of the data stored in one table or spreadsheet. The results are&nbsp;displayed&nbsp;in a second table.&nbsp;</p>\n",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "57d942b14d7b7e82691e3c80",
+    "_layout": "left",
+    "_parentId": "57d923514d7b7e82691e3c5e",
+    "_type": "component",
+    "body": "<p>One of the biggest challenges that people face when working with any data is&nbsp;errors. Errors can be the result of human mistakes&nbsp;like mistyping or incorrect abbreviations.&nbsp;Errors can also creep into datasets when&nbsp;the data changes after first publication.</p>\n\n<p>Errors in data, as in any human activity, are unavoidable. However, there are a couple of techniques that can help reduce their number dramatically.&nbsp;</p>\n\n<p>Data validation tools can be used at the point of collection to ensure that only&nbsp;valid data is entered. However, if&nbsp;the validator is changed from year to year, then it&nbsp;would be better to clean and align the data before use.&nbsp;</p>\n\n<p>This module introduces the following key topics:</p>\n\n<ul>\n\t<li>Validating data on collection</li>\n\t<li>Cleaning data post-collection</li>\n</ul>\n",
+    "displayTitle": "Validating and cleaning data",
+    "title": "Validating and cleaning data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57ea93d14d7b7e82691e3d88",
+    "_layout": "right",
+    "_parentId": "57ea93c14d7b7e82691e3d86",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/9663ad1edef607eb539012c52e2dc5172bcb4935.png",
+      "small": "course/en/assets/9663ad1edef607eb539012c52e2dc5172bcb4935.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ed01aa4d7b7e82691e3d8d",
+    "_layout": "left",
+    "_parentId": "57ed017f4d7b7e82691e3d8c",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Validating data",
+    "title": "Validating data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57ed01ad4d7b7e82691e3d8e",
+    "_layout": "right",
+    "_parentId": "57ed017f4d7b7e82691e3d8c",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "small": "course/en/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ed01e04d7b7e82691e3d92",
+    "_layout": "left",
+    "_parentId": "57ed01ce4d7b7e82691e3d91",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Cleaning data",
+    "title": "Cleaning data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57ed01e34d7b7e82691e3d93",
+    "_layout": "right",
+    "_parentId": "57ed01ce4d7b7e82691e3d91",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/98e5a6a16798539ca80fdcaa4979d38e411dc44a.png",
+      "small": "course/en/assets/98e5a6a16798539ca80fdcaa4979d38e411dc44a.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ed02554d7b7e82691e3d97",
+    "_layout": "left",
+    "_parentId": "57ed02484d7b7e82691e3d96",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/2da5b534acdc8080cc6a818ac4af094a17d30785.jpg",
+      "small": "course/en/assets/2da5b534acdc8080cc6a818ac4af094a17d30785.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ed02594d7b7e82691e3d98",
+    "_layout": "right",
+    "_parentId": "57ed02484d7b7e82691e3d96",
+    "_type": "component",
+    "body": "<p>Knowing that data is clean gives you have a reliable starting point when working with it.</p>\n\n<p>Clean data is data that is consistent, free from duplication and ready for machine consumption.</p>\n\n<p>If data is clean, it is easier to combine it with different datasets and gain deeper insights.</p>\n",
+    "displayTitle": "Revealing the value: what do we mean by clean data?",
+    "title": "Revealing the value: what do we mean by clean data?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57ed029d4d7b7e82691e3d9d",
+    "_layout": "right",
+    "_parentId": "57ed02864d7b7e82691e3d9b",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/ae0541d37bc892cc4b6b2ae323d3cc05d21ef6b4.jpg",
+      "small": "course/en/assets/ae0541d37bc892cc4b6b2ae323d3cc05d21ef6b4.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ed02984d7b7e82691e3d9c",
+    "_layout": "left",
+    "_parentId": "57ed02864d7b7e82691e3d9b",
+    "_type": "component",
+    "body": "<p>There are a number of common errors in data that you should look out for in any dataset that&nbsp;you are working with.</p>\n",
+    "displayTitle": "Common errors in data",
+    "title": "Common errors in data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Click the headings to explore further.",
+    "_items": [
+      {
+        "title": "Wrong date formats",
+        "body": "<p>Dates can be written in inconsistent ways. Mixed date formats are sometimes simple to spot:<br />\n<br />\n8-sep-2013 vs 8/9/2013<br />\n<br />\nand sometimes less obvious:<br />\n<br />\n8/9/2013 vs 9/8/2013.<br />\n<br />\nAnother challenge is that applications&nbsp;like Excel&nbsp;will &lsquo;guess&rsquo; the format when a dataset is opened, which can hide how dates are actually written in the file.</p>\n\n<p>The most common error is the mixed use of American (MM/DD/YYYY) and European (DD/MM/YYYY) formats.</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Multiple representations",
+        "body": "<p>People often try to save time when entering data by abbreviating terms. If these abbreviations are not consistent, it can cause errors in the dataset.</p>\n\n<p>Differences in capitalisation, spacing and genders of adjectives can all cause errors.</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Duplicate records",
+        "body": "<p>A duplicate record is where the same piece of data has been entered more than once. Duplicate records often occur when datasets have been combined or because it was not known there was already an entry.</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Redundant data",
+        "body": "<p>Redundant data is anything that is not relevant to your work with the dataset. Often a dataset has been created for a specific purpose which requires details you may not need.</p>\n\n<p>Common occurrences of redundant data include rows that represent total amounts.</p>\n\n<p>Other times columns of data have been combined or replicated in order to assist human readability.</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Mixed numerical scales",
+        "body": "<p>Numerical values in datasets often use different scales to make it easier for&nbsp;users&nbsp;to read. For example, in a budget dataset,1,200,000 might be written as&nbsp;1.2m whereas the figure&nbsp;800,000 might&nbsp;still be&nbsp;written out in full. Machines will read the larger figure as 1.2, and thereby present the data incorrectly.&nbsp;</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Mixed ranges",
+        "body": "<p>Data is sometimes measured in ranges, such as age or salary range. In order for a machine to understand these ranges it is important to separate the high and low values.</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Spelling errors",
+        "body": "<p>Spelling errors are often difficult to identify in tabular data.</p>\n\n<p>Don&rsquo;t forget to run your data through a spell-checker to catch spelling errors.</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "57ed03484d7b7e82691e3da1",
+    "_layout": "full",
+    "_parentId": "57ed033d4d7b7e82691e3da0",
+    "_type": "component",
+    "body": "<p>Without clean data, we can&rsquo;t build information. There are a number of useful tools that can help you to&nbsp;clean&nbsp;data.</p>\n",
+    "displayTitle": "The data-cleaning toolkit",
+    "title": "The data-cleaning toolkit",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "narrative",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Click the forward arrow to see more.",
+    "mobileInstruction": "Click the forward arrow to see more.",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "inview",
+    "_items": [
+      {
+        "title": "The data-cleaning toolkit",
+        "body": "<p>When you are looking for errors in data, it may be necessary to download and upload datasets in many tools for cleaning and processing.</p>\n\n<p>It is also important to keep a note of what changes have been made and share these openly with others so that everyone can benefit from your work, particularly if the data you are cleaning is existing open data that has been published.</p>\n\n<p>In this section we look at two of the main tools and their uses:</p>\n\n<ul>\n\t<li>Open Refine</li>\n\t<li>Spreadsheets</li>\n</ul>\n",
+        "_graphic": {
+          "src": "course/en/assets/33486d36922cc44d7b5832d0c3a21bc1722f88af.jpg",
+          "alt": ""
+        },
+        "strapline": "The data-cleaning toolkit"
+      },
+      {
+        "title": "Open Refine",
+        "body": "<p>Open Refine is a software tool designed to deal with uncleaned data. The tool is a column-based browser that allows you to fix errors across an entire open dataset in a single action. The errors that can be fixed include:</p>\n\n<ul>\n\t<li>Date formats</li>\n\t<li>Multiple representations</li>\n\t<li>Duplicate records</li>\n\t<li>Redundant data</li>\n\t<li>Mixed numerical scales</li>\n\t<li>Mixed ranges</li>\n</ul>\n",
+        "_graphic": {
+          "src": "course/en/assets/14f94f71b66fc8cf7c1f405d8a1fb73e7ffef06d.jpg",
+          "alt": ""
+        },
+        "strapline": "Open Refine"
+      },
+      {
+        "title": "Spreadsheet programmes",
+        "body": "<p>Open Refine is a key tool for cleaning data. However, it is sometimes easier to fix some errors in a spreadsheet programme:</p>\n\n<ul>\n\t<li>Spelling errors</li>\n\t<li>Redundant data</li>\n\t<li>Numerical verification</li>\n\t<li>Fixing shifted data</li>\n</ul>\n",
+        "_graphic": {
+          "src": "course/en/assets/8955909579b53c7ebec6ce4d5df18706652bef7a.jpg",
+          "alt": ""
+        },
+        "strapline": "Spreadsheet "
+      }
+    ]
+  },
+  {
+    "_id": "57ed048f4d7b7e82691e3da8",
+    "_layout": "full",
+    "_parentId": "57ed043c4d7b7e82691e3da7",
+    "_type": "component",
+    "body": "<p>The video below takes you through a few of the cleaning operations in Open Refine as applied to the Health Facilities dataset. More advanced video tutorials are&nbsp;available on the <a href=\"http://openrefine.org\">Open Refine website</a>.</p>\n",
+    "displayTitle": "Practical cleaning in Open Refine",
+    "title": "Practical cleaning in Open Refine",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "media",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_media": {
+      "mp4": "course/en/assets/7d1df1412d8e5a8468cbe4114cb7c26eb4b03242.mp4",
+      "ogv": "",
+      "mp3": "",
+      "source": "",
+      "type": "",
+      "poster": "course/en/assets/1f429c0e40339fec968e0ad538b97b3306fb9718.png",
+      "cc": []
+    },
+    "_setCompletionOn": "inview",
+    "_useClosedCaptions": false,
+    "_startLanguage": "en",
+    "_allowFullScreen": false,
+    "_transcript": {
+      "_setCompletionOnView": true,
+      "_inlineTranscript": false,
+      "_externalTranscript": false,
+      "inlineTranscriptButton": "",
+      "inlineTranscriptCloseButton": "",
+      "inlineTranscriptBody": "",
+      "transcriptLinkButton": "",
+      "transcriptLink": ""
+    },
+    "_playerOptions": ""
+  },
+  {
+    "_id": "57ed05304d7b7e82691e3daa",
+    "_layout": "left",
+    "_parentId": "57ed05274d7b7e82691e3da9",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Are you ready to validate and clean data?",
+    "title": "Are you ready to validate and clean data?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57ed05344d7b7e82691e3dab",
+    "_layout": "right",
+    "_parentId": "57ed05274d7b7e82691e3da9",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "small": "course/en/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ed07e94d7b7e82691e3dbb",
+    "_layout": "right",
+    "_parentId": "57ed07c34d7b7e82691e3db8",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/8955909579b53c7ebec6ce4d5df18706652bef7a.jpg",
+      "small": "course/en/assets/8955909579b53c7ebec6ce4d5df18706652bef7a.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ed07de4d7b7e82691e3dba",
+    "_layout": "left",
+    "_parentId": "57ed07c34d7b7e82691e3db8",
+    "_type": "component",
+    "body": "<p>Which of the following spreadsheet functions ensures that&nbsp;data that has been entered by users&nbsp;is correct?</p>\n",
+    "displayTitle": "Data types and validation",
+    "title": "Data types and validation",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select one answer and click submit",
+    "_items": [
+      {
+        "text": "Cell formats",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Data validation",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Filtering",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Sorting",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p>That&#39;s right! Data validation ensures that any new data that a user enters is acceptable according to the validation rules. When setting up validation rules, ensure you also provide appropriate instructions and error messages.&nbsp;</p>\n",
+      "_incorrect": {
+        "final": "<p>Are you sure about that?&nbsp;Data validation ensures that any new data that a user enters is acceptable according to the validation rules. When setting up validation rules, ensure you also provide appropriate instructions and error messages.&nbsp;</p>\n",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "57ed08e34d7b7e82691e3dc9",
+    "_layout": "left",
+    "_parentId": "57ed08c24d7b7e82691e3dc8",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/ae0541d37bc892cc4b6b2ae323d3cc05d21ef6b4.jpg",
+      "small": "course/en/assets/ae0541d37bc892cc4b6b2ae323d3cc05d21ef6b4.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ed08eb4d7b7e82691e3dca",
+    "_layout": "right",
+    "_parentId": "57ed08c24d7b7e82691e3dc8",
+    "_type": "component",
+    "body": "<p>The following rule has been set up for data validation:</p>\n\n<p><em>&quot;Allow&nbsp;<strong>whole numbers</strong>&nbsp;between&nbsp;<strong>1&nbsp;</strong>and&nbsp;<strong>10 </strong>(inclusive).&quot;</em></p>\n\n<p>Select the values from the list below that are&nbsp;<strong>correct</strong>&nbsp;by this validation rule. There may be more than one correct answer.</p>\n",
+    "displayTitle": "Data validation",
+    "title": "Data validation",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select the valid values and click submit.",
+    "_items": [
+      {
+        "text": "4",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "10",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "3.14",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "5-stars",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "three",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 3,
+    "_feedback": {
+      "correct": "<p>That&#39;s right!&nbsp;</p>\n\n<p>Only the numbers 1,2,3,4,5,6,7,8,9,10 are accepted by this rule. The text &quot;three&quot; is not valid, neither is anything else that contains text. Finally 3.14 is not a whole number.</p>\n",
+      "_incorrect": {
+        "final": "<p>Are you sure about that?</p>\n\n<p>Only the numbers 1,2,3,4,5,6,7,8,9,10 are accepted by this rule. The text &quot;three&quot; is not valid, neither is anything else that contains text. Finally 3.14 is not a whole number.</p>\n",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "57ed2b8c4d7b7e82691e3dd9",
+    "_layout": "right",
+    "_parentId": "57ed2b584d7b7e82691e3dd7",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/ae0541d37bc892cc4b6b2ae323d3cc05d21ef6b4.jpg",
+      "small": "course/en/assets/ae0541d37bc892cc4b6b2ae323d3cc05d21ef6b4.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ed2b854d7b7e82691e3dd8",
+    "_layout": "left",
+    "_parentId": "57ed2b584d7b7e82691e3dd7",
+    "_type": "component",
+    "body": "<p>Which of the following are errors in data that require cleaning?&nbsp;</p>\n",
+    "displayTitle": "Recognising errors",
+    "title": "Recognising errors",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Choose three answers and click 'Submit'",
+    "_items": [
+      {
+        "text": "Multiple representations",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Lack of licence",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Redundant data",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Lack of granularity",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Mixed numerical scales",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 3,
+    "_feedback": {
+      "correct": "<p>Thats right!</p>\n\n<p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are problems in data management and use, they are not related to data cleanliness.&nbsp;</p>\n",
+      "_incorrect": {
+        "final": "<p>Are you sure about that?</p>\n\n<p>Mixed use of scales, redundant data and multiple representations of the same data are just some of the errors that need to be fixed in unclean data. While the granularity and lack of licence are problems in data management and use, they are not related to data cleanliness.&nbsp;</p>\n",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "57ed309d4d7b7e82691e3de1",
+    "_layout": "right",
+    "_parentId": "57ed2c4c4d7b7e82691e3ddf",
+    "_type": "component",
+    "body": "<p>Which cleaning method will help you to fix the errors shown in the dataset in the graphic?</p>\n",
+    "displayTitle": "Cleaning data",
+    "title": "Cleaning data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select one answer and then click 'Submit'",
+    "_items": [
+      {
+        "text": "Clustering",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Duplicate records",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Spelling errors",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Date formatting",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p>That&#39;s right!&nbsp;</p>\n\n<p>Clustering is a powerful cleaning aid that looks for similarities in data and recommends values that can be merged together. Clustering will help you fix errors in spelling, abbreviations&nbsp;and grammatical differences.</p>\n",
+      "_incorrect": {
+        "final": "<p>Are you sure about that?</p>\n\n<p>Clustering is a powerful cleaning aid that looks for similarities in data and recommends values that can be merged together. Clustering will help you fix errors in spelling, abbreviations&nbsp;and grammatical differences.</p>\n",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "57ed30984d7b7e82691e3de0",
+    "_layout": "left",
+    "_parentId": "57ed2c4c4d7b7e82691e3ddf",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/4e22b4c833d83cda25d671bdeaee86e2572cbe0f.png",
+      "small": "course/en/assets/4e22b4c833d83cda25d671bdeaee86e2572cbe0f.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ed32dd4d7b7e82691e3de6",
+    "_layout": "right",
+    "_parentId": "57ed328a4d7b7e82691e3de5",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/e9bfc830784387f82fd0b7576fdd19a235432d2e.png",
+      "small": "course/en/assets/e9bfc830784387f82fd0b7576fdd19a235432d2e.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ee2cf84d7b7e82691e3df2",
+    "_layout": "full",
+    "_parentId": "57ea93864d7b7e82691e3d81",
+    "_type": "component",
+    "body": "<p>Adding cell formats can help to&nbsp;display data consistently, however it will not validate data entry. Using a combination of cell formats and data input validation is the simplest way to check you are collecting a clean dataset.&nbsp;</p>\n\n<p>The majority of spreadsheet applications contain validation functions. These functions allow you to set up rules for what values can be entered in a cell. There are normally a variety of sample rules &ndash;&nbsp;such as for dates and number ranges &ndash;&nbsp;but you can also set up a list of limited values that can be selected from.&nbsp;</p>\n\n<p>When setting up validation, don&#39;t forget to give the user a useful messages that will appear when they go&nbsp;to enter a value and when an invalid value is found.&nbsp;</p>\n\n<p>If you are applying validation rules to existing data then you can also use the<em> circle&nbsp;invalid values</em> function to find those that are already invalid. It is worth noting that Excel can only highlight a certain number, so&nbsp;you should consider using cleaning tools to tidy up existing data (see more on cleaning tools in the following section).&nbsp;</p>\n",
+    "displayTitle": "Validating data",
+    "title": "Validating data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "media",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_media": {
+      "mp4": "course/en/assets/c99d21bd3f6103c23df76818f1026161bf9152b0.mp4",
+      "ogv": "",
+      "mp3": "",
+      "source": "",
+      "type": "",
+      "poster": "course/en/assets/2f7c61c3bd4847e9c501323ae89ffadc3504cc62.png",
+      "cc": []
+    },
+    "_setCompletionOn": "inview",
+    "_useClosedCaptions": false,
+    "_startLanguage": "en",
+    "_allowFullScreen": false,
+    "_transcript": {
+      "_setCompletionOnView": true,
+      "_inlineTranscript": false,
+      "_externalTranscript": false,
+      "inlineTranscriptButton": "",
+      "inlineTranscriptCloseButton": "",
+      "inlineTranscriptBody": "",
+      "transcriptLinkButton": "",
+      "transcriptLink": ""
+    },
+    "_playerOptions": ""
+  },
+  {
+    "_id": "57d942bd4d7b7e82691e3c82",
+    "_layout": "left",
+    "_parentId": "57d9235b4d7b7e82691e3c61",
+    "_type": "component",
+    "body": "<p>The more widely data is shared, the greater the potential impact. In this module, we look at how to publish open data that anyone can&nbsp;<strong>access</strong>,&nbsp;<strong>use</strong>, and&nbsp;<strong>share</strong>.&nbsp;&nbsp;</p>\n\n<p>This module looks&nbsp;at the following key areas:</p>\n\n<ul>\n\t<li>Why, what and where to publish</li>\n\t<li>Data publication formats</li>\n\t<li>The minimal publication checklist</li>\n\t<li>Certifying high quality published open data</li>\n</ul>\n",
+    "displayTitle": "Publishing your data",
+    "title": "Publishing your data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57ee3dbf4d7b7e82691e3dfa",
+    "_layout": "full",
+    "_parentId": "57ee3db44d7b7e82691e3df9",
+    "_type": "component",
+    "body": "<p>Publishers should consider the following questions.&nbsp;</p>\n",
+    "displayTitle": "Publishing open data: Why? What? Where?",
+    "title": "Publishing open data: Why? What? Where?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "narrative",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Explore more by clicking the left and right arrows",
+    "mobileInstruction": "Explore more by expanding the sections below",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Why publish?",
+        "body": "<p>Publishing data can help you engage a community of volunteer&nbsp;analysts&nbsp;whose insights&nbsp;can help to inform decision making.</p>\n\n<p>For example, publishing education data gives people the ability to make more informed decisions about schools for their children. The data&nbsp;also helps government make decisions about school improvement&nbsp;and where investment is needed.&nbsp;</p>\n",
+        "_graphic": {
+          "src": "course/en/assets/bc405547ea32356032d490290a510a41c2455047.jpg",
+          "alt": ""
+        },
+        "strapline": "Why publish?"
+      },
+      {
+        "title": "What can you publish?",
+        "body": "<p>Before you publish data you need to check that you can legally publish the data.&nbsp;</p>\n\n<p>There are a number of key factors that may prevent you from publishing the data. This includes:</p>\n\n<ul>\n\t<li>not being the data owner (copyright holder)</li>\n\t<li>the data you own contains&nbsp;others&#39; copyrighted data (e.g. location data from google maps)</li>\n\t<li>data that contains&nbsp;personally identifiable information</li>\n\t<li>classified data.</li>\n</ul>\n\n<p>There may also be other local laws and mandates that enforce either the publication or protection of certain types of data. If unsure, it is always best to seek the advice of an appropriate legal representative from your organisation.</p>\n",
+        "_graphic": {
+          "src": "course/en/assets/55fdaceae3e61bfad0b68be0efcf8b4e312e1342.jpg",
+          "alt": ""
+        },
+        "strapline": "What can you publish?"
+      },
+      {
+        "title": "Where do you publish?",
+        "body": "<p>If the website&nbsp;allows,&nbsp;try to publish data&nbsp;on your organisation&#39;s&nbsp;own&nbsp;website or data portal. This helps to build&nbsp;trust between the organisation and the user or customer.&nbsp;</p>\n\n<p>However, be aware that&nbsp;users may not come to you directly for the data, so it is advisable to also publish the data on other platforms to ensure wide use and reuse.&nbsp;There are no restrictions to the number of places an open dataset can exist.</p>\n\n<p>&nbsp;</p>\n",
+        "_graphic": {
+          "src": "course/en/assets/14fad81b7ca38acf03071734b8362c47fd3d3997.jpg",
+          "alt": ""
+        },
+        "strapline": "Where do you publish?"
+      }
+    ]
+  },
+  {
+    "_id": "57ee47ab4d7b7e82691e3e02",
+    "_layout": "right",
+    "_parentId": "57ee47744d7b7e82691e3e01",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/1497c2f21a066474c61b08652c841ee6768bfea3.jpg",
+      "small": "course/en/assets/1497c2f21a066474c61b08652c841ee6768bfea3.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ee483d4d7b7e82691e3e0a",
+    "_layout": "left",
+    "_parentId": "57ee47744d7b7e82691e3e01",
+    "_type": "component",
+    "body": "<p>Choosing the right format for publishing open data is key to maximising&nbsp;re-use. There is no single format that will suit all data and users.</p>\n\n<p>&nbsp;</p>\n",
+    "displayTitle": "Data publication formats",
+    "title": "Data publication formats",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Click to explore each requirement",
+    "_items": [
+      {
+        "title": "A raw data format",
+        "body": "<p>The first requirement when publishing data is to publish raw data. Publishing summary statistics and other higher level information restricts the potential re-usability&nbsp;of the data.&nbsp;</p>\n\n<p>Which format do you use to manipulate and analyse the raw data in? (excel? cad? sql?)</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": "A raw data format"
+      },
+      {
+        "title": "Instantly reusable format",
+        "body": "<p>Which format would users be able to instantly open, manipulate and use?</p>\n\n<p>There are many applications that can open spreadsheet files for instant use but less for other formats.&nbsp;</p>\n\n<p>Consider which formats are the most widespread ones for your data. This is especially the case with geographic data which is complex and comes in hundreds of formats. Not all are as well adopted as others.&nbsp;</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "A format with context",
+        "body": "<p>Which format can provide additional context to help users understand the data?</p>\n\n<p>For example in an excel spreadsheet, tables can contain bold formatting, formula, validation filters, summary tables and graphs to name but a few things that are in addition to the main data.</p>\n\n<p>Rather than just publish a data format like csv, publish the raw, reusable excel as well.&nbsp;</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "An open format",
+        "body": "<p>An open format is one with a specification that any one can access, use and share.</p>\n\n<p>This means that anyone can create tools to access the data in this format.</p>\n\n<p>It doesn&#39;t necessarily&nbsp;mean that this tool is free!</p>\n\n<p>An open format provides some level of future proofing if a company seizes to exist and their tools are no longer available to read the data.</p>\n\n<p>This is the case with some hardware and media tapes where machines no longer exist that can read and decode the data.&nbsp;&nbsp;&nbsp;</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "A low cost format",
+        "body": "<p>Which format is low cost to use?</p>\n\n<p>Are there free tools that can open the format, allowing everyone access?</p>\n\n<p>CSV is a good example of such a format as it is simple to read and there are hundreds of tools that can use CSV.&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "57ee52a44d7b7e82691e3e0d",
+    "_layout": "left",
+    "_parentId": "57ee52944d7b7e82691e3e0b",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/cee6cca8f3fc96016fdb0cb042dc1a6caf5f2016.jpg",
+      "small": "course/en/assets/cee6cca8f3fc96016fdb0cb042dc1a6caf5f2016.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ee52a14d7b7e82691e3e0c",
+    "_layout": "right",
+    "_parentId": "57ee52944d7b7e82691e3e0b",
+    "_type": "component",
+    "body": "<p>When publishing data, follow this simple checklist to help maximise its&nbsp;usability and the impact it can create.&nbsp;</p>\n",
+    "displayTitle": "Publication checklist",
+    "title": "Publication checklist",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "title": "1. Put the data on the web",
+        "body": "<p>The first stage is to get the data published on the web.</p>\n\n<p>By now you should have made choices about formats and publication locations.&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "2. Add open licence",
+        "body": "<p>Add an open licence to your data that gives other explicit permission to&nbsp;<strong>access</strong>,&nbsp;<strong>use&nbsp;</strong>and&nbsp;<strong>share</strong> the data.&nbsp;</p>\n\n<p>The Open Data Institute&nbsp;provides a<span style=\"color:#0000FF\"> </span><u><a href=\"https://theodi.org/guides/publishers-guide-open-data-licensing\"><span style=\"color:#333333\">guide</span></a></u><span style=\"color:#000000\"> </span>that can help you add the right open data licence.&nbsp;</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "3. Describe your data",
+        "body": "<p>Add relevant descriptive data to help people discover, understand and start using your data.&nbsp;</p>\n\n<p>Many of the data cataloguing platforms already request much of this useful data. Ensure you fill in as much as you can.&nbsp;</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "4. Connect your data",
+        "body": "<p>Enhance your data catalogue through linking to additional information that will help users understand the context of the data.&nbsp;</p>\n\n<p>Try linking to:</p>\n\n<ul>\n\t<li>The source of the data</li>\n\t<li>Places where the data is used</li>\n\t<li>Reports produced from the data</li>\n\t<li>Other related datasets</li>\n\t<li>Communities that use and support the data</li>\n\t<li>Any other documentation relevant to the data</li>\n</ul>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "57ee55074d7b7e82691e3e1e",
+    "_layout": "right",
+    "_parentId": "57ee54fa4d7b7e82691e3e1c",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/a3eabc9ff7af595c2356ac8a06ded65c0f635501.png",
+      "small": "course/en/assets/a3eabc9ff7af595c2356ac8a06ded65c0f635501.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ee55054d7b7e82691e3e1d",
+    "_layout": "left",
+    "_parentId": "57ee54fa4d7b7e82691e3e1c",
+    "_type": "component",
+    "body": "<p>Once&nbsp;your dataset published, use ODI Open Data Certificates to let&nbsp;users know they can rely on the quality of your work.&nbsp;</p>\n\n<p>Getting your data certified helps to establish&nbsp;trust in the quality of your data, showing compliance with the best publishing practices and&nbsp;gaining a broader user base. With ODI Open Data Certificates, you can also get free advice on improving the quality of your data.&nbsp;</p>\n\n<p>Getting your Open Data Certificate is simple, fast and free.&nbsp;<a href=\"https://certificates.theodi.org/en\">Click here to start certifying your data</a>.</p>\n",
+    "displayTitle": "Certifying your data",
+    "title": "Certifying your data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57ee57cc4d7b7e82691e3e36",
+    "_layout": "right",
+    "_parentId": "57ee57a64d7b7e82691e3e34",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "small": "course/en/assets/a516261fb9cb309e3b3d1116a192ecfc2a70fbad.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ee57c84d7b7e82691e3e35",
+    "_layout": "left",
+    "_parentId": "57ee57a64d7b7e82691e3e34",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Are you ready to publish data?",
+    "title": "Are you ready to publish data?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57ee58904d7b7e82691e3e4e",
+    "_layout": "right",
+    "_parentId": "57ee58834d7b7e82691e3e4c",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/14fad81b7ca38acf03071734b8362c47fd3d3997.jpg",
+      "small": "course/en/assets/14fad81b7ca38acf03071734b8362c47fd3d3997.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ee588e4d7b7e82691e3e4d",
+    "_layout": "left",
+    "_parentId": "57ee58834d7b7e82691e3e4c",
+    "_type": "component",
+    "body": "<p>Choosing the right place to publish data can boost the usability and impact of the data.</p>\n\n<p>Where might be the best place(s) to&nbsp;publish your data? There may be more than one correct answer.</p>\n",
+    "displayTitle": "Where should you publish your open data?",
+    "title": "Where should you publish your open data?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select all options you think are correct",
+    "_items": [
+      {
+        "text": "Organisation website",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Data portal",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Third party websites ",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 3,
+    "_feedback": {
+      "correct": "<p>That&#39;s right!&nbsp;</p>\n\n<p>The more your data is shared, the more it is used.&nbsp;So you should aim to publish your own open data everywhere you can, including your&nbsp;own website, data portals and third party websites.</p>\n",
+      "_incorrect": {
+        "final": "<p>Are you sure about that?</p>\n\n<p>The more your data is shared, the more it is used.&nbsp;So you should aim to publish your own open data everywhere you can, including your&nbsp;own website, data portals and third party websites.</p>\n",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "57ee5aab4d7b7e82691e3e67",
+    "_layout": "left",
+    "_parentId": "57ee59df4d7b7e82691e3e65",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/1497c2f21a066474c61b08652c841ee6768bfea3.jpg",
+      "small": "course/en/assets/1497c2f21a066474c61b08652c841ee6768bfea3.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ee5aa84d7b7e82691e3e66",
+    "_layout": "right",
+    "_parentId": "57ee59df4d7b7e82691e3e65",
+    "_type": "component",
+    "body": "<p>Which of the following criteria is most important when it comes to choosing the right formats for publishing data?</p>\n",
+    "displayTitle": "Data publication formats",
+    "title": "Data publication formats",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select one option and click 'submit'",
+    "_items": [
+      {
+        "text": "Reusability",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Open format",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Cost",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "All of the above",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p>That&#39;s right!</p>\n\n<p>Publishing data in multiple formats maximises the potential re-usability and allows the fulfilling of all publication requirements. One criteria should not take&nbsp;precedence&nbsp;over any other.&nbsp;</p>\n",
+      "_incorrect": {
+        "final": "<p>Are you sure about that?</p>\n\n<p>Publishing data in multiple formats maximises the potential re-usability and allows the fulfilling of all publication requirements. One criteria should not take&nbsp;precedence&nbsp;over any other.&nbsp;</p>\n",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "57ee5ac34d7b7e82691e3e69",
+    "_layout": "left",
+    "_parentId": "57ee5ab34d7b7e82691e3e68",
+    "_type": "component",
+    "body": "<p>When publishing data, what should you add in order to help users understand the source, context and current usages of the data?</p>\n",
+    "displayTitle": "Providing context",
+    "title": "Providing context",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select one option and click 'submit'",
+    "_items": [
+      {
+        "text": "An open licence",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "A good description",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Links to related content",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p>That&#39;s right!&nbsp;</p>\n\n<p>Adding links to other websites that describe the source, context and uses of the data will help new users understand the data and use it correctly. Adding links is also one of the easiest things to do compared to writing a complex description which may need updating regularly.&nbsp;</p>\n",
+      "_incorrect": {
+        "final": "<p>Are you sure about that?</p>\n\n<p>Adding links to other websites that describe the source, context and uses of the data will help new users understand the data and use it correctly. Adding links is also one of the easiest things to do compared to writing a complex description which may need updating regularly.&nbsp;</p>\n",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "57ee5ac74d7b7e82691e3e6a",
+    "_layout": "right",
+    "_parentId": "57ee5ab34d7b7e82691e3e68",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/cee6cca8f3fc96016fdb0cb042dc1a6caf5f2016.jpg",
+      "small": "course/en/assets/cee6cca8f3fc96016fdb0cb042dc1a6caf5f2016.jpg",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ee5ad34d7b7e82691e3e6c",
+    "_layout": "right",
+    "_parentId": "57ee5ac94d7b7e82691e3e6b",
+    "_type": "component",
+    "body": "<p>What tool is available to help certify the quality of your open data?</p>\n",
+    "displayTitle": "Certifying your data",
+    "title": "Certifying your data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "mcq",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Select one answer and click 'submit'",
+    "_items": [
+      {
+        "text": "Open Data Certificates",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "Open Refine",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      },
+      {
+        "text": "Microsoft Excel",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "correct": "<p>That&#39;s right!</p>\n\n<p>ODI Open Data Certificates is a free online tool developed to assess and recognise the quality of open datasets.&nbsp;</p>\n",
+      "_incorrect": {
+        "final": "<p>Are you sure about that?</p>\n\n<p>ODI Open Data Certificates is a free online tool developed to assess and recognise the quality of open datasets.&nbsp;</p>\n",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "57ee5ae74d7b7e82691e3e70",
+    "_layout": "right",
+    "_parentId": "57ee5adc4d7b7e82691e3e6e",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/d1d24b4afcea5906ce1684f8cb3231a3ec0446f6.png",
+      "small": "course/en/assets/d1d24b4afcea5906ce1684f8cb3231a3ec0446f6.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57ee5ae54d7b7e82691e3e6f",
+    "_layout": "left",
+    "_parentId": "57ee5adc4d7b7e82691e3e6e",
+    "_type": "component",
+    "body": "<p>When publishing open data, it is important to consider why, what and where you publish. Considering the potential usage of the data will help guide not only what data is published&nbsp;but also the formats and websites you choose.</p>\n\n<p>Regardless of where the data is published, following the basic data publication checklist will help ensure that the data is usable.&nbsp;</p>\n\n<p>Increasing the usability of the data even further can be guided by the ODI&#39;s Open Data Certificates, a free online tool that can offer a quality mark for your data.&nbsp;</p>\n",
+    "displayTitle": "Publishing your data",
+    "title": "Publishing your data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57ee5ad54d7b7e82691e3e6d",
+    "_layout": "left",
+    "_parentId": "57ee5ac94d7b7e82691e3e6b",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "graphic",
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/a3eabc9ff7af595c2356ac8a06ded65c0f635501.png",
+      "small": "course/en/assets/a3eabc9ff7af595c2356ac8a06ded65c0f635501.png",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "57d9434f4d7b7e82691e3c86",
+    "_layout": "left",
+    "_parentId": "57d943314d7b7e82691e3c85",
+    "_type": "component",
+    "body": "",
+    "displayTitle": "Are you ready to organise your data correctly?",
+    "title": "Are you ready to organise your data correctly?",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57ea93cf4d7b7e82691e3d87",
+    "_layout": "left",
+    "_parentId": "57ea93c14d7b7e82691e3d86",
+    "_type": "component",
+    "body": "<p>Specifying the data type for each column or set of cells in a spreadsheet can help you check the data appears correct&nbsp;and format the data for easy use. There are many different data types available that can usually be selected from the&nbsp;<em>cell format</em>&nbsp;menu.&nbsp;</p>\n\n<p>Useful formats include:</p>\n\n<ul>\n\t<li>Numbers</li>\n\t<li>Text</li>\n\t<li>Currency</li>\n\t<li>Dates</li>\n\t<li>Multiple choice</li>\n\t<li>True/False (Yes/No)</li>\n</ul>\n\n<p>The graphic here shows a sample cell format for a date. Sometimes, due to inconsistency between the way dates are entered, excel can fail to recognise these entries as dates.</p>\n\n<p>Using a date format with year first, followed by month and day, means that sorting by date will always be correct, regardless of whether&nbsp;the data is understood to be a date or not.</p>\n",
+    "displayTitle": "Data types",
+    "title": "Data types",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57f7c9464d7b7e82691e3f0e",
+    "_layout": "right",
+    "_parentId": "57d9233c4d7b7e82691e3c5b",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "intro-logo",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57f7c9584d7b7e82691e3f0f",
+    "_layout": "right",
+    "_parentId": "57d9235b4d7b7e82691e3c61",
+    "_type": "component",
+    "body": "",
+    "displayTitle": " ",
+    "title": " ",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "intro-logo",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57d929c34d7b7e82691e3c70",
+    "_layout": "left",
+    "_parentId": "57d928564d7b7e82691e3c6d",
+    "_type": "component",
+    "body": "<p>Values contained in a single column should be consistent in their type.&nbsp;For example, in a <em>First name</em>&nbsp;column you would use text, an <em>Age</em>&nbsp;column would&nbsp;contain numbers,&nbsp;a&nbsp;<em>Date of birth&nbsp;</em>should contain dates.&nbsp;&nbsp;</p>\n\n<p>When collecting data, ensure that all your entries are expressed in the same type of value. For example if you have an age column, you should change any text entries to numbers to make sure they match up.&nbsp;In the majority of spreadsheet applications you can enforce the criteria of the data type per column by going to &#39;Validation&#39; from the &#39;Data&#39; button in the menu.</p>\n",
+    "displayTitle": "Data types",
+    "title": "Data types",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "accordion",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": "Explore each data type below",
+    "_items": [
+      {
+        "title": "Text/String",
+        "body": "<p>This&nbsp;data type is the most flexible and allows any combination of characters to make a sentence.</p>\n\n<p>e.g. <em>Emily,&nbsp;</em><em>2nd Royal Artillery</em></p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Numbers",
+        "body": "<p>Numbers can include whole numbers (otherwise known as&nbsp;&#39;integers&#39;)&nbsp;such as&nbsp;<em>1, 12, 312</em>&nbsp;etc, or decimal numbers, such as&nbsp;<em>1.25, 32.789</em>.&nbsp;</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Date",
+        "body": "<p>Picking a consistent format for dates is crucial. You can choose how you want to display it&nbsp;(e.g. 2016-09-14) or use the one built into the spreadsheet application.&nbsp;</p>\n\n<p>As dates can be presented in many different ways, it&nbsp;is recommended that you validate them (check for correctness and consistency)&nbsp;on collection by going to &#39;Data&#39; in the menu bar and choosing &#39;Validation&#39;. However, this does not always work if the&nbsp;American form (MM/DD/YYYY) and&nbsp;British form (DD/MM/YYYY) are used interchangeably - it would be impossible to determine whether&nbsp;the date &#39;04/05/2016&#39; would mean the fourth of May, or fifth of April.&nbsp;</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Defined options",
+        "body": "<p>Data types can also be&nbsp;defined options, such as <em>true</em> or <em>false</em>, <em>yes</em> or <em>no</em>, or a limited range of text or numbers.&nbsp;</p>\n\n<p>You can use the validation function&nbsp;to ensure that a user can only enter valid values.&nbsp;</p>\n",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_id": "57ed32e34d7b7e82691e3de7",
+    "_layout": "left",
+    "_parentId": "57ed328a4d7b7e82691e3de5",
+    "_type": "component",
+    "body": "<p>Clean data&nbsp;is simpler to use and helps us draw better&nbsp;conclusions.</p>\n\n<p>Publishers should try their best to use data validation when inputting data.&nbsp;However, this can&#39;t guarantee that the data is completely&nbsp;clean. Human mistakes such as&nbsp;mistyping or incorrect abbreviations are unavoidable in data entry&nbsp;and, as data is updated over the years, mistakes can pile up. With the right tools however, you can quickly get a handle on the data and produce a cleaner, more useful version for your work and the community.</p>\n\n<p>To get to grips with data cleaning,&nbsp;download a copy of <a href=\"http://openrefine.org/\">Open Refine</a> and try to clean <a href=\"https://drive.google.com/file/d/0B1VBoooQ3X5jMjdSRmhfWDBhQzg/view?usp=sharing\">this dataset</a> as best you can, using the instructional videos to help you.&nbsp;Once you are finished,&nbsp;submit the dataset to your&nbsp;course coordinator for checking.&nbsp;</p>\n",
+    "displayTitle": "Validating and cleaning data",
+    "title": "Validating and cleaning data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  }
 ]
