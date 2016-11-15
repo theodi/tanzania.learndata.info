@@ -103,7 +103,7 @@
     "disabledAriaLabel": "This button is disabled at the moment"
   },
   "_latestTrackingId": 47,
-  "body": "<p dir=\"ltr\">Incorrect use of spreadsheets is a key challenge for data quality. Data that is not well managed cannot answer important&nbsp;questions or be used easily.&nbsp;Good management of data makes it easy to ensure data quality, and analyse and visualise results.</p>\n\n<p dir=\"ltr\">This course will enable you to organise spreadsheet data,&nbsp;use&nbsp;tools to filter &amp; analyse data and produce&nbsp;an&nbsp;interactive data visualisation.</p>\n",
+  "body": "<p dir=\"ltr\">Incorrect use of spreadsheets is a key challenge for data quality. Data that is not well managed cannot answer important&nbsp;questions or be used easily.&nbsp;Good management of data makes it easy to ensure data quality, and analyse and visualise results.&nbsp;This course will enable you to organise spreadsheet data,&nbsp;use&nbsp;tools to filter &amp; analyse data and produce&nbsp;an&nbsp;interactive data visualisation.</p>\n",
   "displayTitle": "Foundations in data management",
   "title": "Foundations in data management",
   "_pageLevelProgress": {

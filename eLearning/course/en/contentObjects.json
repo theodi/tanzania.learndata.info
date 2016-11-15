@@ -73,7 +73,32 @@
   {
     "_graphic": {
       "alt": "",
-      "src": "course/en/assets/1497c2f21a066474c61b08652c841ee6768bfea3.jpg"
+      "src": "course/en/assets/573957752a5406198646932aca0d3797f675cd7f.jpg"
+    },
+    "_id": "57d9235b4d7b7e82691e3c5f",
+    "_parentId": "course",
+    "_type": "page",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_lockedBy": [],
+    "duration": "",
+    "linkText": "View",
+    "_classes": "",
+    "body": "",
+    "displayTitle": "Publishing your data",
+    "title": "Publishing your data",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true
+    },
+    "_skillsFramework": {
+      "_skills": []
+    }
+  },
+  {
+    "_graphic": {
+      "alt": "",
+      "src": "course/en/assets/42cae611b9faff51566fabe51f7bfb9615f01211.jpg"
     },
     "_id": "57d9233c4d7b7e82691e3c59",
     "_parentId": "course",
@@ -85,8 +110,8 @@
     "linkText": "View",
     "_classes": "",
     "body": "",
-    "displayTitle": "Filtering and analysing data",
-    "title": "Filtering and analysing data",
+    "displayTitle": "Analysing data",
+    "title": "Analysing data",
     "_pageLevelProgress": {
       "_isEnabled": true,
       "_showPageCompletion": true
@@ -114,31 +139,6 @@
           "level": "practitioner"
         }
       ]
-    }
-  },
-  {
-    "_graphic": {
-      "alt": "",
-      "src": "course/en/assets/573957752a5406198646932aca0d3797f675cd7f.jpg"
-    },
-    "_id": "57d9235b4d7b7e82691e3c5f",
-    "_parentId": "course",
-    "_type": "page",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_lockedBy": [],
-    "duration": "",
-    "linkText": "View",
-    "_classes": "",
-    "body": "",
-    "displayTitle": "Publishing your data",
-    "title": "Publishing your data",
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_showPageCompletion": true
-    },
-    "_skillsFramework": {
-      "_skills": []
     }
   }
 ]

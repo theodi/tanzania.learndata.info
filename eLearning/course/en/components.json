@@ -91,19 +91,19 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/cbc3111c790ef8c93289feee2b4883483ffb5eef.png",
-      "small": "course/en/assets/cbc3111c790ef8c93289feee2b4883483ffb5eef.png",
+      "large": "course/en/assets/95916dd3fa40e71f215e130084d9adc240cf363b.jpg",
+      "small": "course/en/assets/95916dd3fa40e71f215e130084d9adc240cf363b.jpg",
       "attribution": ""
     }
   },
   {
     "_id": "57ea79eb4d7b7e82691e3d5c",
-    "_layout": "left",
+    "_layout": "right",
     "_parentId": "57ea79d74d7b7e82691e3d5b",
     "_type": "component",
     "body": "<p>In this module we have seen how simple it can be to process data once it is organised in the correct structure.&nbsp;</p>\n\n<p>If you haven&#39;t already, try applying what you have learnt to the <a href=\"https://drive.google.com/open?id=0B1VBoooQ3X5jT0RSOVk3SnJuWlU\" target=\"_blank\">course spreadsheet</a>. You can then submit this to your course leader who can check your work and help if you get stuck.&nbsp;</p>\n\n<p>In the last module, we shall introduce a technique for creating a fully interactive web based dashboard, giving you the ability&nbsp;to filter and slice the data&nbsp;any way you like.</p>\n",
-    "displayTitle": "Filtering and analysing data",
-    "title": "Filtering and analysing data",
+    "displayTitle": "Analysing data",
+    "title": "Analysing data",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -131,23 +131,6 @@
     "instruction": ""
   },
   {
-    "_id": "57d924ec4d7b7e82691e3c63",
-    "_layout": "left",
-    "_parentId": "57d923304d7b7e82691e3c58",
-    "_type": "component",
-    "body": "<p>A common challenge&nbsp;in&nbsp;ensuring data quality is difficulties in the use of spreadsheets. When data is properly managed, it is much easier to answer&nbsp;fundamental questions and conduct analysis. Correctly managed data also ensures you aren&#39;t making decisions based on faulty evidence.</p>\n\n<p>In this module&nbsp;we look at how to effectively structure a spreadsheet for raw data collection. We will cover:</p>\n\n<ul>\n\t<li>Spreadsheet layouts</li>\n\t<li>Column titles&nbsp;</li>\n\t<li>Header&nbsp;rows and the freeze function</li>\n\t<li>Data types</li>\n</ul>\n\n<p>At the end of this module you can try out what you&#39;ve learnt on a spreadsheet.&nbsp;&nbsp;&nbsp;</p>\n",
-    "displayTitle": "Organising data",
-    "title": "Organising data",
-    "_isAvailable": true,
-    "_isOptional": false,
-    "_classes": "",
-    "_component": "text",
-    "_pageLevelProgress": {
-      "_isEnabled": true
-    },
-    "instruction": ""
-  },
-  {
     "_id": "57d9283f4d7b7e82691e3c69",
     "_layout": "right",
     "_parentId": "57d928244d7b7e82691e3c67",
@@ -165,8 +148,8 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/f567f50e011e71485c9eb21a1e9d6119f544fdf9.jpg",
-      "small": "course/en/assets/f567f50e011e71485c9eb21a1e9d6119f544fdf9.jpg",
+      "large": "course/en/assets/8da743e63307c09ebe6186924eb2f05870283ad2.jpg",
+      "small": "course/en/assets/8da743e63307c09ebe6186924eb2f05870283ad2.jpg",
       "attribution": ""
     }
   },
@@ -188,8 +171,8 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/150aa6be91b027df586d916404c59e090abe2955.jpg",
-      "small": "course/en/assets/150aa6be91b027df586d916404c59e090abe2955.jpg",
+      "large": "course/en/assets/d0bbb7bab4bd1d32d12fe184245de0469eb663c7.jpg",
+      "small": "course/en/assets/d0bbb7bab4bd1d32d12fe184245de0469eb663c7.jpg",
       "attribution": ""
     }
   },
@@ -211,8 +194,8 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/fba5b742f2ac63be0832177cc5f57aaa3c6e907f.jpg",
-      "small": "course/en/assets/fba5b742f2ac63be0832177cc5f57aaa3c6e907f.jpg",
+      "large": "course/en/assets/26b463eaa6ccf87886ac07dfe7a0e03bd7f79a15.jpg",
+      "small": "course/en/assets/26b463eaa6ccf87886ac07dfe7a0e03bd7f79a15.jpg",
       "attribution": ""
     }
   },
@@ -240,7 +223,7 @@
         "title": "Rows, Columns and values",
         "body": "<p>Ensure you understand these important aspects and use them correctly.</p>\n\n<p><strong>Rows:&nbsp;</strong>A row represents a <strong>single</strong> record&nbsp;in your collection. For example in a dataset of companies, each row must represent a single company and in a dataset of health facilities each row must only represent a single facility.&nbsp;</p>\n\n<p><strong>Columns:&nbsp;</strong>A column defines a feature (or field) for every record. For example in a dataset of people a good field to collect would be &quot;first name&quot;.</p>\n\n<p><strong>Values:&nbsp;</strong>Values are what is recorded in each row/column. For example &quot;Emily&quot; would be the value for the &quot;first name&quot; of a single person in a dataset of people.&nbsp;</p>\n",
         "_graphic": {
-          "src": "course/en/assets/3ac1ca1d49aabed619376b10f9ab5785b75ac774.jpg",
+          "src": "course/en/assets/d2bdbfbb07b24d7561e89b5ff069d5f6d6e39774.jpg",
           "alt": ""
         },
         "strapline": "Rows, columns and values"
@@ -331,8 +314,8 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/573957752a5406198646932aca0d3797f675cd7f.jpg",
-      "small": "course/en/assets/573957752a5406198646932aca0d3797f675cd7f.jpg",
+      "large": "course/en/assets/029418c3d6a4a6087d14575d291bcb6ee5fa994c.jpg",
+      "small": "course/en/assets/029418c3d6a4a6087d14575d291bcb6ee5fa994c.jpg",
       "attribution": ""
     }
   },
@@ -431,8 +414,8 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/150aa6be91b027df586d916404c59e090abe2955.jpg",
-      "small": "course/en/assets/150aa6be91b027df586d916404c59e090abe2955.jpg",
+      "large": "course/en/assets/d0bbb7bab4bd1d32d12fe184245de0469eb663c7.jpg",
+      "small": "course/en/assets/d0bbb7bab4bd1d32d12fe184245de0469eb663c7.jpg",
       "attribution": ""
     }
   },
@@ -531,8 +514,8 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/f567f50e011e71485c9eb21a1e9d6119f544fdf9.jpg",
-      "small": "course/en/assets/f567f50e011e71485c9eb21a1e9d6119f544fdf9.jpg",
+      "large": "course/en/assets/8da743e63307c09ebe6186924eb2f05870283ad2.jpg",
+      "small": "course/en/assets/8da743e63307c09ebe6186924eb2f05870283ad2.jpg",
       "attribution": ""
     }
   },
@@ -631,8 +614,8 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/fba5b742f2ac63be0832177cc5f57aaa3c6e907f.jpg",
-      "small": "course/en/assets/fba5b742f2ac63be0832177cc5f57aaa3c6e907f.jpg",
+      "large": "course/en/assets/26b463eaa6ccf87886ac07dfe7a0e03bd7f79a15.jpg",
+      "small": "course/en/assets/26b463eaa6ccf87886ac07dfe7a0e03bd7f79a15.jpg",
       "attribution": ""
     }
   },
@@ -758,9 +741,9 @@
     "_layout": "left",
     "_parentId": "57d9233c4d7b7e82691e3c5b",
     "_type": "component",
-    "body": "<p>Once your data is nicely organised, we can now begin to filter and analyse the data.</p>\n\n<p>In this module we will learn how to:</p>\n\n<ul>\n\t<li>Sort and filter&nbsp;data in a spreadsheet</li>\n\t<li>Apply&nbsp;formula to generate simple statistics</li>\n\t<li>Create a number of pivot tables</li>\n\t<li>Create a number of summary graphs</li>\n</ul>\n\n<p>To prepare you for this exercise you will need <a href=\"https://drive.google.com/open?id=0B1VBoooQ3X5jT0RSOVk3SnJuWlU\" target=\"_blank\">this spreadsheet</a>. Note that it has two sheets;&nbsp;the first tab holds the data,&nbsp;and the second tab called &#39;Statistics&#39; will&nbsp;be used when we look at formula.&nbsp;</p>\n",
-    "displayTitle": "Filtering and analysing data",
-    "title": "Filtering and analysing data",
+    "body": "<p>Once your data is nicely organised, we can now begin to filter and analyse the data.</p>\n\n<p>In this module we will learn how to:</p>\n\n<ul class=\"ticks\">\n\t<li>Sort and filter&nbsp;data in a spreadsheet</li>\n\t<li>Apply&nbsp;formula to generate simple statistics</li>\n\t<li>Create a number of pivot tables</li>\n\t<li>Create a number of summary graphs</li>\n</ul>\n\n<p>To prepare you for this exercise you will need <a href=\"https://drive.google.com/open?id=0B1VBoooQ3X5jT0RSOVk3SnJuWlU\" target=\"_blank\">this spreadsheet</a>. Note that it has two sheets;&nbsp;the first tab holds the data,&nbsp;and the second tab called &#39;Statistics&#39; will&nbsp;be used when we look at formula.&nbsp;</p>\n",
+    "displayTitle": "Analysing data",
+    "title": "Analysing data",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -830,7 +813,7 @@
       "mp3": "",
       "source": "",
       "type": "",
-      "poster": "course/en/assets/b5e801fcbbbe13561e78712f23d58e5b3554dfb7.png",
+      "poster": "course/en/assets/4833f117f2b3d5f33f3f11c1dee9ed94a55acb4b.png",
       "cc": []
     },
     "_setCompletionOn": "inview",
@@ -918,7 +901,7 @@
       "mp3": "",
       "source": "",
       "type": "",
-      "poster": "course/en/assets/b5e801fcbbbe13561e78712f23d58e5b3554dfb7.png",
+      "poster": "course/en/assets/f4d2e10e93af5fd664243e179da73431dffa24f9.png",
       "cc": []
     },
     "_setCompletionOn": "inview",
@@ -959,7 +942,7 @@
       "mp3": "",
       "source": "",
       "type": "",
-      "poster": "course/en/assets/b5e801fcbbbe13561e78712f23d58e5b3554dfb7.png",
+      "poster": "course/en/assets/6abc8c7db30233d4ee4ec0dc22125a9fd0219ccd.png",
       "cc": []
     },
     "_setCompletionOn": "inview",
@@ -1000,7 +983,7 @@
       "mp3": "",
       "source": "",
       "type": "",
-      "poster": "course/en/assets/b5e801fcbbbe13561e78712f23d58e5b3554dfb7.png",
+      "poster": "course/en/assets/42f0fafb85c3e9d3617a5fce8695c56466b78f6f.png",
       "cc": []
     },
     "_setCompletionOn": "inview",
@@ -1024,7 +1007,7 @@
     "_layout": "right",
     "_parentId": "57d970a44d7b7e82691e3cef",
     "_type": "component",
-    "body": "<p>Combining all aspects of this module enables you to create a simple data analysis tool for our spreadsheet of data.</p>\n\n<p>Follow the steps below to create your own data analysis interface for heath care facilities:</p>\n",
+    "body": "<p>Combining all aspects of this module enables you to create a simple data analysis tool for our spreadsheet of data.</p>\n\n<p>Follow the steps below to create your own data analysis interface for health care facilities:</p>\n",
     "displayTitle": "Data analysis",
     "title": "Data analysis",
     "_isAvailable": true,
@@ -1068,7 +1051,7 @@
   },
   {
     "_id": "57ea79ee4d7b7e82691e3d5d",
-    "_layout": "right",
+    "_layout": "left",
     "_parentId": "57ea79d74d7b7e82691e3d5b",
     "_type": "component",
     "body": "",
@@ -1189,8 +1172,8 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/8955909579b53c7ebec6ce4d5df18706652bef7a.jpg",
-      "small": "course/en/assets/8955909579b53c7ebec6ce4d5df18706652bef7a.jpg",
+      "large": "course/en/assets/fe415bc825dd02ff2ba027e9620bbd46a06c14d4.jpg",
+      "small": "course/en/assets/fe415bc825dd02ff2ba027e9620bbd46a06c14d4.jpg",
       "attribution": ""
     }
   },
@@ -1289,8 +1272,8 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/fba5b742f2ac63be0832177cc5f57aaa3c6e907f.jpg",
-      "small": "course/en/assets/fba5b742f2ac63be0832177cc5f57aaa3c6e907f.jpg",
+      "large": "course/en/assets/f152c001b5cb059172fc7cce1c0aa39e18fd77fc.jpg",
+      "small": "course/en/assets/f152c001b5cb059172fc7cce1c0aa39e18fd77fc.jpg",
       "attribution": ""
     }
   },
@@ -1376,7 +1359,7 @@
     "_layout": "left",
     "_parentId": "57d923514d7b7e82691e3c5e",
     "_type": "component",
-    "body": "<p>One of the biggest challenges that people face when working with any data is&nbsp;errors. Errors can be the result of human mistakes&nbsp;like mistyping or incorrect abbreviations.&nbsp;Errors can also creep into datasets when&nbsp;the data changes after first publication.</p>\n\n<p>Errors in data, as in any human activity, are unavoidable. However, there are a couple of techniques that can help reduce their number dramatically.&nbsp;</p>\n\n<p>Data validation tools can be used at the point of collection to ensure that only&nbsp;valid data is entered. However, if&nbsp;the validator is changed from year to year, then it&nbsp;would be better to clean and align the data before use.&nbsp;</p>\n\n<p>This module introduces the following key topics:</p>\n\n<ul>\n\t<li>Validating data on collection</li>\n\t<li>Cleaning data post-collection</li>\n</ul>\n",
+    "body": "<p>One of the biggest challenges that people face when working with any data is&nbsp;errors. Errors can be the result of human mistakes&nbsp;like mistyping or incorrect abbreviations.&nbsp;Errors can also creep into datasets when&nbsp;the data changes after first publication.</p>\n\n<p>Errors in data, as in any human activity, are unavoidable. However, there are a couple of techniques that can help reduce their number dramatically.&nbsp;</p>\n\n<p>Data validation tools can be used at the point of collection to ensure that only&nbsp;valid data is entered. However, if&nbsp;the validator is changed from year to year, then it&nbsp;would be better to clean and align the data before use.&nbsp;</p>\n\n<p>This module introduces the following key topics:</p>\n\n<ul class=\"ticks\">\n\t<li>Validating data on collection</li>\n\t<li>Cleaning data post-collection</li>\n</ul>\n",
     "displayTitle": "Validating and cleaning data",
     "title": "Validating and cleaning data",
     "_isAvailable": true,
@@ -1406,8 +1389,8 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/9663ad1edef607eb539012c52e2dc5172bcb4935.png",
-      "small": "course/en/assets/9663ad1edef607eb539012c52e2dc5172bcb4935.png",
+      "large": "course/en/assets/26b463eaa6ccf87886ac07dfe7a0e03bd7f79a15.jpg",
+      "small": "course/en/assets/26b463eaa6ccf87886ac07dfe7a0e03bd7f79a15.jpg",
       "attribution": ""
     }
   },
@@ -1785,8 +1768,8 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/8955909579b53c7ebec6ce4d5df18706652bef7a.jpg",
-      "small": "course/en/assets/8955909579b53c7ebec6ce4d5df18706652bef7a.jpg",
+      "large": "course/en/assets/fe415bc825dd02ff2ba027e9620bbd46a06c14d4.jpg",
+      "small": "course/en/assets/fe415bc825dd02ff2ba027e9620bbd46a06c14d4.jpg",
       "attribution": ""
     }
   },
@@ -2266,7 +2249,7 @@
     "_layout": "left",
     "_parentId": "57d9235b4d7b7e82691e3c61",
     "_type": "component",
-    "body": "<p>The more widely data is shared, the greater the potential impact. In this module, we look at how to publish open data that anyone can&nbsp;<strong>access</strong>,&nbsp;<strong>use</strong>, and&nbsp;<strong>share</strong>.&nbsp;&nbsp;</p>\n\n<p>This module looks&nbsp;at the following key areas:</p>\n\n<ul>\n\t<li>Why, what and where to publish</li>\n\t<li>Data publication formats</li>\n\t<li>The minimal publication checklist</li>\n\t<li>Certifying high quality published open data</li>\n</ul>\n",
+    "body": "<p>The more widely data is shared, the greater the potential impact. In this module, we look at how to publish open data that anyone can&nbsp;<strong>access</strong>,&nbsp;<strong>use</strong>, and&nbsp;<strong>share</strong>.&nbsp;&nbsp;</p>\n\n<p>This module looks&nbsp;at the following key areas:</p>\n\n<ul class=\"ticks\">\n\t<li>Why, what and where to publish</li>\n\t<li>Data publication formats</li>\n\t<li>The minimal publication checklist</li>\n\t<li>Certifying high quality published open data</li>\n</ul>\n",
     "displayTitle": "Publishing your data",
     "title": "Publishing your data",
     "_isAvailable": true,
@@ -2300,7 +2283,7 @@
     "_items": [
       {
         "title": "Why publish?",
-        "body": "<p>Publishing data can help you engage a community of volunteer&nbsp;analysts&nbsp;whose insights&nbsp;can help to inform decision making.</p>\n\n<p>For example, publishing education data gives people the ability to make more informed decisions about schools for their children. The data&nbsp;also helps government make decisions about school improvement&nbsp;and where investment is needed.&nbsp;</p>\n",
+        "body": "<p>Publishing data can help engage a community of volunteer&nbsp;analysts&nbsp;whose insights&nbsp;can help produce valuable platforms and products which&nbsp;inform decision making.</p>\n\n<p>For example, publishing education data gives people the ability to make more informed decisions about schools for their children, and helps government understand where investment is needed. Platforms like&nbsp;<a href=\"http://findmyschool.co.ke/\">Find My School</a>&nbsp;and <a href=\"https://developmentseed.org/tanzania-bank/open/\">Development Seed</a>&nbsp;show how impact from this data can be created.&nbsp;</p>\n\n<p>Publishing health data can help civilians&nbsp;easily navigate the health system and help government&nbsp;find areas for improvement, as has been done by <a href=\"http://health.saharareporters.com/\">Sahara Reporters</a> and <a href=\"http://health.the-star.co.ke/\">The Star</a>.&nbsp;</p>\n",
         "_graphic": {
           "src": "course/en/assets/bc405547ea32356032d490290a510a41c2455047.jpg",
           "alt": ""
@@ -2308,8 +2291,8 @@
         "strapline": "Why publish?"
       },
       {
-        "title": "What can you publish?",
-        "body": "<p>Before you publish data you need to check that you can legally publish the data.&nbsp;</p>\n\n<p>There are a number of key factors that may prevent you from publishing the data. This includes:</p>\n\n<ul>\n\t<li>not being the data owner (copyright holder)</li>\n\t<li>the data you own contains&nbsp;others&#39; copyrighted data (e.g. location data from google maps)</li>\n\t<li>data that contains&nbsp;personally identifiable information</li>\n\t<li>classified data.</li>\n</ul>\n\n<p>There may also be other local laws and mandates that enforce either the publication or protection of certain types of data. If unsure, it is always best to seek the advice of an appropriate legal representative from your organisation.</p>\n",
+        "title": "What data can be published?",
+        "body": "<p>Before&nbsp;publishing data, the publisher needs to check that it can be legally published.</p>\n\n<p>There are a number of key factors that may prevent data publication.&nbsp;This includes:</p>\n\n<ul>\n\t<li>not being the data owner (copyright holder)</li>\n\t<li>the data you own contains&nbsp;others&#39; copyrighted data (e.g. location data from google maps)</li>\n\t<li>data that contains&nbsp;personally identifiable information</li>\n\t<li>classified data.</li>\n</ul>\n\n<p>There may also be other local laws and mandates that enforce either the publication or protection of certain types of data. If unsure, it is always best to seek the advice of an appropriate legal representative.</p>\n",
         "_graphic": {
           "src": "course/en/assets/55fdaceae3e61bfad0b68be0efcf8b4e312e1342.jpg",
           "alt": ""
@@ -2317,8 +2300,8 @@
         "strapline": "What can you publish?"
       },
       {
-        "title": "Where do you publish?",
-        "body": "<p>If the website&nbsp;allows,&nbsp;try to publish data&nbsp;on your organisation&#39;s&nbsp;own&nbsp;website or data portal. This helps to build&nbsp;trust between the organisation and the user or customer.&nbsp;</p>\n\n<p>However, be aware that&nbsp;users may not come to you directly for the data, so it is advisable to also publish the data on other platforms to ensure wide use and reuse.&nbsp;There are no restrictions to the number of places an open dataset can exist.</p>\n\n<p>&nbsp;</p>\n",
+        "title": "Where can data be published?",
+        "body": "<p>If the website&nbsp;allows,&nbsp;publishers should try to publish on their&nbsp;own&nbsp;website or data portal. This helps to build&nbsp;trust between the organisation and the user or customer.&nbsp;</p>\n\n<p>However, be aware that&nbsp;users may not come to the publisher&nbsp;directly for the data, so it is advisable to also publish the data on other platforms to ensure wide use and reuse.&nbsp;There are no restrictions to the number of places an open dataset can exist.</p>\n\n<p>&nbsp;</p>\n",
         "_graphic": {
           "src": "course/en/assets/14fad81b7ca38acf03071734b8362c47fd3d3997.jpg",
           "alt": ""
@@ -2345,8 +2328,8 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/1497c2f21a066474c61b08652c841ee6768bfea3.jpg",
-      "small": "course/en/assets/1497c2f21a066474c61b08652c841ee6768bfea3.jpg",
+      "large": "course/en/assets/f152c001b5cb059172fc7cce1c0aa39e18fd77fc.jpg",
+      "small": "course/en/assets/f152c001b5cb059172fc7cce1c0aa39e18fd77fc.jpg",
       "attribution": ""
     }
   },
@@ -2396,7 +2379,7 @@
       },
       {
         "title": "An open format",
-        "body": "<p>An open format is one with a specification that any one can access, use and share.</p>\n\n<p>This means that anyone can create tools to access the data in this format.</p>\n\n<p>It doesn&#39;t necessarily&nbsp;mean that this tool is free!</p>\n\n<p>An open format provides some level of future proofing if a company seizes to exist and their tools are no longer available to read the data.</p>\n\n<p>This is the case with some hardware and media tapes where machines no longer exist that can read and decode the data.&nbsp;&nbsp;&nbsp;</p>\n",
+        "body": "<p>An open format is one with a specification that any one can access, use and share.</p>\n\n<p>This means that anyone can create tools to access the data in this format.</p>\n\n<p>It doesn&#39;t necessarily&nbsp;mean that this tool is free!</p>\n\n<p>An open format provides some level of future proofing if a company ceases&nbsp;to exist and their tools are no longer available to read the data.</p>\n\n<p>This is the case with some hardware and media tapes where machines no longer exist that can read and decode the data.&nbsp;&nbsp;&nbsp;</p>\n",
         "_graphic": {
           "alt": "",
           "src": ""
@@ -2457,7 +2440,7 @@
     "_items": [
       {
         "title": "1. Put the data on the web",
-        "body": "<p>The first stage is to get the data published on the web.</p>\n\n<p>By now you should have made choices about formats and publication locations.&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+        "body": "<p>The first stage is to get the data published on the web.</p>\n\n<p>By now, choices about formats and publication locations should already have been made.&nbsp;</p>\n\n<p>&nbsp;</p>\n",
         "_graphic": {
           "alt": "",
           "src": ""
@@ -2466,7 +2449,7 @@
       },
       {
         "title": "2. Add open licence",
-        "body": "<p>Add an open licence to your data that gives other explicit permission to&nbsp;<strong>access</strong>,&nbsp;<strong>use&nbsp;</strong>and&nbsp;<strong>share</strong> the data.&nbsp;</p>\n\n<p>The Open Data Institute&nbsp;provides a<span style=\"color:#0000FF\"> </span><u><a href=\"https://theodi.org/guides/publishers-guide-open-data-licensing\"><span style=\"color:#333333\">guide</span></a></u><span style=\"color:#000000\"> </span>that can help you add the right open data licence.&nbsp;</p>\n",
+        "body": "<p>Add an open licence to the&nbsp;data that gives others explicit permission to&nbsp;<strong>access</strong>,&nbsp;<strong>use&nbsp;</strong>and&nbsp;<strong>share</strong> the data.&nbsp;</p>\n\n<p>The Open Data Institute&nbsp;provides a<span style=\"color:#0000FF\"> </span><u><a href=\"https://theodi.org/guides/publishers-guide-open-data-licensing\"><span style=\"color:#333333\">guide</span></a></u><span style=\"color:#000000\"> </span>that can help to&nbsp;add the right open data licence.&nbsp;</p>\n",
         "_graphic": {
           "alt": "",
           "src": ""
@@ -2475,7 +2458,7 @@
       },
       {
         "title": "3. Describe your data",
-        "body": "<p>Add relevant descriptive data to help people discover, understand and start using your data.&nbsp;</p>\n\n<p>Many of the data cataloguing platforms already request much of this useful data. Ensure you fill in as much as you can.&nbsp;</p>\n",
+        "body": "<p>Add relevant descriptive data to help people discover, understand and start using the&nbsp;data.&nbsp;</p>\n\n<p>Many of the data cataloguing platforms already request much of this useful data.&nbsp;</p>\n",
         "_graphic": {
           "alt": "",
           "src": ""
@@ -2484,7 +2467,7 @@
       },
       {
         "title": "4. Connect your data",
-        "body": "<p>Enhance your data catalogue through linking to additional information that will help users understand the context of the data.&nbsp;</p>\n\n<p>Try linking to:</p>\n\n<ul>\n\t<li>The source of the data</li>\n\t<li>Places where the data is used</li>\n\t<li>Reports produced from the data</li>\n\t<li>Other related datasets</li>\n\t<li>Communities that use and support the data</li>\n\t<li>Any other documentation relevant to the data</li>\n</ul>\n",
+        "body": "<p>Enhance the&nbsp;data catalogue through linking to additional information that will help users understand the context of the data.&nbsp;</p>\n\n<p>Try linking to:</p>\n\n<ul>\n\t<li>The source of the data</li>\n\t<li>Places where the data is used</li>\n\t<li>Reports produced from the data</li>\n\t<li>Other related datasets</li>\n\t<li>Communities that use and support the data</li>\n\t<li>Any other documentation relevant to the data</li>\n</ul>\n",
         "_graphic": {
           "alt": "",
           "src": ""
@@ -2522,9 +2505,9 @@
     "_layout": "left",
     "_parentId": "57ee54fa4d7b7e82691e3e1c",
     "_type": "component",
-    "body": "<p>Once&nbsp;your dataset published, use ODI Open Data Certificates to let&nbsp;users know they can rely on the quality of your work.&nbsp;</p>\n\n<p>Getting your data certified helps to establish&nbsp;trust in the quality of your data, showing compliance with the best publishing practices and&nbsp;gaining a broader user base. With ODI Open Data Certificates, you can also get free advice on improving the quality of your data.&nbsp;</p>\n\n<p>Getting your Open Data Certificate is simple, fast and free.&nbsp;<a href=\"https://certificates.theodi.org/en\">Click here to start certifying your data</a>.</p>\n",
-    "displayTitle": "Certifying your data",
-    "title": "Certifying your data",
+    "body": "<p>Once the dataset is published, use ODI Open Data Certificates to let&nbsp;users know they can rely on the quality of the&nbsp;work.&nbsp;</p>\n\n<p>Getting the&nbsp;data certified helps to establish&nbsp;trust in the quality of the&nbsp;data, showing compliance with the best publishing practices and&nbsp;gaining a broader user base. The ODI Open Data Certificates service also gives free advice on improving data quality.&nbsp;</p>\n\n<p>Getting an&nbsp;Open Data Certificate is simple, fast and free.&nbsp;<a href=\"https://certificates.theodi.org/en\">Click here to start certifying your data</a>.</p>\n",
+    "displayTitle": "Certifying the data",
+    "title": "Certifying the data",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
@@ -2592,8 +2575,8 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/14fad81b7ca38acf03071734b8362c47fd3d3997.jpg",
-      "small": "course/en/assets/14fad81b7ca38acf03071734b8362c47fd3d3997.jpg",
+      "large": "course/en/assets/a4e1ed47c1d4c605cacc0e2deb4b291dc3eeadc6.jpg",
+      "small": "course/en/assets/a4e1ed47c1d4c605cacc0e2deb4b291dc3eeadc6.jpg",
       "attribution": ""
     }
   },
@@ -2692,8 +2675,8 @@
     "instruction": "",
     "_graphic": {
       "alt": "",
-      "large": "course/en/assets/1497c2f21a066474c61b08652c841ee6768bfea3.jpg",
-      "small": "course/en/assets/1497c2f21a066474c61b08652c841ee6768bfea3.jpg",
+      "large": "course/en/assets/f152c001b5cb059172fc7cce1c0aa39e18fd77fc.jpg",
+      "small": "course/en/assets/f152c001b5cb059172fc7cce1c0aa39e18fd77fc.jpg",
       "attribution": ""
     }
   },
@@ -3066,7 +3049,7 @@
     "_classes": "intro-logo",
     "_component": "text",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "instruction": ""
   },
@@ -3151,6 +3134,23 @@
     "body": "<p>Clean data&nbsp;is simpler to use and helps us draw better&nbsp;conclusions.</p>\n\n<p>Publishers should try their best to use data validation when inputting data.&nbsp;However, this can&#39;t guarantee that the data is completely&nbsp;clean. Human mistakes such as&nbsp;mistyping or incorrect abbreviations are unavoidable in data entry&nbsp;and, as data is updated over the years, mistakes can pile up. With the right tools however, you can quickly get a handle on the data and produce a cleaner, more useful version for your work and the community.</p>\n\n<p>To get to grips with data cleaning,&nbsp;download a copy of <a href=\"http://openrefine.org/\">Open Refine</a> and try to clean <a href=\"https://drive.google.com/file/d/0B1VBoooQ3X5jMjdSRmhfWDBhQzg/view?usp=sharing\">this dataset</a> as best you can, using the instructional videos to help you.&nbsp;Once you are finished,&nbsp;submit the dataset to your&nbsp;course coordinator for checking.&nbsp;</p>\n",
     "displayTitle": "Validating and cleaning data",
     "title": "Validating and cleaning data",
+    "_isAvailable": true,
+    "_isOptional": false,
+    "_classes": "",
+    "_component": "text",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "57d924ec4d7b7e82691e3c63",
+    "_layout": "left",
+    "_parentId": "57d923304d7b7e82691e3c58",
+    "_type": "component",
+    "body": "<p>A common challenge&nbsp;in&nbsp;ensuring data quality is difficulties in the use of spreadsheets. When data is properly managed, it is much easier to answer&nbsp;fundamental questions and conduct analysis. Correctly managed data also ensures you aren&#39;t making decisions based on faulty evidence. Different sectors may have international data standards to ensure consistent data collection and quality, such as <a href=\"http://aims.fao.org/capacity-development/good-practices\">AIMS</a> in agriculture. But knowing how to structure and organise data in a spreadsheet is fundamental to ensuring consistency anywhere.&nbsp;</p>\n\n<p>In this module&nbsp;we look at how to effectively structure a spreadsheet for raw data collection. We will cover:</p>\n\n<ul class=\"ticks\">\n\t<li>Spreadsheet layouts</li>\n\t<li>Column titles&nbsp;</li>\n\t<li>Header&nbsp;rows and the freeze function</li>\n\t<li>Data types</li>\n</ul>\n\n<p>At the end of this module you can try out what you&#39;ve learnt on a spreadsheet.&nbsp;&nbsp;&nbsp;</p>\n",
+    "displayTitle": "Organising data",
+    "title": "Organising data",
     "_isAvailable": true,
     "_isOptional": false,
     "_classes": "",
