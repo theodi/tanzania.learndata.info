@@ -107,7 +107,7 @@
   "displayTitle": "Foundations in data management",
   "title": "Foundations in data management",
   "_pageLevelProgress": {
-    "_isEnabled": true,
-    "_showPageCompletion": true
+    "_showPageCompletion": true,
+    "_isEnabled": true
   }
 }

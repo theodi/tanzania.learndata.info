@@ -12,7 +12,7 @@
     "_classes": "intro-logo",
     "_component": "text",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "instruction": ""
   },
@@ -126,7 +126,7 @@
     "_classes": "intro-logo",
     "_component": "text",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "instruction": ""
   },
@@ -2170,7 +2170,7 @@
     "_classes": "",
     "_component": "graphic",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "instruction": "",
     "_graphic": {
@@ -2323,7 +2323,7 @@
     "_classes": "",
     "_component": "graphic",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "instruction": "",
     "_graphic": {
@@ -3066,7 +3066,7 @@
     "_classes": "intro-logo",
     "_component": "text",
     "_pageLevelProgress": {
-      "_isEnabled": true
+      "_isEnabled": false
     },
     "instruction": ""
   },
