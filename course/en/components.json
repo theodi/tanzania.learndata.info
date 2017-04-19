@@ -1,5 +1,20 @@
 [
     {
+        "_id":"c-001",
+        "_parentId":"b-001",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"full",
+        "title":"New: eLearning",
+        "displayTitle":"New: eLearning",
+        "body":"<p>Good management of data makes it easy to ensure data is of high quality and can be easily analysed and visulised. Find out more with our <a href='http://tanzania.learndata.info/eLearning' target='_blank'>foundations in data management</a> eLearning.</p>",
+        "instruction":"",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+    {
         "_id":"c-01",
         "_parentId":"b-01",
         "_type":"component",
@@ -58,7 +73,7 @@
         {
             "title": "March 2017",
             "graphic": "course/en/images/timetable.png",
-            "body": "<div class='buttonbar'><a class='course_link' target='_blank' href='https://docs.google.com/a/theodi.org/forms/d/1LSkSGXsFSULVKpPbxJ2E6Uexytn7MrpwrPHjhLHim8Y/viewform'>Outcomes</a><a class='course_link' target='_blank' href='https://www.flickr.com/photos/ukodi/albums/72157675405132290'>Photos</a><a class='course_link' target='_blank' href='https://drive.google.com/drive/folders/0B1VBoooQ3X5jdldfWXJhNkVqUHc?usp=sharing'>Data</a></div><table class='timetable fourday'><tr><th>Tuesday</th></tr><tr><td>Definitions<br/><a href='course/en/slides/march2017/Definitions_Mahadia.pdf' target='_blank'>Slides</a><div class='mod_link essentials'><a href='InADay/'>Open data essentials</a></div></td></tr><tr><td>Impact<br/><a href='course/en/slides/march2017/Impact_Emily.pdf' target='_blank'>Slides</a><div class='mod_link essentials'><a href='InADay/'>Open data essentials</a></div></td></tr><tr><td>Licensing<br/><a href='course/en/slides/march2017/Licensing_Mahadia.pdf' target='_blank'>Slides</a><div class='mod_link essentials'><a href='InADay/'>Open data essentials</a></div></td></tr><tr><td>Discovering<br/><a href='course/en/slides/march2017/Discovering_Emanuel.pdf' target='_blank'>Slides</a><div class='mod_link essentials'><a href='InADay/'>Open data essentials</a></div></td></tr></table><table class='timetable fourday'><tr><th>Wednesday</th></tr><tr><td>Best practice<br/><a href='course/en/slides/march2017/Best_Practice_Nuru.pdf' target='_blank'>Slides</a><div class='mod_link essentials'><a href='InADay/'>Open data essentials</a></div></td></tr><tr><td>&nbsp;</td></tr><tr><td>Cleaning<br/><a href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'>Exercise</a><div class='mod_link essentials'><a href='InADay/'>Open data essentials</a></div></td></tr><tr><td>&nbsp;</td></tr></table><table class='timetable fourday'><tr><th>Thursday</th></tr><tr><td>Platforms and publishing<br/><a href='course/en/slides/march2017/Platforms_Rose.pdf' target='_blank'>Slides</a><div class='mod_link publication'><a href='inpractice1/'>Practical publication</a></div></td></tr><tr><td>&nbsp;</td></tr><tr><td>Organising data<br/><div class='mod_link fdm'><a href='eLearning/'>Foundations in data management</a></div></td></tr><tr><td>&nbsp;</td></tr></table><table class='timetable fourday'><tr><th>Friday</th></tr><tr><td>Cleaning practical<div class='mod_link fdm'><a href='eLearning/' target='_blank'>Foundations in data management</a></div></td></tr><tr><td>&nbsp;</td></tr><tr><td>Analysing and visualising<br/><div class='mod_link fdm'><a href='eLearning/' target='_blank'>Foundations in data management</a></div></td></tr><tr><td>Wrap up and certificate ceremony<br/></td></tr></table>"
+            "body": "<div class='buttonbar'><a class='course_link' target='_blank' href='https://docs.google.com/document/d/1GzAGN-CSG8Elxrth2fdY_4O4BzRPK9rCA_vBzvslcKI/edit?usp=sharing'>Outcomes</a><a class='course_link' target='_blank' href='https://www.flickr.com/photos/ukodi/albums/72157675405132290'>Photos</a><a class='course_link' target='_blank' href='https://drive.google.com/drive/folders/0B1VBoooQ3X5jdldfWXJhNkVqUHc?usp=sharing'>Data</a></div><table class='timetable fourday'><tr><th>Tuesday</th></tr><tr><td>Definitions<br/><a href='course/en/slides/march2017/Definitions_Mahadia.pdf' target='_blank'>Slides</a><div class='mod_link essentials'><a href='InADay/'>Open data essentials</a></div></td></tr><tr><td>Impact<br/><a href='course/en/slides/march2017/Impact_Emily.pdf' target='_blank'>Slides</a><div class='mod_link essentials'><a href='InADay/'>Open data essentials</a></div></td></tr><tr><td>Licensing<br/><a href='course/en/slides/march2017/Licensing_Mahadia.pdf' target='_blank'>Slides</a><div class='mod_link essentials'><a href='InADay/'>Open data essentials</a></div></td></tr><tr><td>Discovering<br/><a href='course/en/slides/march2017/Discovering_Emanuel.pdf' target='_blank'>Slides</a><div class='mod_link essentials'><a href='InADay/'>Open data essentials</a></div></td></tr></table><table class='timetable fourday'><tr><th>Wednesday</th></tr><tr><td>Best practice<br/><a href='course/en/slides/march2017/Best_Practice_Nuru.pdf' target='_blank'>Slides</a><div class='mod_link essentials'><a href='InADay/'>Open data essentials</a></div></td></tr><tr><td>&nbsp;</td></tr><tr><td>Cleaning<br/><a href='http://training.theodi.org/resources/Cleaning_Exercise.pdf' target='_blank'>Exercise</a><div class='mod_link essentials'><a href='InADay/'>Open data essentials</a></div></td></tr><tr><td>&nbsp;</td></tr></table><table class='timetable fourday'><tr><th>Thursday</th></tr><tr><td>Platforms and publishing<br/><a href='course/en/slides/march2017/Platforms_Rose.pdf' target='_blank'>Slides</a><div class='mod_link publication'><a href='inpractice1/'>Practical publication</a></div></td></tr><tr><td>&nbsp;</td></tr><tr><td>Organising data<br/><div class='mod_link fdm'><a href='eLearning/'>Foundations in data management</a></div></td></tr><tr><td>&nbsp;</td></tr></table><table class='timetable fourday'><tr><th>Friday</th></tr><tr><td>Cleaning practical<div class='mod_link fdm'><a href='eLearning/' target='_blank'>Foundations in data management</a></div></td></tr><tr><td>&nbsp;</td></tr><tr><td>Analysing and visualising<br/><div class='mod_link fdm'><a href='eLearning/' target='_blank'>Foundations in data management</a></div></td></tr><tr><td>Wrap up and certificate ceremony<br/></td></tr></table>"
         },
         {
             "title": "November 2016",
@@ -160,6 +175,32 @@
         "title":"Visualisation and communication",
         "displayTitle":"Visualisation and communication",
         "body":"<p>Communicating impact is key to every use of open data. From cleaning to visualising, this practical course gets hands-on with data. By the end, participants will have cleaned, enriched and interactively visualised a dataset using freely available tools.</p><p><a class='course_link' href='inpractice3/' style='color: #f9c928;'>Click here to learn more</a></p>"
+    },
+    {
+        "_id":"c-25",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"left",
+        "_graphic": {
+                    "small": "course/en/images/c-30.jpg",
+                    "medium": "course/en/images/c-30.jpg",
+                    "large": "course/en/images/c-30.jpg",
+                    "alt": "Columns and spreadsheets",
+                    "title": "Columns and spreadsheets"
+        }
+    },
+    {
+        "_id":"c-26",
+        "_parentId":"b-30",
+        "_type":"component",
+        "_component":"text",
+        "_classes":"",
+        "_layout":"right",
+        "title":"eLearning: Foundations in data management",
+        "displayTitle":"eLearning: Foundations in data management",
+        "body":"<p>Incorrect use of spreadsheets is a key challenge for data quality. Data that is not well managed cannot answer important questions or be used easily. Good management of data makes it easy to improve data quality, and ensure data can be analysed and visualised. This course will enable you to organise spreadsheet data, use tools to filter & analyse data and produce an interactive data visualisation.</p><p><a class='course_link' href='http://tanzania.learndata.info/eLearning' style='color: white;'>Click here to learn more</a></p>"
     },
     {
         "_id":"c-151",
